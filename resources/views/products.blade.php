@@ -19,27 +19,53 @@ Blockchain」を運営しています。')
                     </div>
                     <div class='p-product__content__text'>
                         <h2 class='p-product__content__title'>PoL</h2>
-                        <span class='p-product__content__smtitle'>(ポル)</span>
+                        <p class='p-product__content__smtitle'>(ポル)</p>
                         <h3 class='p-product__content__subtitle'>"学習するほどトークンがもらえる"<br />全く新しい形の総合学習プラットフォーム</h3>
-                        <div class='p-product__content__link'>
+                        <!-- <div class='p-product__content__link'>
                             <a class="c-line__button__text" target="_blank" href="https://pol.techtec.world/">サービスサイトへ</a>
+                        </div> -->
+                        <div class='l-contact__button c-line__button'>
+                            <a class="c-line__button__text" href="https://pol.techtec.world/">サービスサイトへ</a>
                         </div>
                     </div>
                 </div>
+
                 <div class='p-product__content__cell'>
                     <div class='p-product__content__image'>
                         <img alt="PoL(ポル)"
-                            src="{{ asset('images/img_product_tech.png') }}" />
+                            src="{{ asset('images/02_PRODUCT/english.png') }}" />
                     </div>
                     <div class='p-product__content__text'>
-                        <h2 class='p-product__content__title'>techtec</h2>
-                        <span class='p-product__content__smtitle'>(テックテク)</span>
-                        <h3 class='p-product__content__subtitle'>仮想通貨・ブロックチェーンに特化した記事発注サービス</h3>
-                        <div class='p-product__content__link'>
+                        <h2 class='p-product__content__title'>English Course</h2>
+                        <p class='p-product__content__smtitle'>(PoL英語コース)</p>
+                        <h3 class='p-product__content__subtitle'>ブロックチェーン業界特化の英語コーチングサービス</h3>
+                        <!-- <div class='p-product__content__link'>
                             <a class="c-line__button__text" target="_blank" href="https://www.techtec.site/">サービスサイトへ</a>
+                        </div> -->
+                        <div class='l-contact__button c-line__button'>
+                            <a class="c-line__button__text" href="https://www.techtec.site/">サービスサイトへ</a>
                         </div>
                     </div>
                 </div>
+
+                <div class='p-product__content__cell'>
+                    <div class='p-product__content__image'>
+                        <img alt="PoL(ポル)"
+                            src="{{ asset('images/02_PRODUCT/writer.png') }}" />
+                    </div>
+                    <div class='p-product__content__text'>
+                        <h2 class='p-product__content__title'>Writer Course</h2>
+                        <p class='p-product__content__smtitle'>(PoLライターコース)</p>
+                        <h3 class='p-product__content__subtitle'>暗号資産・ブロックチェーン業界でライターになるための学習プラットフォーム</h3>
+                        <!-- <div class='p-product__content__link'>
+                            <a class="c-line__button__text" target="_blank" href="https://www.techtec.site/">サービスサイトへ</a>
+                        </div> -->
+                        <div class='l-contact__button c-line__button'>
+                            <a class="c-line__button__text" href="https://www.techtec.site/">サービスサイトへ</a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class='p-product__content__cell'>
                     <div class='p-product__content__image'>
                         <img alt="Hi Blockchain(ハイ ブロックチェーン )"
@@ -47,10 +73,13 @@ Blockchain」を運営しています。')
                     </div>
                     <div class='p-product__content__text'>
                         <h2 class='p-product__content__title'>Hi Blockchain</h2>
-                        <span class='p-product__content__smtitle'>(ハイ ブロックチェーン )</span>
+                        <p class='p-product__content__smtitle'>(ハイ ブロックチェーン )</p>
                         <h3 class='p-product__content__subtitle'>ブロックチェーンに特化したwebメディア</h3>
-                        <div class='p-product__content__link'>
+                        <!-- <div class='p-product__content__link'>
                             <a class="c-line__button__text" target="_blank" href="https://hi-blockchain.world/">サービスサイトへ</a>
+                        </div> -->
+                        <div class='l-contact__button c-line__button'>
+                            <a class="c-line__button__text" href="https://hi-blockchain.world/">サービスサイトへ</a>
                         </div>
                     </div>
                 </div>
