@@ -1,0 +1,69 @@
+@extends('layouts.app')
+
+@section('title', '翻訳・採用事業 - 株式会社techtec')
+@section('description',
+'仮想通貨・ブロックチェーンに限らず、近年はグローバル対応が当たり前の時代となりました。翻訳・採用事業ホームページの全面翻訳からイベントの通訳、社内のビジネス英会話研修、外国人採用まで、グローバル展開を幅広くサポートします。英語だけでなく中国語にも対応可能です。')
+
+@section('content')
+<div class='c-body'>
+    <section class='inner'>
+        <div class='s-top'>
+            <div class='s-top__text'>
+                <h1 class='s-top__title'>翻訳・採用事業</h1>
+                <p class='s-top__desc'>
+                    仮想通貨・ブロックチェーンに限らず、近年はグローバル対応が当たり前の時代となりました。ホームページの全面翻訳からイベントの通訳、社内のビジネス英会話研修、外国人採用まで、グローバル展開を幅広くサポートします。</br>英語だけでなく中国語にも対応可能です。
+                </p>
+            </div>
+            <div class='s-top__image'>
+                <img alt="翻訳・採用事業"
+                    src="{{ asset('images/ic_service_trans_lg.png') }}" />
+            </div>
+        </div>
+        <div class='s-help'>
+            <div class='s-help__cell'>
+                <div class='s-help__image'>
+                    <img alt="ホームページの多言語対応"
+                        src="{{ asset('images/ic_service_trans_feat_01.png') }}" />
+                </div>
+                <h3 class='s-help__title'>ホームページの多言語対応</h3>
+                <p class='s-help__desc'>
+                    マーケティングだけでなく海外人材の採用のためにも、ホームページの多言語対応は必須です。</br>単なるテキストの翻訳だけでなく、翻訳サイトの開発についてもサポートします。</p>
+            </div>
+            <div class='s-help__cell'>
+                <div class='s-help__image'>
+                    <img alt="オウンドメディアの多言語対応"
+                        src="{{ asset('images/ic_service_trans_feat_02.png') }}" />
+                </div>
+                <h3 class='s-help__title'>オウンドメディアの多言語対応</h3>
+                <p class='s-help__desc'>ホームページの翻訳だけでなく、定期的な多言語コンテンツの配信も欠かせません。オウンドメディアや社内コンテンツの多言語対応もサポートします。</p>
+            </div>
+            <div class='s-help__cell'>
+                <div class='s-help__image'>
+                    <img alt="イベントへの通訳派遣"
+                        src="{{ asset('images/ic_service_trans_feat_03.png') }}" />
+                </div>
+                <h3 class='s-help__title'>イベントへの通訳派遣</h3>
+                <p class='s-help__desc'>社内イベントなどで海外からスピーカーを招待する場合の通訳をサポートします。</br>日本語を外国語へ通訳する場合もお任せください。</p>
+            </div>
+            <div class='s-help__cell'>
+                <div class='s-help__image'>
+                    <img alt="ビジネス英会話研修"
+                        src="{{ asset('images/ic_service_trans_feat_04.png') }}" />
+                </div>
+                <h3 class='s-help__title'>ビジネス英会話研修</h3>
+                <p class='s-help__desc'>近年は、社内公用語を英語にする企業も増えてきました。ビジネスの現場で使用するための英会話研修を提供します。</p>
+            </div>
+            <div class='s-help__cell'>
+                <div class='s-help__image'>
+                    <img alt="外国人採用"
+                        src="{{ asset('images/ic_service_trans_feat_05.png') }}" />
+                </div>
+                <h3 class='s-help__title'>外国人採用</h3>
+                <p class='s-help__desc'>
+                    日本人採用に限界が見え始め積極的な外国人採用が企業の未来を左右する時代となりました。</br>techtecでは、豊富な外国人採用の実績を活かして、採用からVISA対応、研修まで全面的にサポートします。
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+@endsection
