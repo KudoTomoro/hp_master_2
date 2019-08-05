@@ -53,6 +53,49 @@
                 <p class='s-help__desc'>日本だけでなく海外の規制についても理解することで、より実践的な能力を鍛えることができます。</p>
             </div>
         </div>
+
+        <div class='voice'>
+          <div class='l-body__title'>
+              <h2 class='l-body__heading'>VOICE</h2>
+              <p class='l-body__subhead'>お客様紹介</p>
+          </div>
+          <div class='voice__content'>
+            <div class="voice__content__img voice_img_pc">
+              <img alt="経済産業省調査事業"
+                  src="{{ asset('images/01_SERVICE/voice_reserch.png') }}" />
+            </div>
+            <div class='voice__content__interview'>
+              <div class="voice__content__title"><h3>経済産業省調査事業を実施</h3></div>
+              <p>ブロックチェーンの本格的な台頭を受け、経済産業省が主導となり「平成30年度産業技術調査事業（国内外の人材流動化促進や研究成果の信頼性確保等に向けた大学・研究機関へのブロックチェーン技術の適用及びその標準獲得に関する調査）を行いました。</p>
+              <p>
+                主管を務めた株式会社リクルート様と共同で、国内外のブロックチェーン動向や活用事例を調査し、118ページからなる調査報告書にまとめ公表しております。
+              </p>
+              
+              <div class="voice__content__img voice_img_sp">
+                <img alt="経済産業省調査事業"
+                    src="{{ asset('images/01_SERVICE/voice_reserch.png') }}" />
+              </div>
+              <a class="c-line__button__text" target="_blank"
+                  href="https://www.meti.go.jp/press/2019/04/20190423002/20190423001-1.pdf">「平成30年度産業技術調査事業（国内外の人材流動化促進や研究成果の信頼性確保等に向けた大学・研究機関へのブロックチェーン技術の適用及びその標準獲得に関する調査）報告書」</a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class='l-contact'>
+            <section class='inner'>
+                <div class='l-body__title'>
+                    <h2 class='l-body__heading'>CONTACT</h2>
+                    <p class='l-body__subhead'>一緒にできること</p>
+                </div>
+                <div class='l-contact__content'>
+                    まずはお気軽にお問い合わせください。
+                    <div class='l-contact__button c-line__button'>
+                        <a class="c-line__button__text" href="/contact">お問い合わせ</a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </section>
 </div>
 @endsection

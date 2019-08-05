@@ -61,6 +61,51 @@
                 <p class='s-help__desc'>仮想通貨・ブロックチェーン業界のニュースはスピードが命です。海外で起こった出来事を海外の生データで収集し、日本語に翻訳して速報配信します。</p>
             </div>
         </div>
+
+        <div class='voice'>
+          <div class='l-body__title'>
+              <h2 class='l-body__heading'>VOICE</h2>
+              <p class='l-body__subhead'>お客様インタビュー</p>
+          </div>
+          <div class='voice__content'>
+            <div class="voice__content__img voice_img_pc">
+              <img alt="ハーチ株式会社 加藤様"
+                  src="{{ asset('images/01_SERVICE/voice_media.jpg') }}" />
+            </div>
+            <div class='voice__content__interview'>
+              <div class="voice__content__title"><h3>ALISのCEO安様をご紹介</h3></div>
+              <p>ハーチ株式会社でメディア事業部の責任者を務める加藤様。日本のブロックチェーン業界でメディア事業を展開していきたいというご相談を受け、業界の著名人をご紹介させていただきました。</p>
+              <p>
+                紹介先は、ICOで日本初の億越え資金調達を成功させたブロックチェーンプロジェクト「ALIS」のCEOを務める安様。
+              </p>
+              <p>
+                今回は、安様と弊社CEOの田上との共同インタビューをご希望いただいたため、インタビューの設計から編集までをサポートさせていただきました。
+              </p>
+              <div class="voice__content__img voice_img_sp">
+                <img alt="ハーチ株式会社 加藤様"
+                    src="{{ asset('images/01_SERVICE/voice_media.jpg') }}" />
+              </div>
+              <a class="c-line__button__text" target="_blank"
+                  href="https://hedge.guide/feature/alis-techtec.html">「仮想通貨はコミュニティのハブになる」<br>ALIS × PoL対談、代表2人が語るブロックチェーン業界の未来</a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class='l-contact'>
+            <section class='inner'>
+                <div class='l-body__title'>
+                    <h2 class='l-body__heading'>CONTACT</h2>
+                    <p class='l-body__subhead'>一緒にできること</p>
+                </div>
+                <div class='l-contact__content'>
+                    まずはお気軽にお問い合わせください。
+                    <div class='l-contact__button c-line__button'>
+                        <a class="c-line__button__text" href="/contact">お問い合わせ</a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </section>
 </div>
 @endsection

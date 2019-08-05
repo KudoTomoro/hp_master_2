@@ -64,6 +64,49 @@
                 </p>
             </div>
         </div>
+
+        <div class='voice'>
+          <div class='l-body__title'>
+              <h2 class='l-body__heading'>VOICE</h2>
+              <p class='l-body__subhead'>お客様インタビュー</p>
+          </div>
+          <div class='voice__content'>
+            <div class="voice__content__img voice_img_pc">
+              <img alt="産業技術調査事業"
+                  src="{{ asset('images/01_SERVICE/voice_translation.jpg') }}" />
+            </div>
+            <div class='voice__content__interview'>
+              <div class="voice__content__title"><h3>ブロックチェーンの海外事例を翻訳、レポートの作成をサポート</h3></div>
+              <p>経済産業省主導の「平成30年度産業技術調査事業」において、主管を務めたリクルート様と共同で調査レポートを作成しました。弊社は主に、ブロックチェーンを活用した海外プロジェクトの調査を担当し、論文やオウンドメディアの翻訳を行っております。</p>
+              <p>
+                今回は、学位や研究データの不正を防止するための方法としてブロックチェーンの活用が期待されました。ヨーロッパを中心に東南アジアでも積極的な活動が見つかり、日本国内からも取り組みが登場することが予想される分野です。
+              </p>
+
+              <div class="voice__content__img voice_img_sp">
+                <img alt="産業技術調査事業"
+                    src="{{ asset('images/01_SERVICE/voice_translation.jpg') }}" />
+              </div>
+              <a class="c-line__button__text" target="_blank"
+                  href="https://www.meti.go.jp/press/2019/04/20190423002/20190423001-1.pdf">「平成30年度産業技術調査事業（国内外の人材流動化促進や研究成果の信頼性確保等に向けた大学・研究機関へのブロックチェーン技術の適用及びその標準獲得に関する調査）報告書」</a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class='l-contact'>
+            <section class='inner'>
+                <div class='l-body__title'>
+                    <h2 class='l-body__heading'>CONTACT</h2>
+                    <p class='l-body__subhead'>一緒にできること</p>
+                </div>
+                <div class='l-contact__content'>
+                    まずはお気軽にお問い合わせください。
+                    <div class='l-contact__button c-line__button'>
+                        <a class="c-line__button__text" href="/contact">お問い合わせ</a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </section>
 </div>
 @endsection
