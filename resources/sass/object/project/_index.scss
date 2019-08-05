@@ -2,20 +2,21 @@
 
     .i-service {
         &__content {
-            padding: 120px 80px 160px;
-            background: #FAFAFA;
+            padding: 0px 128px 80px;
+            // background: #FAFAFA;
             display: flex;
             justify-content: space-between;
             align-items: stretch;
 
             &__cell {
                 width: calc((100% - 64px) / 3);
-                padding: 64px 48px;
+                padding: 32px 24px;
                 background-color: #FFF;
-                box-shadow: 0 4px 48px 0 rgba(0,0,0,0.08);
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+                border-radius: 8px;
                 text-align: center;
             }
-            
+
             &__image {
                 width: 180px;
                 height: 180px;
@@ -34,21 +35,23 @@
                 font-size: 20px;
                 font-weight: 700;
                 letter-spacing: 1.6px;
-                color: #000;
+                color: #333;
             }
 
             &__explain {
+                text-align: left;
                 font-size: 14px;
                 letter-spacing: 0.8px;
                 line-height: 2;
                 color: #333;
+                height: 90px;
             }
 
             &__item {
                 width: 100%;
                 height: auto;
-                min-height: 132px;
-                margin: 24px 0 0;
+                min-height: 146px;
+                // margin:0;
                 padding: 16px;
                 background-color: #FAFAFA;
                 text-align: left;
@@ -60,18 +63,45 @@
             &__button {
                 margin: 32px auto 0;
             }
+        }
+        &__client{
+          padding: 0px 128px 80px;
+          &_sub{
+            text-align: center;
+            margin:24px;
+          }
+          &_logo{
+            margin: 20px;
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            & li{
+              display: inline-block;
+              text-align: center;
+              padding: 24px;
+            }
 
+            &_img{
+              height: 40px;
+              width:auto;
+              display: inline-block;
+              vertical-align: middle;
+              text-align: center;
+            }
+          }
         }
     }
 
 }
 
 @media screen and (max-width: 768px) {
+
+
     .i-service {
         padding: 0 0 64px;
         &__content {
-            padding: 48px 24px;
-            background: #FAFAFA;
+            padding: 0 24px;
+            // background: #FAFAFA;
 
             &__cell {
                 width: 100%;
@@ -79,13 +109,15 @@
                 margin: 32px 0 0;
                 padding: 32px 24px;
                 background-color: #FFF;
-                box-shadow: 0 4px 48px 0 rgba(0,0,0,0.08);
+                border-radius:8px;
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+
                 text-align: center;
                 &:first-child {
                     margin: 0;
                 }
             }
-            
+
             &__image {
                 width: 136px;
                 height: 136px;
@@ -104,7 +136,7 @@
                 font-size: 16px;
                 font-weight: 700;
                 letter-spacing: 1.6px;
-                color: #000;
+                color: #333;
             }
 
             &__explain {
@@ -118,7 +150,7 @@
                 height: auto;
                 margin: 16px 0 0;
                 padding: 16px;
-                background-color: #FAFAFA;
+                // background-color: #FAFAFA;
                 text-align: left;
                 font-size: 12px;
                 line-height: 1.6;
@@ -130,8 +162,40 @@
                 margin: 16px auto 0;
             }
         }
+
+        &__client{
+          padding: 0px 24px;
+          &_sub{
+            text-align: center;
+            margin:48px 0;
+            & p{
+              padding:16px 0;
+            }
+          }
+          &_logo{
+            // margin: 20px;
+            display:grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            & li{
+              display: inline-block;
+              text-align: center;
+              padding: 8px;
+            }
+
+            &_img{
+              height: 32px;
+              width:auto;
+              display: inline-block;
+              vertical-align: middle;
+              text-align: center;
+            }
+          }
+        }
+    }
+
+    .client_middle{
+      margin:64px 0;
     }
 
 }
-
-

@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('title', 'SERVICE - 株式会社techtec')
-@section('description','株式会社techtecでは、「メディアサポート事業」「人材育成事業」「翻訳・採用事業」を展開しています。グローバルが前提な次世代社会の激しい競争を勝ち抜く為に、様々なサービスを提供していきます。')
 
 @section('content')
 <div class='i-service'>
@@ -51,6 +50,43 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class='client_middle'>
+      <div class='l-body__title'>
+          <h2 class='l-body__heading'>CLIENT</h2>
+          <p class='l-body__subhead'>サポート業績</p>
+      </div>
+      <div class='i-service__client'>
+        <div class='i-service__client_sub'>
+          <p>多くの企業・メディア様をサポートさせていただいております。</p>
+          <p>※一部抜粋、順不同</p>
+        </div>
+        <ul class="i-service__client_logo">
+          <li><img alt="" class="i-service__client_logo_img"
+          src="{{ asset('images/01_SERVICE/client_recruit.png') }}" />
+        </li>
+          <li><img alt="" class="i-service__client_logo_img"
+          src="{{ asset('images/01_SERVICE/client_ai.png') }}" />
+        </li>
+          <li>
+            <img alt="" class="i-service__client_logo_img"
+            src="{{ asset('images/01_SERVICE/client_j-wave.png') }}" />
+          </li>
+          <li>
+            <img alt="" class="i-service__client_logo_img"
+            src="{{ asset('images/01_SERVICE/client_aerial.png') }}" />
+          </li>
+          <li>
+            <img alt="" class="i-service__client_logo_img"
+            src="{{ asset('images/01_SERVICE/client_nodist.png') }}" />
+          </li>
+          <li>
+            <img alt="" class="i-service__client_logo_img"
+            src="{{ asset('images/01_SERVICE/client_harch.png') }}" />
+          </li>
+        </ul>
+      </div>
     </section>
 </div>
 @endsection
