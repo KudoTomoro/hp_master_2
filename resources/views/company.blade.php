@@ -45,7 +45,7 @@
                             取引先
                             <span>(※一部抜粋、順不同)</span>
                         </td>
-                        <td class='c-company__content'>株式会社リクルート </br>株式会社The Nodist </br>株式会社Aerial Partners</td>
+                        <td class='c-company__content'>朝日インタラクティブ株式会社</br>株式会社リクルート</br>株式会社J-WAVE</td>
                     </tr>
                 </table>
                 <div class='c-office__info'>
@@ -58,7 +58,7 @@
                         </h2>
                     </div>
                     <div class='c-office__text'>
-                        〒102-0083</br>東京都千代田区麹町1-4-4 ZENITAKA ANNEX 2F
+                        〒102-0083</br>東京都千代田区麹町1-4-4 ZENITAKA ANNEX 2F LIFULL HUB内
                         <a href='https://goo.gl/maps/b5pfjfLidko' target='[:_blank]'>Google mapで見る</a>
                         </br>半蔵門線「半蔵門駅」徒歩3分 | 有楽町線「麹町駅」徒歩10分
                     </div>
@@ -83,16 +83,16 @@
         </div>
         <div class='i-partner__logo'>
             <img alt="PRIMAS"
-                src="{{ asset('images/img_logo_partner_01.png') }}" />
+                src="{{ asset('images/partner_brave.png') }}" />
             <img alt="withB"
-                src="{{ asset('images/img_logo_partner_02.png') }}" />
+                src="{{ asset('images/partner_maker.png') }}" />
             <img alt="LIFULL HUB"
-                src="{{ asset('images/img_logo_partner_03.png') }}" />
+                src="{{ asset('images/partner_primas.png') }}" />
         </div>
         <div class='i-partner__content'>
-            <h3 class='i-partner__content__title'>メディアサポート事業 | プロジェクトPR事業 | 翻訳事業</h3>
+            <!-- <h3 class='i-partner__content__title'>メディアサポート事業 | プロジェクトPR事業 | 翻訳事業</h3> -->
             <p class='i-partner__content__desc'>
-                techtecでは、上記の事業で協業できるパートナーを随時募集しています。<br />ミートアップの共催やクライアントの紹介など、パートナーシップの形は様々です。<br />まずは下記よりお気軽にお問い合わせください。
+                techtecでは、パートナー・協業先を常時募集しています。<br />ミートアップの共催や共同研究など、パートナーシップの形は様々です。<br />まずはお気軽にお問い合わせください。
             </p>
             <div class='i-partner__content__button c-line__button'>
                 <a class="c-line__button__text" href="/contact">お問い合わせ</a>

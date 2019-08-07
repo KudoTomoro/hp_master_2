@@ -14526,7 +14526,7 @@ body.fixed {
 }
 @media screen and (min-width: 769px) {
   .c-company {
-    width: 1080px;
+    width: 1024px;
     margin: auto;
   }
   .c-company__table {
@@ -14558,6 +14558,7 @@ body.fixed {
     margin: 80px 0 0;
     padding: 64px;
     background-color: #FAFAFA;
+    border-radius: 8px;
   }
   .c-office__info .l-body__title {
     text-align: left;
@@ -14586,6 +14587,7 @@ body.fixed {
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
+    border-radius: 8px;
   }
 
   .i-partner {
@@ -14655,7 +14657,7 @@ body.fixed {
     font-weight: 700;
   }
   .c-company__item span {
-    font-size: 12px;
+    font-size: 14px;
   }
   .c-company__content {
     margin: 8px 0 0;
@@ -14663,9 +14665,10 @@ body.fixed {
   }
 
   .c-office__info {
-    margin: 64px 16px 0;
+    margin: 64px 20px 0;
     padding: 32px 24px;
     background-color: #FAFAFA;
+    border-radius: 8px;
   }
   .c-office__info .l-body__title {
     text-align: left;
@@ -14696,10 +14699,11 @@ body.fixed {
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
+    border-radius: 8px;
   }
 
   .i-partner {
-    padding: 48px 24px 80px;
+    padding: 48px 20px 80px;
     text-align: center;
   }
   .i-partner__logo {
@@ -14711,7 +14715,7 @@ body.fixed {
   }
   .i-partner__logo img {
     width: auto;
-    height: 32px;
+    height: 22px;
     margin: 16px 12px 0;
   }
   .i-partner__content {
@@ -14729,10 +14733,12 @@ body.fixed {
   }
   .i-partner__content__desc {
     margin: 24px 0 0;
-    font-size: 12px;
+    padding: 0 24px;
+    text-align: left;
+    font-size: 14px;
     font-weight: 400;
     line-height: 2;
-    letter-spacing: 1.6px;
+    letter-spacing: 0px;
     color: #333;
   }
   .i-partner__content__button {
