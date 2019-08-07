@@ -12728,6 +12728,7 @@ body.fixed {
   footer {
     padding: 100px 120px 32px;
     background-color: #333;
+    width: 100%;
   }
 
   .l-footer__body {

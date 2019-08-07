@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" prefix="og: http://ogp.me/ns#">
 
 <head>
     <meta charset="utf-8">
@@ -16,7 +16,19 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <!-- Fabicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
+
+    <!-- ogp -->
+    <meta property="og:title" content="株式会社techtec">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://techtec.co.jp/">
+    <meta property="og:image" content="https://techtec.co.jp/images/ogp.png">
+    <meta property="og:site_name" content="techtec">
+    <meta property="og:description" content="株式会社techtecのHPです。">
+    <!-- facebook&twitter  -->
+    <meta property="fb:app_id" content="[app_id]" />
+    <meta name="twitter:card" content="summary_large_image">
+    
 </head>
 
 <body>

@@ -23,6 +23,9 @@
                         <a class="l-footer__content" href="/company">会社情報</a>
                     </li>
                     <li class='l-footer__link'>
+                        <a class="l-footer__content" href="https://hi-blockchain.world/techtec-news/">ニュース</a>
+                    </li>
+                    <li class='l-footer__link'>
                         <a class="l-footer__content" href="/recruit">採用情報</a>
                     </li>
                     <li class='l-footer__link'>

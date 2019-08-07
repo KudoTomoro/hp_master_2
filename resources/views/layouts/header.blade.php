@@ -58,7 +58,7 @@
             </li>
             <li class='l-header__link'>
                 <a class="l-header__content l-header__content_blank" target="_blank"
-                    href="https://techtec.connpass.com/">NEWS</a>
+                    href="https://hi-blockchain.world/techtec-news/">NEWS</a>
             </li>
             <li class='l-header__link'>
                 <a class="l-header__content l-header__content_blank" target="_blank"
