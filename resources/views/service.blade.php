@@ -75,7 +75,7 @@
           </li>
           <li>
             <img alt="" class="i-service__client_logo_img"
-            src="{{ asset('images/01_SERVICE/client_aerial.png') }}" />
+            src="{{ asset('images/01_SERVICE/client_harch.png') }}" />
           </li>
           <li>
             <img alt="" class="i-service__client_logo_img"
@@ -83,7 +83,7 @@
           </li>
           <li>
             <img alt="" class="i-service__client_logo_img"
-            src="{{ asset('images/01_SERVICE/client_harch.png') }}" />
+            src="{{ asset('images/01_SERVICE/client_aerial.png') }}" />
           </li>
         </ul>
       </div>

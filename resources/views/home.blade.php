@@ -79,7 +79,7 @@
     </section>
 </div>
 <div class='l-product'>
-    <section class='inner'>
+    <section >
         <div class='l-body__title'>
             <h2 class='l-body__heading'>PRODUCT</h2>
             <p class='l-body__subhead'>創っているもの</p>
@@ -120,7 +120,7 @@
                     </div>
                     <div class='l-product__content__text l-product__content__english__text'>
                         <h3 class='l-product__content__title'>PoL 英語コース</h3>
-                        <!-- <p class='l-product__content__subtitle'>(ハイ ブロックチェーン)</p> -->
+                        <!-- <p class='l-product__content__subtitle'>(ポル)</p> -->
                         <p class='l-product__content__desc l-product__content__english__desc'>ブロックチェーンに特化したwebメディア</p>
                         <div class='l-product__content__button l-product__content__english__button p-product__content__link'>
                             <a class="c-line__button__text" target="_blank"
@@ -138,7 +138,7 @@
                     </div>
                     <div class='l-product__content__text l-product__content__writer__text'>
                         <h3 class='l-product__content__title'>PoL ライターコース</h3>
-                        <!-- <p class='l-product__content__subtitle'>(ハイ ブロックチェーン)</p> -->
+                        <!-- <p class='l-product__content__subtitle'>(ポル)</p> -->
                         <p class='l-product__content__desc l-product__content__writer__desc'>ブロックチェーンに特化したwebメディア</p>
                         <div class='l-product__content__button l-product__content__writer__button p-product__content__link'>
                             <a class="c-line__button__text" target="_blank"
@@ -158,7 +158,7 @@
                     </div>
                     <div class='l-product__content__text l-product__content__hb__text'>
                         <h3 class='l-product__content__title'>Hi Blockchain</h3>
-                        <p class='l-product__content__subtitle'>(ハイ ブロックチェーン)</p>
+                        <!-- <p class='l-product__content__subtitle'>(ハイ ブロックチェーン)</p> -->
                         <p class='l-product__content__desc l-product__content__hb__desc'>ブロックチェーンに特化したwebメディア</p>
                         <div class='l-product__content__button l-product__content__hb__button p-product__content__link'>
                             <a class="c-line__button__text" target="_blank"
@@ -175,7 +175,7 @@
 
 
 <div class='l-community'>
-    <section class='inner'>
+    <section>
         <div class='l-body__title l-body__title_arrange'>
             <h2 class='l-body__heading l-body__heading_arrange'>
                 COMMUNITY
@@ -218,7 +218,7 @@
 </div>
 
 <div class='l-partner'>
-    <section class='inner'>
+    <section>
         <div class='l-body__title l-body__title_arrange'>
             <h2 class='l-body__heading l-body__heading_arrange'>
                 PARTNER

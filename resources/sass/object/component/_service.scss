@@ -170,7 +170,7 @@
 
 @media screen and (max-width: 768px) {
     .s-top{
-        padding: 128px 32px 0;
+        padding: 128px 20px 0;
 
         &__title {
             font-size: 24px;
@@ -201,7 +201,7 @@
     }
 
     .s-help{
-        padding: 24px 32px 64px;
+        padding: 24px 20px 64px;
 
         &__cell {
             margin: 40px 0 0;
@@ -249,7 +249,7 @@
       background-color: #FFF;
       border-radius: 8px;
       box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
-      margin: 0 32px;
+      margin: 0 20px;
       padding-top: 36px;
       &__content{
         // display: flex;

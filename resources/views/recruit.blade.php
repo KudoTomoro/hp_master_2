@@ -413,15 +413,11 @@
 
 
         <div class='i-recruit__position'>
-            <div class='l-body__title i-recruit_title'>
-                <h2 class='l-body__heading l-body__heading_arrange i-recruit__heading'>
-                    RECRUIT
-                    <span class='l-body__subhead l-body__subhead_arrange i-recruit__subhead'>
-                        採用情報
-                    </span>
-                </h2>
-            </div>
-            <div class='i-recruit__position__content inner'>
+          <div class='l-body__title i-recruit_title'>
+              <h2 class='l-body__heading i-recruit__heading'>RECRUIT</h2>
+              <p class='l-body__subhead i-recruit__subhead'>採用情報</p>
+          </div>
+            <div class='i-recruit__position__content'>
                 <div class='i-recruit__position__list'>
                     <h3 class='i-recruit__position__list__title'>エンジニアリング</h3>
                     <ul>

@@ -51,10 +51,10 @@
         position: relative;
         z-index: 5;
         top: -200px;
-        left: 80px;
-        right: 80px;
-        width: calc(100% - 160px);
-        margin: 0 0 -16px;
+        // left: 128px;
+        // right: 128px;
+        width: calc(100% - 256px);
+        margin: 0 128px -16px;
         padding: 64px;
         background-color: #FFF;
         border-radius:8px;
@@ -89,10 +89,11 @@
         // background: linear-gradient(0deg,#FFF 0%,#FFF 40%,#FF6A00 40%,#FF6A00 100%);
         background-color: #FF6A00;
         &__content {
+          position:relative;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin: 80px 80px 0;
+            margin: 80px 128px 0;
 
             &__body {
                 width: calc((100% - 64px) / 3);
@@ -121,21 +122,22 @@
                 margin: 32px 0 16px;
                 font-size: 20px;
                 font-weight: 700;
-                letter-spacing: 1.6px;
+                letter-spacing: 0.8px;
                 color: #333;
             }
 
             &__explain {
                 font-size: 16px;
                 text-align: left;
-                letter-spacing: 0.8px;
+                letter-spacing: 1;
                 line-height: 2;
                 color: #333;
             }
 
             &__button {
                 margin: 30px auto 0;
-                bottom: 50px;
+                position:absolute;
+                bottom: 30px;
             }
 
         }
@@ -149,7 +151,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            margin: 80px 0 0;
+            margin: 80px 128px 0;
 
             &__cell {
                 position: relative;
@@ -179,8 +181,9 @@
             &__title {
                 display: inline-block;
                 vertical-align: bottom;
+                margin:auto;
                 font-weight: 700;
-                font-size: 24px;
+                font-size: 20px;
                 color: #333;
             }
 
@@ -223,8 +226,8 @@
             &__pol {
                 &__cell {
                     width: 100%;
-                    margin: 0 0 48px;
-                    padding: 64px 120px;
+                    margin: 0 0 32px;
+                    padding: 32px 32px;
                     & img{
 
                       border-radius: 8px;
@@ -256,46 +259,46 @@
 
             }
 
-            &__tech {
-                &__cell {
-                    width: calc(100% - 528px);
-                }
-                &__text {
-                    text-align: right;
-                }
-                &__title {
-                    color: #FFF;
-                }
-                &__subtitle {
-                    color: #FFF;
-                }
-                &__desc {
-                    color: #FFF;
-                }
-                &__button {
-                    justify-content: flex-end;
-                }
-                &__image {
-                    position: absolute;
-                    z-index: 2;
-                    left: -24px;
-                    bottom: -8px;
-                    & img {
-                        width: 585px;
-                        height: auto;
-                    }
-                }
-            }
+            // &__tech {
+            //     &__cell {
+            //         width: calc(100% - 528px);
+            //     }
+            //     &__text {
+            //         text-align: right;
+            //     }
+            //     &__title {
+            //         color: #FFF;
+            //     }
+            //     &__subtitle {
+            //         color: #FFF;
+            //     }
+            //     &__desc {
+            //         color: #FFF;
+            //     }
+            //     &__button {
+            //         justify-content: flex-end;
+            //     }
+            //     &__image {
+            //         position: absolute;
+            //         z-index: 2;
+            //         left: -24px;
+            //         bottom: -8px;
+            //         & img {
+            //             width: 585px;
+            //             height: auto;
+            //         }
+            //     }
+            // }
 
             &__hb {
                 &__cell {
-                    width: 360px;
+                    width: 320px;
                     padding: 0;
                 }
                 &__image {
                     & img {
-                        width: 100%;
-                        height: auto;
+                        width: auto;
+                        height: 210px;
                         border-radius: 8px 8px 0 0;
                     }
                 }
@@ -308,12 +311,13 @@
                 }
                 &__button {
                     margin: 8px 0 0 !important;
+
                 }
             }
 
             &__english {
                 &__cell {
-                    width: 360px;
+                    width: 320px;
                     padding: 0;
                 }
                 &__image {
@@ -336,7 +340,7 @@
             }
             &__writer {
                 &__cell {
-                    width: 360px;
+                    width: 320px;
                     padding: 0;
                 }
                 &__image {
@@ -362,7 +366,8 @@
     }
 
     .l-community{
-        padding: 80px 0;
+      padding: 80px 0;
+      margin: 0 128px;
 
         & .l-body__title {
             text-align: left;
@@ -425,6 +430,7 @@
 
     .l-partner {
         padding: 80px 0;
+        margin: 0 128px;
 
         & .l-body__title {
             text-align: left;
@@ -473,9 +479,9 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            width: calc(100% - 160px);
-            margin: 64px 80px 0;
-            padding: 48px 80px;
+            width: calc(100% - 256px);
+            margin: 64px 128px 0;
+            padding: 48px 48px;
             background-color: #FFF;
             border-radius:8px;
             box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
@@ -693,8 +699,8 @@
     .l-mission {
         position: relative;
         z-index: 5;
-        margin: 144px 12px 0;
-        padding: 24px;
+        margin: 144px 20px 0;
+        padding: 16px;
         background-color: #FFF;
         border-radius:8px;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
@@ -723,7 +729,7 @@
 
     .l-service {
         margin: 64px 0 0;
-        padding: 64px 24px;
+        padding: 64px 20px;
         background: linear-gradient(0deg, #FFF 0%, #FFF 80%, #FF6A00 80%, #FF6A00 100%);
         &__content {
             margin: 40px 0 0;
@@ -773,7 +779,7 @@
     }
 
     .l-product {
-        padding: 64px 24px;
+        padding: 64px 20px;
         &__content {
 
             &__cell {
@@ -843,7 +849,7 @@
             &__pol {
                 &__cell {
                     width: 100%;
-                    border-radius: 8px;
+                    // border-radius: 8px;
                 }
                 &__logo {
                     position: relative;
@@ -863,7 +869,7 @@
                 &__bg {
                     & img {
                         padding: 0 0 16px;
-                        border-radius: 8px;
+                        border-radius: 8px 8px 0 0;
                         border-bottom: 1px solid #ECF0F4;
                     }
                 }
@@ -912,7 +918,7 @@
     }
 
     .l-community{
-        padding: 64px 24px;
+        padding: 64px 20px;
 
         &__content {
 
@@ -963,7 +969,7 @@
     }
 
     .l-partner {
-      padding: 0 24px 24px;
+      padding: 0 20px 24px;
       &__content {
           &__desc{
               margin-top:10px;
@@ -987,10 +993,10 @@
         &__box{
           width: 138.5px;
           height: 128px;
-          border: solid 1px rgba(0,0,0,0);
-          border-radius: 8px;
+          // border: solid 1px rgba(0,0,0,0);
+          // border-radius: 8px;
           margin: auto;
-          box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+          // box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
           line-height: 128px;
           text-align: center;
         }
@@ -1004,6 +1010,8 @@
         & li{
           display: inline-block;
           text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
         }
 
         &_img{
@@ -1079,7 +1087,7 @@
         // background-size: 100% auto;
         background: linear-gradient(-135deg, #FCB01E, #ED4219);
         // background-color: #FF6A00;
-        padding: 60px 24px 12px;
+        padding: 60px 20px 12px;
         text-align: center;
 
         &__title{
@@ -1117,7 +1125,7 @@
     }
 
     .l-contact{
-        padding: 64px 24px;
+        padding: 64px 20px;
         text-align: center;
 
         &__content{

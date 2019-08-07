@@ -23,8 +23,8 @@
     }
 
     &__vision {
-      width: calc(100% - 160px);
-      margin: 0 80px;
+      width: calc(100% - 256px);
+      margin: 0 128px;
       padding: 64px;
       background-color: #FFF;
       border-radius: 8px;
@@ -48,26 +48,26 @@
 
     &__value {
       margin: 80px 0;
-      padding: 80px 0;
+      padding: 80px 128px;
       background: linear-gradient(-135deg, #FCB01E, #ED4219);
        &_title{
          // color:rgba(255,255,255,1.00);
-         margin: 0 80px;
+         margin: 0px;
          float: left;
        }
       &__composes{
         background-color: #FFFFFF;
-        width: 800px;
+        width: 720px;
         border-radius: 8px;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
-        margin:0 64px;
+        margin:0px;
         margin-left: auto;
 
         &_list {
           position: relative;
-          text-align: left;
+          text-align: center;
           // min-height: 320px;
-          margin: 0 64px;
+          margin: 0 24px;
           padding-top: 48px;
           &_title {
             font-family: 'Gotham';
@@ -113,7 +113,7 @@
 
     &__technologystack{
         &__content{
-          margin: 60px 80px 40px;
+          margin: 60px 128px 40px;
         }
         &__category{
           width: auto;
@@ -124,7 +124,7 @@
         }
         &__item{
           height: 150px;
-          width: 100px;
+          width: 92px;
           padding-top:10px;
           border-top: solid #FF6A00;
           float: left;
@@ -289,8 +289,8 @@
       padding: 80px 0;
       background-color: #FAFAFA;
       &__content {
-        margin: 64px 80px 0;
-        padding: 80px;
+        margin: 64px 128px 0;
+        padding: 48px;
         background-color: #FFF;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
         border-radius: 8px;
@@ -352,7 +352,7 @@
     }
 
     &__feature{
-      margin: 20px 80px;
+      margin: 20px 128px;
 
       &__content{
         width: 1040px;
@@ -412,7 +412,8 @@
       &__content {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 32px;
+        margin: 32px 128px 0;
+
       }
       &__list {
         width: calc((100% - 128px) / 4);
@@ -472,7 +473,7 @@
 
     &__vision {
       // width: calc(100% - 24px);
-      margin: 0 16px;
+      margin: 0 20px;
       padding:16px;
       background-color: #FFF;
       box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
@@ -495,7 +496,7 @@
     }
 
     &__value {
-      padding: 64px 16px;
+      padding: 64px 20px;
       overflow-x: hidden;
 
       &__composes{
@@ -545,8 +546,9 @@
     }
 
     &__technologystack{
+      margin:0 20px;
         &__content{
-          margin: 20px 16px;
+          margin: 20px 0;
           // width: 200px;
           // height: auto;
         }
@@ -608,7 +610,7 @@
 
     &__team {
       margin: auto;
-      padding: 0 16px 64px;
+      padding: 0 20px 64px;
       &__content {
         display: flex;
         flex-wrap: wrap;
@@ -733,7 +735,7 @@
       padding: 64px 0;
       background-color: #fff;
       &__content {
-        margin: 32px 16px 0;
+        margin: 32px 20px 0;
         padding: 40px 0;
       }
       &_img{
@@ -789,7 +791,7 @@
 
 
     &__feature{
-      margin: 16px;
+      margin: 20px;
 
       &__content{
       }
@@ -842,7 +844,7 @@
     }
 
     &__position {
-      padding: 64px 16px 120px;
+      padding: 64px 20px 120px;
       &__content {
         margin: 48px 0 0;
       }
