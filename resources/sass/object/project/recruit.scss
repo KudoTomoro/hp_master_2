@@ -3,6 +3,7 @@
   .recruit_title{
     width:100%;
     padding: 120px 0 48px 0;
+    // clear: both;
     &_middle{
       display: none;
     }
@@ -149,6 +150,7 @@
     .business_design{
       display: block;
       width: 100%;
+      clear: both;
     }
     .development{
       float: left;
@@ -298,6 +300,9 @@
       }
     }
 
+
+
+
     &__message {
       padding: 80px 0;
       background-color: #FAFAFA;
@@ -311,13 +316,16 @@
           width: 600px;
           margin-left: auto;
         }
-      }
-      &_img{
-        width: 300px;
-        height: auto;
-        float: left;
-        &_picture{
-          border-radius: 8px;
+        &_img{
+          // position: relative;
+          // height: 100vh;
+          width: 300px;
+          height: 750px;
+          margin:0 24px 16px 0;
+          float: left;
+          &_picture{
+            border-radius: 8px;
+          }
         }
       }
       &__ceo{
@@ -364,11 +372,14 @@
     display: none;
     }
 
+
+
+
     &__feature{
       margin: 20px 128px;
 
       &__content{
-        width: 1040px;
+        width: 100%;
         height: auto;
         margin: 20px auto;
         display:grid;
@@ -376,8 +387,9 @@
         // grid-gap: 10px;
       }
       &__item{
-        width: 480px;
-        height: 400px;
+        // width: 480px;
+        width: 90%;
+        // height: 400px;
         margin: 20px auto;
         // padding: 0 4px;
         background-color: #FFF;
@@ -387,8 +399,8 @@
           // padding: 0 4px;
         }
         &__img{
-          width:240px;
-          height:160px;
+          width:50%;
+          min-height:160px;
           margin:4px 0 8px;
           padding: 4px;
           object-fit: cover;
@@ -398,8 +410,8 @@
           float:left;
         }
         &__title{
-          display: inline-block;
-          width:480px;
+          // display: inline-block;
+          // width:480px;
           height:auto;
           margin: 0px auto;
           padding: 8px 0 0;
@@ -420,6 +432,12 @@
       }
     }
 
+
+    .feature_title{
+      width:200px;
+      margin: auto;
+    }
+
     &__position {
       padding: 80px 0 120px;
       &__content {
@@ -429,7 +447,7 @@
 
       }
       &__list {
-        width: calc((100% - 128px) / 4);
+        width: calc((100% - 128px) / 3);
         height: auto;
         margin: 32px 16px 0 16px;
         padding: 32px;

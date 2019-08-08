@@ -292,8 +292,8 @@
             </div>
             <div class='i-recruit__message__content'>
 
-              <div class="i-recruit__message_img message_pc">
-                <img alt="CEO 田上智裕" class="i-recruit__message_img_picture"
+              <div class="i-recruit__message__content_img message_pc">
+                <img alt="CEO 田上智裕" class="i-recruit__message__content_img_picture"
                 src="{{ asset('images/team_tagami.jpg') }}" />
                 <p class='i-recruit__message__ceo'>代表取締役 CEO</p>
                 <p class='i-recruit__message__tagami'>田上智裕</p>
@@ -335,11 +335,10 @@
 
         <div class='i-recruit__feature'>
           <section>
-            <div class='l-body__title i-recruit_title'>
+            <div class='l-body__title i-recruit_title feature_title'>
                 <h2 class='l-body__heading i-recruit__heading'>FEATURE</h2>
                 <p class='l-body__subhead i-recruit__subhead'>techteらしさ</p>
             </div>
-
             <ul class='i-recruit__feature__content'>
 
               <li class='i-recruit__feature__item'>

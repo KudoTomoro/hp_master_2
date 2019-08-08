@@ -14988,6 +14988,7 @@ body.fixed {
   .i-recruit .business_design {
     display: block;
     width: 100%;
+    clear: both;
   }
   .i-recruit .development {
     float: left;
@@ -15150,12 +15151,13 @@ body.fixed {
     width: 600px;
     margin-left: auto;
   }
-  .i-recruit__message_img {
+  .i-recruit__message__content_img {
     width: 300px;
-    height: auto;
+    height: 750px;
+    margin: 0 24px 16px 0;
     float: left;
   }
-  .i-recruit__message_img_picture {
+  .i-recruit__message__content_img_picture {
     border-radius: 8px;
   }
   .i-recruit__message__ceo {
@@ -15197,23 +15199,22 @@ body.fixed {
     margin: 20px 128px;
   }
   .i-recruit__feature__content {
-    width: 1040px;
+    width: 100%;
     height: auto;
     margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   .i-recruit__feature__item {
-    width: 480px;
-    height: 400px;
+    width: 90%;
     margin: 20px auto;
     background-color: #FFF;
     border-radius: 8px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   }
   .i-recruit__feature__item__img {
-    width: 240px;
-    height: 160px;
+    width: 50%;
+    min-height: 160px;
     margin: 4px 0 8px;
     padding: 4px;
     -o-object-fit: cover;
@@ -15225,8 +15226,6 @@ body.fixed {
     float: left;
   }
   .i-recruit__feature__item__title {
-    display: inline-block;
-    width: 480px;
     height: auto;
     margin: 0px auto;
     padding: 8px 0 0;
@@ -15242,6 +15241,10 @@ body.fixed {
     line-height: 2;
     margin: 8px 16px;
   }
+  .i-recruit .feature_title {
+    width: 200px;
+    margin: auto;
+  }
   .i-recruit__position {
     padding: 80px 0 120px;
   }
@@ -15251,7 +15254,7 @@ body.fixed {
     margin: 32px 128px 0;
   }
   .i-recruit__position__list {
-    width: calc((100% - 128px) / 4);
+    width: calc((100% - 128px) / 3);
     height: auto;
     margin: 32px 16px 0 16px;
     padding: 32px;
