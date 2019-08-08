@@ -15561,12 +15561,14 @@ body.fixed {
     border-radius: 4px;
   }
   .i-recruit__message {
-    padding: 64px 0;
-    background-color: #fff;
+    padding: 48px 0;
+    background-color: #fcfcfc;
   }
   .i-recruit__message__content {
     margin: 32px 20px 0;
-    padding: 40px 0;
+    padding: 40px 12px;
+    background-color: #fff;
+    border-radius: 8px;
   }
   .i-recruit__message_img {
     margin: 8px 0;
