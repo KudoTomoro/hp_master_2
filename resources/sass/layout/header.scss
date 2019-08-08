@@ -1,5 +1,5 @@
-@media screen and (min-width: 769px){
-// @media screen and (min-width: 1025px){
+// @media screen and (min-width: 769px){
+@media screen and (min-width: 1025px){
     .navvar-wrap{
         display: none;
     }
@@ -129,8 +129,8 @@
 
 }
 
-@media screen and (max-width: 768px){
-// @media screen and (max-width: 1024px) {
+// @media screen and (max-width: 768px){
+@media screen and (max-width: 1024px) {
     .l-header {
         position: fixed;
         z-index: 10;

@@ -32,6 +32,7 @@
 
             &__title {
                 margin: 32px 0 16px;
+                min-height: 60px;
                 font-size: 20px;
                 font-weight: 700;
                 letter-spacing: 1.6px;
@@ -42,7 +43,7 @@
                 text-align: left;
                 font-size: 14px;
                 letter-spacing: 0.8px;
-                line-height: 2;
+                line-height: 1.5;
                 color: #333;
                 height: 90px;
             }
@@ -63,6 +64,7 @@
 
             &__button {
                 margin: 32px auto 0;
+                max-width: 150px;
             }
         }
         &__client{

@@ -2,14 +2,21 @@
 // @media screen and (min-width: 1025px){
     .l-main {
         position: relative;
-        padding: 208px 120px 256px;
+        // padding: 208px 120px 256px;
 
         &__title {
+          width:100%;
+            text-align: center;
+            // margin:auto;
             font-size: 64px;
-            font-weight: 700;
+            font-style: italic;
+            font-weight: 800;
             line-height: 80px;
             letter-spacing: 4.8px;
-            color: #333;
+            color: #fff;
+            position: absolute;
+            bottom:40%;
+            z-index: 10;
         }
     }
 
@@ -87,7 +94,7 @@
 
     .l-service {
         padding: 80px 0;
-        // background: linear-gradient(0deg,#FFF 0%,#FFF 40%,#FF6A00 40%,#FF6A00 100%);
+
         background-color: #FF6A00;
         &__content {
           position:relative;
@@ -99,23 +106,39 @@
             &__body {
                 width: calc((100% - 64px) / 3);
                 height: 516px;
-                padding: 30px 48px 20px;
+
+                padding: 30px 4% 20px;
                 background-color: #FFF;
                 border-radius:8px;
                 box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
                 text-align: center;
+                position:relative;
+                &__button {
+                    max-width: 150px;
+
+                    display: inline-block;
+
+                    position:absolute;
+                    bottom: 30px;
+                    left:0;
+                    right: 0;
+                    margin: auto;
+
+                }
             }
 
             &__image {
                 width: 180px;
                 height: 180px;
-                margin: auto;
+                text-align: center;
+                margin: 0 auto;
                 padding: 40px;
                 border-radius: 50%;
                 border: 1px solid #ECF0F4;
                 & img {
                     width: 100px;
                     height: 100px;
+                    margin: auto;
                 }
             }
 
@@ -134,13 +157,6 @@
                 line-height: 2;
                 color: #333;
             }
-
-            &__button {
-                margin: 30px auto 0;
-                position:absolute;
-                bottom: 30px;
-            }
-
         }
     }
 
@@ -154,9 +170,11 @@
             justify-content: space-between;
             margin: 80px 128px 0;
 
+
             &__cell {
                 position: relative;
-                height: 480px;
+                // height: 440px;
+                max-height: 40%;
                 padding: 48px;
                 background-color: #FFF;
                 box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
@@ -181,6 +199,7 @@
 
             &__title {
                 display: inline-block;
+                // text-align: center;
                 vertical-align: bottom;
                 margin:auto;
                 font-weight: 700;
@@ -197,12 +216,13 @@
 
             &__desc {
                 margin: 16px 0 0;
-                line-height: 2;
+                line-height: 1.5;
                 color: #333;
+                min-height: 72px;
             }
 
             &__button {
-                margin: 40px 0 0;
+                margin: 40px auto 0;
                 & a {
                     font-size: 14px;
                 }
@@ -230,7 +250,6 @@
                     margin: 0 0 32px;
                     padding: 32px 32px;
                     & img{
-
                       border-radius: 8px;
                     }
                 }
@@ -248,10 +267,10 @@
                 &__image {
                     position: absolute;
                     z-index: 2;
-                    top: 40px;
-                    right: 120px;
+                    top: 15%;
+                    right: 5%;
                     & img {
-                        width: 480px;
+                        max-width: 350px;
                         height: auto;
                         border-radius: 24px;
                         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
@@ -260,106 +279,31 @@
 
             }
 
-            // &__tech {
-            //     &__cell {
-            //         width: calc(100% - 528px);
-            //     }
-            //     &__text {
-            //         text-align: right;
-            //     }
-            //     &__title {
-            //         color: #FFF;
-            //     }
-            //     &__subtitle {
-            //         color: #FFF;
-            //     }
-            //     &__desc {
-            //         color: #FFF;
-            //     }
-            //     &__button {
-            //         justify-content: flex-end;
-            //     }
-            //     &__image {
-            //         position: absolute;
-            //         z-index: 2;
-            //         left: -24px;
-            //         bottom: -8px;
-            //         & img {
-            //             width: 585px;
-            //             height: auto;
-            //         }
-            //     }
-            // }
 
-            &__hb {
+
+            &__parts {
                 &__cell {
-                    width: 320px;
+                  // max-width: 320px;
+                    // position: relative;
+                    width: 30%;
                     padding: 0;
                 }
                 &__image {
                     & img {
-                        width: auto;
-                        height: 210px;
+                      width: 100%;
+                      height: auto;
+
                         border-radius: 8px 8px 0 0;
                     }
                 }
                 &__text {
-                    padding: 32px 48px;
+                    padding: 32px 16px 0;
                 }
                 &__desc {
                   font-size: 16px;
                     margin: 8px 0 0;
                 }
                 &__button {
-                    margin: 8px 0 0 !important;
-
-                }
-            }
-
-            &__english {
-                &__cell {
-                    width: 320px;
-                    padding: 0;
-                }
-                &__image {
-                    & img {
-                        width: auto;
-                        height: 210px;
-                        margin:auto;
-                    }
-                }
-                &__text {
-                    padding: 32px 48px;
-                }
-                &__desc {
-                  font-size: 16px;
-                    margin: 8px 0 0;
-                }
-                &__button {
-                    margin: 8px 0 0 !important;
-                }
-            }
-            &__writer {
-                &__cell {
-                    width: 320px;
-                    padding: 0;
-                }
-                &__image {
-                    & img {
-                        width: auto;
-                        height: 210px;
-                        margin:auto;
-                    }
-                }
-                &__text {
-                    padding: 32px 48px;
-                }
-                &__desc {
-                  font-size: 16px;
-                    margin: 8px 0 0;
-                }
-                &__button {
-                    margin: 8px 0 0 !important;
                 }
             }
         }
@@ -453,7 +397,7 @@
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
-          width: calc(100% - 160px);
+          // width: calc(100% - 160px);
           margin: 30px;
           padding: 24px;
           background-color: #FFF;
@@ -499,9 +443,6 @@
     }
 
     .l-recruit{
-        // background: url('../images/img_top_rec.png') no-repeat center;
-        // background-size: 100% auto;
-        // background-color: #FF6A00;
         background: linear-gradient(-135deg, #FCB01E, #ED4219);
         padding: 60px 0 24px;
         text-align: center;
@@ -519,10 +460,6 @@
             line-height: 2;
             color: #FFF;
         }
-        // &__button{
-        //     width: 320px;
-        //     margin: 64px auto 0;
-        // }
         &__banner{
           &__pc{
             width: 400px;
@@ -653,7 +590,9 @@
         &__title {
             position: absolute;
             z-index: 3;
-            margin: 24px 24px 0;
+            width:100%;
+            text-align: center;
+            // margin: 24px 24px 0;
             font-size: 36px;
             font-weight: 800;
             font-style: italic;

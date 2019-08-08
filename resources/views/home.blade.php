@@ -49,7 +49,7 @@
                 </div>
                 <h3 class='l-service__content__title'>メディアサポート事業</h3>
                 <p class='l-service__content__explain'>メディアの立ち上げからグロースまで幅広くサポートします。</p>
-                <div class='l-service__content__button c-line__button'>
+                <div class='l-service__content__body__button c-line__button'>
                     <a class="c-line__button__text" href="/service/media_consulting">詳しく見る</a>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                 </div>
                 <h3 class='l-service__content__title'>人材育成事業</h3>
                 <p class='l-service__content__explain'>ブロックチェーン人材の育成、英語・中国語などの次世代人材の育成をサポートします。</p>
-                <div class='l-service__content__button c-line__button'>
+                <div class='l-service__content__body__button c-line__button'>
                     <a class="c-line__button__text" href="/service/human_resource_development">詳しく見る</a>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                 </div>
                 <h3 class='l-service__content__title'>翻訳・採用事業</h3>
                 <p class='l-service__content__explain'>仮想通貨・ブロックチェーンに限らず事業のグローバル対応をサポートします。</p>
-                <div class='l-service__content__button c-line__button'>
+                <div class='l-service__content__body__button c-line__button'>
                     <a class="c-line__button__text" href="/service/translation">詳しく見る</a>
                 </div>
             </div>
@@ -112,17 +112,17 @@
                 </a>
             </div>
 
-            <div class='l-product__content__cell l-product__content__english__cell'>
+            <div class='l-product__content__cell l-product__content__parts__cell'>
                 <a href='https://hi-blockchain.world/' target='_blank'>
-                    <div class='l-product__content__english__image'>
+                    <div class='l-product__content__parts__image'>
                         <img alt="Hi-Blockchain(ハイブロックチェーン)のデバイス"
                             src="{{ asset('images/product_english.png') }}" />
                     </div>
-                    <div class='l-product__content__text l-product__content__english__text'>
+                    <div class='l-product__content__text l-product__content__parts__text'>
                         <h3 class='l-product__content__title'>PoL 英語コース</h3>
                         <!-- <p class='l-product__content__subtitle'>(ポル)</p> -->
-                        <p class='l-product__content__desc l-product__content__english__desc'>ブロックチェーンに特化したwebメディア</p>
-                        <div class='l-product__content__button l-product__content__english__button p-product__content__link'>
+                        <p class='l-product__content__desc l-product__content__parts__desc'>ブロックチェーン業界特化の英語コーチングサービス</p>
+                        <div class='l-product__content__button l-product__content__parts__button p-product__content__link'>
                             <a class="c-line__button__text" target="_blank"
                                 href="https://hi-blockchain.world/">サービスサイトへ</a>
                         </div>
@@ -130,17 +130,17 @@
                 </a>
             </div>
 
-            <div class='l-product__content__cell l-product__content__writer__cell'>
+            <div class='l-product__content__cell l-product__content__parts__cell'>
                 <a href='https://hi-blockchain.world/' target='_blank'>
-                    <div class='l-product__content__writer__image'>
+                    <div class='l-product__content__parts__image'>
                         <img alt="Hi-Blockchain(ハイブロックチェーン)のデバイス"
                             src="{{ asset('images/product_writer.png') }}" />
                     </div>
-                    <div class='l-product__content__text l-product__content__writer__text'>
+                    <div class='l-product__content__text l-product__content__parts__text'>
                         <h3 class='l-product__content__title'>PoL ライターコース</h3>
                         <!-- <p class='l-product__content__subtitle'>(ポル)</p> -->
-                        <p class='l-product__content__desc l-product__content__writer__desc'>ブロックチェーンに特化したwebメディア</p>
-                        <div class='l-product__content__button l-product__content__writer__button p-product__content__link'>
+                        <p class='l-product__content__desc l-product__content__parts__desc'>暗号資産・ブロックチェーン業界でライターになるための学習プラットフォーム</p>
+                        <div class='l-product__content__button l-product__content__parts__button p-product__content__link'>
                             <a class="c-line__button__text" target="_blank"
                                 href="https://hi-blockchain.world/">サービスサイトへ</a>
                         </div>
@@ -150,17 +150,17 @@
 
 
 
-            <div class='l-product__content__cell l-product__content__hb__cell'>
+            <div class='l-product__content__cell l-product__content__parts__cell'>
                 <a href='https://hi-blockchain.world/' target='_blank'>
-                    <div class='l-product__content__hb__image'>
+                    <div class='l-product__content__parts__image'>
                         <img alt="Hi-Blockchain(ハイブロックチェーン)のデバイス"
                             src="{{ asset('images/img_hb.png') }}" />
                     </div>
-                    <div class='l-product__content__text l-product__content__hb__text'>
+                    <div class='l-product__content__text l-product__content__parts__text'>
                         <h3 class='l-product__content__title'>Hi Blockchain</h3>
                         <!-- <p class='l-product__content__subtitle'>(ハイ ブロックチェーン)</p> -->
-                        <p class='l-product__content__desc l-product__content__hb__desc'>ブロックチェーンに特化したwebメディア</p>
-                        <div class='l-product__content__button l-product__content__hb__button p-product__content__link'>
+                        <p class='l-product__content__desc l-product__content__parts__desc'>ブロックチェーンに特化したwebメディア</p>
+                        <div class='l-product__content__button l-product__content__parts__button p-product__content__link'>
                             <a class="c-line__button__text" target="_blank"
                                 href="https://hi-blockchain.world/">サービスサイトへ</a>
                         </div>

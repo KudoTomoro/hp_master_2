@@ -1,6 +1,7 @@
 @media screen and (min-width: 769px){
 
   .recruit_title{
+    width:100%;
     padding: 120px 0 48px 0;
     &_middle{
       display: none;
@@ -8,6 +9,7 @@
   }
 
   .i-recruit {
+    width:100%;
     background: url('../images/bg_vision.png') no-repeat 0 0;
     background-size: 100% auto;
 
@@ -53,15 +55,16 @@
        &_title{
          // color:rgba(255,255,255,1.00);
          margin: 0px;
-         float: left;
+         // float: left;
        }
       &__composes{
         background-color: #FFFFFF;
         width: 720px;
         border-radius: 8px;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
-        margin:0px;
-        margin-left: auto;
+        margin:auto;
+        // margin:0px;
+        // margin-left: auto;
 
         &_list {
           position: relative;
@@ -104,7 +107,7 @@
     }
 
     .recruit__title_large{
-      margin-top: 48px;
+      margin: 0 0 48px;
     }
 
     .blank{
@@ -112,6 +115,7 @@
     }
 
     &__technologystack{
+      display: block;
         &__content{
           margin: 60px 128px 40px;
         }
@@ -141,6 +145,11 @@
           }
         }
     }
+
+    .business_design{
+      display: block;
+      width: 100%;
+    }
     .development{
       float: left;
       margin-right: 36px;
@@ -154,6 +163,10 @@
     .gd_sp{
       display: none;
     }
+
+
+
+
 
     &__team {
       width: 960px;
@@ -454,7 +467,6 @@
   }
 
 }
-
 
 @media screen and (max-width: 768px) {
 
