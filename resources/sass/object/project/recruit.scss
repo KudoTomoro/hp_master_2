@@ -576,7 +576,7 @@
     }
 
     &__technologystack{
-      margin:0 20px;
+      margin:0 auto;
         &__content{
           margin: 20px 0;
           // width: 200px;
@@ -585,7 +585,8 @@
         &__category{
           // width: 220;
           // height: auto;
-          margin: 10px 0;
+          // margin: 10px 0;
+          margin:0 auto;
           &_title{
             font-weight: 600;
             border-bottom: solid #FF6A00;

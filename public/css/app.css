@@ -13986,7 +13986,7 @@ body.fixed {
     color: #333;
   }
   .l-partner__content__desc_text {
-    margin: 16px 10px 10px;
+    margin: 32px 10px 10px;
     font-size: 13px;
     font-weight: 500;
     line-height: 1.5;
@@ -15365,13 +15365,13 @@ body.fixed {
     color: #FAFAFA;
   }
   .i-recruit__technologystack {
-    margin: 0 20px;
+    margin: 0 auto;
   }
   .i-recruit__technologystack__content {
     margin: 20px 0;
   }
   .i-recruit__technologystack__category {
-    margin: 10px 0;
+    margin: 0 auto;
   }
   .i-recruit__technologystack__category_title {
     font-weight: 600;

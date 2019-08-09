@@ -9,11 +9,11 @@
         <div class='l-main__eyecatch'>
             <div class='l-main_eyecatch_slider'>
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
-                    src="{{ asset('images/img_top_eyecatch_01.jpg') }}" />
+                    src="{{ asset('images/00_HOME/firstview02.jpg') }}" />
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
-                    src="{{ asset('images/img_top_eyecatch_02.jpg') }}" />
-                <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
-                    src="{{ asset('images/img_top_eyecatch_03.jpg') }}" />
+                    src="{{ asset('images/00_HOME/firstview03.jpg') }}" />
+                <!-- <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
+                    src="{{ asset('images/img_top_eyecatch_03.jpg') }}" /> -->
             </div>
         </div>
     </section>

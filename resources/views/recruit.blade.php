@@ -231,7 +231,7 @@
             <div class='i-recruit__team__content'>
                 <div class='i-recruit__team__list' data-id='1'>
                     <img class="i-recruit__team__thumb" alt="Tomohiro Tagami | CEO / Product Manager"
-                        src="{{ asset('images/member_tomohiro_tagami.jpg') }}" />
+                        src="{{ asset('images/04_RECRUIT/team_tagami.jpg') }}" />
                     <h3 class='i-recruit__team__name'>Tomohiro Tagami</h3>
                     <p class='i-recruit__team__role'>CEO / Product Manager</p>
                 </div>
@@ -275,7 +275,25 @@
                     <img class="i-recruit__team__thumb" alt="Yumi Fujisawa | Global Alliance Manager"
                         src="{{ asset('images/member_yumi_fujisawa.png') }}" />
                     <h3 class='i-recruit__team__name'>Yumi Fujisawa</h3>
-                    <p class='i-recruit__team__role'>Global Alliance Manager</p>
+                    <p class='i-recruit__team__role'>Global Alliance Manage</p>
+                </div>
+                <div class='i-recruit__team__list' data-id='8'>
+                    <img class="i-recruit__team__thumb" alt="Yumi Fujisawa | Global Alliance Manager"
+                        src="{{ asset('images/04_RECRUIT/team_watahiki.jpg') }}" />
+                    <h3 class='i-recruit__team__name'>Takuya Watahiki</h3>
+                    <p class='i-recruit__team__role'>Engineer</p>
+                </div>
+                <div class='i-recruit__team__list' data-id='8'>
+                    <img class="i-recruit__team__thumb" alt="Yumi Fujisawa | Global Alliance Manager"
+                        src="{{ asset('images/04_RECRUIT/team_watanabe.jpg') }}" />
+                    <h3 class='i-recruit__team__name'>Leon Watanabe</h3>
+                    <p class='i-recruit__team__role'>Blockchain Researcher</p>
+                </div>
+                <div class='i-recruit__team__list' data-id='8'>
+                    <img class="i-recruit__team__thumb" alt="Yumi Fujisawa | Global Alliance Manager"
+                        src="{{ asset('images/04_RECRUIT/team_elice.png') }}" />
+                    <h3 class='i-recruit__team__name'>Elice</h3>
+                    <p class='i-recruit__team__role'>Elice</p>
                 </div>
                 <!-- <div class='i-recruit__team__list' data-id='9'>
                     <img class="i-recruit__team__thumb" alt="and you"
