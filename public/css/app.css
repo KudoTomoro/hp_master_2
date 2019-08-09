@@ -13012,7 +13012,6 @@ body.fixed {
   }
 
   .voice {
-    background-color: #fcfcfc;
     border-radius: 8px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     margin: 0 48px;
@@ -13033,7 +13032,7 @@ body.fixed {
     font-weight: 700;
   }
   .voice__content__interview {
-    width: 480px;
+    width: 50%;
     height: auto;
     margin-right: 0;
     margin-left: auto;
@@ -13046,13 +13045,14 @@ body.fixed {
     font-size: 14px;
   }
   .voice__content__img {
-    margin-top: auto;
-    margin-bottom: 0;
+    width: 48%;
+    margin-top: 54px;
+    margin-bottom: auto;
     margin-right: auto;
     margin-left: 0;
   }
   .voice__content img {
-    width: 440px;
+    width: 100%;
     border-radius: 8px;
   }
 
@@ -14910,7 +14910,6 @@ body.fixed {
   }
   .i-recruit__value__composes {
     background-color: #FFFFFF;
-    width: 720px;
     border-radius: 8px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     margin: auto;
@@ -15204,18 +15203,18 @@ body.fixed {
     margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
   }
   .i-recruit__feature__item {
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
     background-color: #FFF;
     border-radius: 8px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   }
   .i-recruit__feature__item__img {
     width: 50%;
-    min-height: 160px;
-    margin: 4px 0 8px;
+    min-height: 200px;
+    margin: 0px 0 8px;
     padding: 4px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -15229,9 +15228,9 @@ body.fixed {
     height: auto;
     margin: 0px auto;
     padding: 8px 0 0;
+    text-align: center;
   }
   .i-recruit__feature__item__title p {
-    text-align: center;
     font-weight: 500;
   }
   .i-recruit__feature__item__desc p {
@@ -15247,16 +15246,18 @@ body.fixed {
   }
   .i-recruit__position {
     padding: 80px 0 120px;
+    margin: 0 128px;
   }
   .i-recruit__position__content {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 32px 128px 0;
+    margin: 0 128px 0;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
   }
   .i-recruit__position__list {
-    width: calc((100% - 128px) / 3);
-    height: auto;
-    margin: 32px 16px 0 16px;
     padding: 32px;
     background-color: #FAFAFA;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);

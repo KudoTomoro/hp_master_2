@@ -113,7 +113,7 @@
             </div>
 
             <div class='l-product__content__cell l-product__content__parts__cell'>
-                <a href='https://hi-blockchain.world/' target='_blank'>
+                <a href='https://pol.techtec.world/english' target='_blank'>
                     <div class='l-product__content__parts__image'>
                         <img alt="Hi-Blockchain(ハイブロックチェーン)のデバイス"
                             src="{{ asset('images/product_english.png') }}" />
@@ -124,14 +124,14 @@
                         <p class='l-product__content__desc l-product__content__parts__desc'>ブロックチェーン業界特化の英語コーチングサービス</p>
                         <div class='l-product__content__button l-product__content__parts__button p-product__content__link'>
                             <a class="c-line__button__text" target="_blank"
-                                href="https://hi-blockchain.world/">サービスサイトへ</a>
+                                href="https://pol.techtec.world/english">サービスサイトへ</a>
                         </div>
                     </div>
                 </a>
             </div>
 
             <div class='l-product__content__cell l-product__content__parts__cell'>
-                <a href='https://hi-blockchain.world/' target='_blank'>
+                <a href='https://www.techtec.site/' target='_blank'>
                     <div class='l-product__content__parts__image'>
                         <img alt="Hi-Blockchain(ハイブロックチェーン)のデバイス"
                             src="{{ asset('images/product_writer.png') }}" />
@@ -142,7 +142,7 @@
                         <p class='l-product__content__desc l-product__content__parts__desc'>暗号資産・ブロックチェーン業界でライターになるための学習プラットフォーム</p>
                         <div class='l-product__content__button l-product__content__parts__button p-product__content__link'>
                             <a class="c-line__button__text" target="_blank"
-                                href="https://hi-blockchain.world/">サービスサイトへ</a>
+                                href="https://www.techtec.site/">サービスサイトへ</a>
                         </div>
                     </div>
                 </a>

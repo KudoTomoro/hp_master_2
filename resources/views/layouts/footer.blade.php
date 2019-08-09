@@ -54,11 +54,10 @@
                         <a class="l-footer__content" target="_blank" href="https://pol.techtec.world">PoL(ポル)</a>
                     </li>
                     <li class='l-footer__link'>
-                        <a class="l-footer__content" target="_blank" href="https://techtec.site">techtec</a>
+                        <a class="l-footer__content" target="_blank" href="https://pol.techtec.world/english">PoL 英語コース</a>
                     </li>
                     <li class='l-footer__link'>
-                        <a class="l-footer__content" target="_blank" href="https://hi-blockchain.world/">Hi
-                            Blockchain</a>
+                        <a class="l-footer__content" target="_blank" href="https://www.techtec.site/">PoL ライターコース</a>
                     </li>
                 </ul>
                 <ul>

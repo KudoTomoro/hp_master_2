@@ -43,7 +43,7 @@ Blockchain」を運営しています。')
                             <a class="c-line__button__text" target="_blank" href="https://www.techtec.site/">サービスサイトへ</a>
                         </div> -->
                         <div class='l-contact__button c-line__button'>
-                            <a class="c-line__button__text" href="https://www.techtec.site/">サービスサイトへ</a>
+                            <a class="c-line__button__text" href="https://pol.techtec.world/english">サービスサイトへ</a>
                         </div>
                     </div>
                 </div>
