@@ -13,6 +13,7 @@ import ja from 'vee-validate/dist/locale/ja'
 require('./bootstrap');
 require('./style');
 require('./slick');
+require('./stickyheader');
 
 window.Vue = require('vue');
 Vue.use(Buefy);

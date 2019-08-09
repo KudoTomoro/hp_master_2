@@ -77807,6 +77807,8 @@ __webpack_require__(/*! ./style */ "./resources/js/style.js");
 
 __webpack_require__(/*! ./slick */ "./resources/js/slick.js");
 
+__webpack_require__(/*! ./stickyheader */ "./resources/js/stickyheader.js");
+
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 Vue.use(buefy__WEBPACK_IMPORTED_MODULE_0___default.a);
 Vue.use(vee_validate__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -80737,6 +80739,27 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
     return _;
   };
+});
+
+/***/ }),
+
+/***/ "./resources/js/stickyheader.js":
+/*!**************************************!*\
+  !*** ./resources/js/stickyheader.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var scrollTop = $(window).scrollTop();
+
+    if (scrollTop >= 30) {
+      $("body").addClass("sticky"); // $('.l-header__logo').children('img').attr('src', '{{ asset('images/logo.png') }}');
+    } else {
+      $("body").removeClass("sticky");
+    }
+  });
 });
 
 /***/ }),

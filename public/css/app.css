@@ -12651,6 +12651,49 @@ body.fixed {
     background-size: 12px 12px;
   }
 }
+.l-header__logo-black {
+  display: none;
+}
+
+.sticky header {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  -webkit-transition: 0.9s;
+  　-moz-transition: 0.9s;
+  　-o-transition: 0.9s;
+  　-ms-transition: 0.9s;
+  　transition: 0.9s;
+}
+.sticky header:hover {
+  -webkit-transition: 0.9s;
+  　-moz-transition: 0.9s;
+  　-o-transition: 0.9s;
+  　-ms-transition: 0.9s;
+  　transition: 0.9s;
+}
+.sticky header .btn_tex {
+  color: #fff;
+}
+.sticky header a {
+  color: rgba(51, 51, 51, 0.8);
+}
+.sticky header a:hover {
+  color: #333;
+}
+.sticky header .l-header__logo {
+  display: none;
+}
+.sticky header .l-header__logo-black {
+  display: block;
+}
+.sticky header .l-header__logo-black img {
+  width: auto;
+  height: 32px;
+}
+.sticky main {
+  padding-top: 10em;
+}
+
 @media screen and (max-width: 1024px) {
   .l-header {
     position: fixed;
@@ -14178,6 +14221,12 @@ body.fixed {
   .i-service__client_logo_img {
     height: 40px;
     width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .i-service__client_logo_img_nri {
+    height: 80px;
     display: inline-block;
     vertical-align: middle;
     text-align: center;

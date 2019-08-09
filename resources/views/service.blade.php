@@ -85,6 +85,18 @@
             <img alt="" class="i-service__client_logo_img"
             src="{{ asset('images/01_SERVICE/client_aerial.png') }}" />
           </li>
+          <li>
+            <img alt="" class="i-service__client_logo_img"
+            src="{{ asset('images/01_SERVICE/client_kakakucom.jpg') }}" />
+          </li>
+          <li>
+            <img alt="" class="i-service__client_logo_img"
+            src="{{ asset('images/01_SERVICE/client_kodansha.jpg') }}" />
+          </li>
+          <li>
+            <img alt="" class="i-service__client_logo_img_nri"
+            src="{{ asset('images/01_SERVICE/client_nri.png') }}" />
+          </li>
         </ul>
       </div>
     </section>

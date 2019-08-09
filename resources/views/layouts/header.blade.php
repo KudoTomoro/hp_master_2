@@ -4,6 +4,9 @@
             <a href="/">
                 <img alt="techtecコーポレート" src="@if(Request::url() === route('home') || Request::url() === route('recruit')) {{ asset('images/logo_white.png') }} @else {{ asset('images/logo.png') }}@endif" /></a>
         </div>
+        <div class='l-header__logo-black'>
+            <a href="/"><img alt="techtecコーポレート" src="{{ asset('images/logo.png') }}" /></a>
+        </div>
         <div class='l-header__logo-sp'>
             <a href="/"><img alt="techtecコーポレート" src="{{ asset('images/logo.png') }}" /></a>
         </div>
@@ -34,8 +37,11 @@
             <li class='l-header__link'>
                 <a class="@if(Request::url() === route('home') || Request::url() === route('recruit')) l-top-header__content @else l-header__content @endif" href="/contact">CONTACT</a>
             </li>
-            <li class='l-header__link l-header__btn'>
+            <!-- <li class='l-header__link l-header__btn'>
                 <a class="@if(Request::url() === route('home') || Request::url() === route('recruit')) l-top-header__content @else l-header__content @endif" href="/recruit">RECRUIT</a>
+            </li> -->
+            <li class='l-header__link l-header__btn'>
+                <a class="@if(Request::url() === route('home') || Request::url() === route('recruit')) l-top-header__content @else l-header__content @endif btn_tex" href="/recruit">RECRUIT</a>
             </li>
         </ul>
     </div>
