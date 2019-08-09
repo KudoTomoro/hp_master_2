@@ -1,7 +1,7 @@
 @media screen and (min-width: 769px){
     .c-company {
-        width: 1024px;
-        margin: auto;
+        // width: 1024px;
+        margin: 0 80px;
 
         &__table {
             margin: 0 auto;
@@ -40,7 +40,7 @@
             margin: 80px 0 0;
             padding: 64px;
             background-color: #FAFAFA;
-            border-radius: 8px;
+            // border-radius: 8px;
 
             & .l-body__title {
                 text-align: left;
@@ -70,7 +70,7 @@
                 height: 160px;
                 object-fit: cover;
                 object-position: center;
-                border-radius: 8px;
+                // border-radius: 8px;
             }
         }
     }
@@ -87,7 +87,7 @@
 
             & img {
                 width: auto;
-                height: 48px;
+                height: 60px;
                 margin: 0 24px;
             }
         }
@@ -172,7 +172,7 @@
             margin: 64px 20px 0;
             padding: 32px 24px;
             background-color: #FAFAFA;
-            border-radius: 8px;
+            // border-radius: 8px;
 
             & .l-body__title {
                 text-align: left;
@@ -204,7 +204,7 @@
                 margin: 16px 0 0;
                 object-fit: cover;
                 object-position: center;
-                border-radius: 8px;
+                // border-radius: 8px;
             }
         }
     }

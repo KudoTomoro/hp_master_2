@@ -12,8 +12,8 @@
                     src="{{ asset('images/00_HOME/firstview02.jpg') }}" />
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
                     src="{{ asset('images/00_HOME/firstview03.jpg') }}" />
-                <!-- <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
-                    src="{{ asset('images/img_top_eyecatch_03.jpg') }}" /> -->
+                <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
+                    src="{{ asset('images/img_top_eyecatch_03.jpg') }}" />
             </div>
         </div>
     </section>
@@ -234,11 +234,11 @@
 
         </div>
         <div class='l-partner__icon l-body__content'>
-          <img alt="brave" class="l-exposure__content_img"
+          <img alt="brave" class="l-partner__icon_img"
           src="{{ asset('images/partner_brave.png') }}" />
-          <img alt="maker" class="l-exposure__content_img"
+          <img alt="maker" class="l-partner__icon_img"
           src="{{ asset('images/partner_maker.png') }}" />
-          <img alt="primas" class="l-exposure__content_img"
+          <img alt="primas" class="l-partner__icon_img"
           src="{{ asset('images/partner_primas.png') }}" />
         </div>
 

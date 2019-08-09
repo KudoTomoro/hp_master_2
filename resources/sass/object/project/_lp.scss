@@ -2,12 +2,13 @@
 // @media screen and (min-width: 1025px){
     .l-main {
         position: relative;
-        // padding: 208px 120px 256px;
+        // padding: 208px 120px 160px;
 
         &__title {
           width:100%;
-            text-align: center;
-            // margin:auto;
+            // text-align: center;
+            // margin:0 80px;
+            padding: 0 80px;
             font-size: 64px;
             font-style: italic;
             font-weight: 800;
@@ -58,14 +59,14 @@
     .l-mission {
         position: relative;
         z-index: 5;
-        top: -200px;
-        // left: 128px;
-        // right: 128px;
-        width: calc(100% - 256px);
-        margin: 0 128px -16px;
+        top: -150px;
+        // left: 80px;
+        // right: 80px;
+        width: calc(100% - 160px);
+        margin: 0 80px -16px;
         padding: 64px;
         background-color: #FFF;
-        border-radius:8px;
+        // border-radius: 8px;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
 
         &__title {
@@ -95,13 +96,13 @@
     .l-service {
         padding: 80px 0;
 
-        background-color: #FF6A00;
+        background: linear-gradient(0deg,#fff,#fff 40%,#FF6A00 0,#FF6A00);
         &__content {
-          position:relative;
+            position:relative;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin: 80px 128px 0;
+            margin: 80px 80px 0;
 
             &__body {
                 width: calc((100% - 64px) / 3);
@@ -109,7 +110,7 @@
 
                 padding: 30px 4% 20px;
                 background-color: #FFF;
-                border-radius:8px;
+                // border-radius: 8px;
                 box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
                 text-align: center;
                 position:relative;
@@ -168,17 +169,17 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            margin: 80px 128px 0;
+            margin: 80px 80px 0;
 
 
             &__cell {
                 position: relative;
                 // height: 440px;
-                max-height: 40%;
+                max-height: 35%;
                 padding: 48px;
                 background-color: #FFF;
                 box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
-                border-radius: 8px;
+                // border-radius: 8px;
                 cursor: pointer;
                 transition: 0.4s;
                 -webkit-transition: 0.4s;
@@ -229,7 +230,7 @@
             }
 
             &__bg {
-                border-radius:8px;
+                // border-radius: 8px;
                 position: absolute;
                 z-index: 1;
                 top: 0;
@@ -247,10 +248,10 @@
             &__pol {
                 &__cell {
                     width: 100%;
-                    margin: 0 0 32px;
+                    margin: 0 0 20px;
                     padding: 32px 32px;
                     & img{
-                      border-radius: 8px;
+                      // border-radius: 8px;
                     }
                 }
                 &__logo {
@@ -285,7 +286,7 @@
                 &__cell {
                   // max-width: 320px;
                     // position: relative;
-                    width: 30%;
+                    width: 32%;
                     padding: 0;
                 }
                 &__image {
@@ -293,7 +294,7 @@
                       width: 100%;
                       height: auto;
 
-                        border-radius: 8px 8px 0 0;
+                        // border-radius: 8px 8px 0 0;
                     }
                 }
                 &__text {
@@ -312,7 +313,7 @@
 
     .l-community{
       padding: 80px 0;
-      margin: 0 128px;
+      margin: 0 80px;
 
         & .l-body__title {
             text-align: left;
@@ -347,7 +348,7 @@
                 height: 100%;
                 object-fit: cover;
                 object-position: center;
-                border-radius: 8px;
+                // border-radius: 8px;
             }
 
             &__label {
@@ -375,7 +376,7 @@
 
     .l-partner {
         padding: 80px 0;
-        margin: 0 128px;
+        margin: 0 80px;
 
         & .l-body__title {
             text-align: left;
@@ -398,16 +399,17 @@
           flex-wrap: wrap;
           justify-content: center;
           // width: calc(100% - 160px);
-          margin: 30px;
-          padding: 24px;
+          margin: 30px 0;
+          // padding: 24px;
           background-color: #FFF;
 
 
-          &__image {
+          &_img {
             // float:left;
             width: auto;
-            height: 48px;
+            height: 60px;
             margin: 32px;
+            // margin: 30px;
           }
           &_middle{
             display: none;
@@ -424,11 +426,11 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            width: calc(100% - 256px);
-            margin: 64px 128px 0;
+            width: calc(100% - 160px);
+            margin: 64px 80px 0;
             padding: 48px 48px;
             background-color: #FFF;
-            border-radius:8px;
+            // border-radius: 8px;
             box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
 
             &_img {
@@ -496,7 +498,7 @@
 @media screen and (min-width: 1200px) {
     .l-main {
         position: relative;
-        padding: 208px 120px 256px;
+        padding: 180px 120px 160px;
 
         &:before {
             content: "";
@@ -519,6 +521,7 @@
             line-height: 112px;
             letter-spacing: 6.4px;
             color: #FFF;
+           padding: 0 0 48px;
         }
 
         &__eyecatch {
@@ -643,7 +646,7 @@
         margin: 144px 20px 0;
         padding: 16px;
         background-color: #FFF;
-        border-radius:8px;
+        // border-radius: 8px;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
         &__title {
             margin: 24px 0 0;
@@ -680,7 +683,7 @@
                 margin: 32px 0 0;
                 padding: 32px;
                 background-color: #FFF;
-                border-radius:8px;
+                // border-radius: 8px;
                 box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
                 text-align: center;
             }
@@ -729,7 +732,7 @@
                 margin: 32px 0 0;
                 padding: 16px;
                 background-color: #FFF;
-                border-radius: 8px;
+                // border-radius: 8px;
                 box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
             }
 
@@ -790,7 +793,7 @@
             &__pol {
                 &__cell {
                     width: 100%;
-                    // border-radius: 8px;
+                    // // border-radius: 8px;
                 }
                 &__logo {
                     position: relative;
@@ -883,7 +886,7 @@
                 height: 100%;
                 object-fit: cover;
                 object-position: center;
-                border-radius: 8px;
+                // border-radius: 8px;
             }
 
             &__label {
@@ -933,12 +936,12 @@
 
         &__box{
           width: 138.5px;
-          height: 128px;
+          height: 80px;
           // border: solid 1px rgba(0,0,0,0);
-          // border-radius: 8px;
+          // // border-radius: 8px;
           margin: auto;
           // box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
-          line-height: 128px;
+          line-height: 80px;
           text-align: center;
         }
       }
@@ -951,7 +954,7 @@
         & li{
           display: inline-block;
           text-align: center;
-            border-radius: 8px;
+            // border-radius: 8px;
             box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
         }
 
@@ -986,7 +989,7 @@
       }
       &_media{
         background-color: #fff;
-        border-radius: 8px;
+        // border-radius: 8px;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
         margin: 20px;
         display:grid;
