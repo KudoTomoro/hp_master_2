@@ -8,12 +8,12 @@
         <h1 class='l-main__title'>We are the</br>Decentralized </br>Future.</h1>
         <div class='l-main__eyecatch'>
             <div class='l-main_eyecatch_slider'>
+              <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
+              src="{{ asset('images/img_top_eyecatch_03.jpg') }}" />
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
                     src="{{ asset('images/00_HOME/firstview02.jpg') }}" />
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
                     src="{{ asset('images/00_HOME/firstview03.jpg') }}" />
-                <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
-                    src="{{ asset('images/img_top_eyecatch_03.jpg') }}" />
             </div>
         </div>
     </section>
@@ -116,7 +116,7 @@
                 <a href='https://pol.techtec.world/english' target='_blank'>
                     <div class='l-product__content__parts__image'>
                         <img alt="Hi-Blockchain(ハイブロックチェーン)のデバイス"
-                            src="{{ asset('images/product_english.png') }}" />
+                            src="{{ asset('images/02_PRODUCT/product_english.png') }}" />
                     </div>
                     <div class='l-product__content__text l-product__content__parts__text'>
                         <h3 class='l-product__content__title'>PoL 英語コース</h3>
@@ -134,7 +134,7 @@
                 <a href='https://www.techtec.site/' target='_blank'>
                     <div class='l-product__content__parts__image'>
                         <img alt="Hi-Blockchain(ハイブロックチェーン)のデバイス"
-                            src="{{ asset('images/product_writer.png') }}" />
+                            src="{{ asset('images/02_PRODUCT/product_writer.png') }}" />
                     </div>
                     <div class='l-product__content__text l-product__content__parts__text'>
                         <h3 class='l-product__content__title'>PoL ライターコース</h3>
