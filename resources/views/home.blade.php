@@ -9,11 +9,19 @@
         <div class='l-main__eyecatch'>
             <div class='l-main_eyecatch_slider'>
               <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
-              src="{{ asset('images/img_top_eyecatch_03.jpg') }}" />
+              src="{{ asset('images/00_HOME/img_top_eyecatch_03.jpg') }}" />
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
                     src="{{ asset('images/00_HOME/firstview02.jpg') }}" />
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
                     src="{{ asset('images/00_HOME/firstview03.jpg') }}" />
+            </div>
+            <div class='l-main_eyecatch_slider_sp'>
+              <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
+              src="{{ asset('images/00_HOME/img_top_eyecatch_03_sp.jpg') }}" />
+                <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
+                    src="{{ asset('images/00_HOME/firstview02_sp.jpg') }}" />
+                <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
+                    src="{{ asset('images/00_HOME/firstview03_sp.jpg') }}" />
             </div>
         </div>
     </section>
@@ -58,8 +66,8 @@
                     <img alt="人材育成事業"
                         src="{{ asset('images/ic_service_pr_sm.png') }}" />
                 </div>
-                <h3 class='l-service__content__title'>人材育成事業</h3>
-                <p class='l-service__content__explain'>ブロックチェーン人材の育成、英語・中国語などの次世代人材の育成をサポートします。</p>
+                <h3 class='l-service__content__title'>リサーチ事業</h3>
+                <p class='l-service__content__explain'>様々な業界における国内外のブロックチェーン活用事例や動向の調査をサポートします。</p>
                 <div class='l-service__content__body__button c-line__button'>
                     <a class="c-line__button__text" href="/service/human_resource_development">詳しく見る</a>
                 </div>
@@ -69,7 +77,7 @@
                     <img alt="翻訳・採用事業"
                         src="{{ asset('images/ic_service_trans_sm.png') }}" />
                 </div>
-                <h3 class='l-service__content__title'>翻訳・採用事業</h3>
+                <h3 class='l-service__content__title'>翻訳・プロジェクト事業</h3>
                 <p class='l-service__content__explain'>仮想通貨・ブロックチェーンに限らず事業のグローバル対応をサポートします。</p>
                 <div class='l-service__content__body__button c-line__button'>
                     <a class="c-line__button__text" href="/service/translation">詳しく見る</a>
@@ -229,28 +237,38 @@
         </div>
         <div class='l-partner__content l-body__content'>
             <p class='l-partner__content__desc'>
-                techtecチームはグローバルを前提に事業を展開しています。世界の優秀なパートナーたちと切磋琢磨する環境に身を置くことで、圧倒的な成長機会を創り出します。
+                techtecチームはグローバルを前提に事業を展開しています。<br>世界の優秀なパートナーたちと切磋琢磨する環境に身を置くことで、圧倒的な成長機会を創り出します。
             </p>
 
         </div>
         <div class='l-partner__icon l-body__content'>
-          <img alt="brave" class="l-partner__icon_img"
-          src="{{ asset('images/partner_brave.png') }}" />
-          <img alt="maker" class="l-partner__icon_img"
-          src="{{ asset('images/partner_maker.png') }}" />
-          <img alt="primas" class="l-partner__icon_img"
-          src="{{ asset('images/partner_primas.png') }}" />
+          <a href="https://primas.io/" target='_blank'>
+            <img alt="primas" class="l-partner__icon_img"
+            src="{{ asset('images/partner_primas.png') }}" />
+          </a>
+          <a href="https://brave.com/" target='_blank'>
+            <img alt="brave" class="l-partner__icon_img"
+            src="{{ asset('images/partner_brave.png') }}" />
+          </a>
+          <a href="https://makerdao.com/en/" target='_blank'>
+            <img alt="maker" class="l-partner__icon_img"
+            src="{{ asset('images/partner_maker.png') }}" />
+          </a>
+
         </div>
 
         <!-- @media screen and (max-width: 768px) -->
         <!-- <div class='l-partner__icon_middle l-body__content'> -->
           <ul class='l-partner__icon_middle l-body__content'>
-            <li><div class='l-partner__icon__box'><img alt="brave" class="l-partner__icon_middle_img"
-            src="{{ asset('images/partner_brave.png') }}" /></div></li>
-            <li><div class='l-partner__icon__box'><img alt="maker" class="l-partner__icon_middle_img"
-            src="{{ asset('images/partner_maker.png') }}" /></div></li>
-            <li><div class='l-partner__icon__box'><img alt="primas" class="l-partner__icon_middle_img"
-            src="{{ asset('images/partner_primas.png') }}" /></div></li>
+            <li><div class='l-partner__icon__box'><a href="https://primas.io/" target='_blank'><img alt="primas" class="l-partner__icon_middle_img"
+            src="{{ asset('images/partner_primas.png') }}" /></a></div></li>
+
+            <li><div class='l-partner__icon__box'><a href="https://brave.com/" target='_blank'><img alt="brave" class="l-partner__icon_middle_img"
+            src="{{ asset('images/partner_brave.png') }}" /></a></div></li>
+
+            <li><div class='l-partner__icon__box'><a href="https://makerdao.com/en/" target='_blank'><img alt="maker" class="l-partner__icon_middle_img"
+            src="{{ asset('images/partner_maker.png') }}" /></a></div></li>
+
             <li><div class='l-partner__icon__box'><p class='l-partner__content__desc_text'>techtecは常に新しいパートナーをお待ちしております。</p>
               <div class='l-partner__button c-line__button'>
                   <a class="l-partner__button_text c-line__button__text" href="/contact">お問い合わせ</a>
@@ -323,14 +341,14 @@
           src="{{ asset('images/img_exposure_03.png') }}" /></div></li>
           <li><div class="l-exposureMiddle_media_box"><img alt="bridge" class="l-exposureMiddle_media_box_img"
           src="{{ asset('images/media_bridge.png') }}" /></div></li>
-          <li><div class="l-exposureMiddle_media_box"><img alt="mynavi" class="l-exposureMiddle_media_box_img"
-          src="{{ asset('images/media_mynavi.png') }}" /></div></li>
-          <li><div class="l-exposureMiddle_media_box"><img alt="edtechzine" class="l-exposureMiddle_media_box_img"
-          src="{{ asset('images/media_edtechzine.png') }}" /></div></li>
           <li><div class="l-exposureMiddle_media_box"><img alt="money-gendai" class="l-exposureMiddle_media_box_img"
           src="{{ asset('images/media_money-gendai.png') }}" /></div></li>
+          <li><div class="l-exposureMiddle_media_box"><img alt="edtechzine" class="l-exposureMiddle_media_box_img"
+            src="{{ asset('images/media_edtechzine.png') }}" /></div></li>
           <li><div class="l-exposureMiddle_media_box"><img alt="edtechmedia" class="l-exposureMiddle_media_box_img"
           src="{{ asset('images/media_edtechmedia.png') }}" /></div></li>
+          <li><div class="l-exposureMiddle_media_box"><img alt="mynavi" class="l-exposureMiddle_media_box_img"
+            src="{{ asset('images/media_mynavi.png') }}" /></div></li>
           <li><div class="l-exposureMiddle_media_box"><img alt="gendai" class="l-exposureMiddle_media_box_img"
           src="{{ asset('images/media_gendai.png') }}" /></div></li>
           <li><div class="l-exposureMiddle_media_box"><img alt="coinchoice" class="l-exposureMiddle_media_box_img"
@@ -344,23 +362,31 @@
     </section>
 </div>
 
+<div class='l-news'>
+  <div class='l-body__title'>
+    <h2 class='l-body__heading'>NEWS</h2>
+    <p class='l-body__subhead'>ニュース</p>
+  </div>
+</div>
+
 
 <div class='l-recruit'>
     <h2 class='l-recruit__title'>私たちと一緒に働きませんか？</h2>
     <p class='l-recruit__desc'>
-        techtecは常に新しい仲間を募集しています。<br />「メンバーの圧倒的な成長」「プロダクトドリブン」「フラットな組織」<br />上記に少しでも共感してもらえる人は、<br />ぜひ一度オフィスに遊びに来てください！<br /><br />共に、"Decentralizedな未来"を創りませんか？
+        <!-- techtecは常に新しい仲間を募集しています。<br />「メンバーの圧倒的な成長」「プロダクトドリブン」「フラットな組織」<br />上記に少しでも共感してもらえる人は、<br />ぜひ一度オフィスに遊びに来てください！<br /><br />共に、"Decentralizedな未来"を創りませんか？ -->
+        techtecは常に新しい仲間を募集しています。</br>「チームの圧倒的な成長」「ユーザーファースト」「グローバル」</br>上記に少しでも共感してもらえる人は、</br>ぜひ一度オフィスに遊びに来てください！</br>共に、"Decentralizedな未来"を創りませんか？
     </p>
     <!-- <div class='l-recruit__button c-line__button c-line__button_white'>
         <a class="c-line__button__text c-line__button_white__text" href="/recruit">採用情報</a>
     </div> -->
     <div>
-      <a href="/recruit">
+      <a target="_blank"　href="/recruit">
         <img alt="recruit" class="l-recruit__banner__pc"
         src="{{ asset('images/HOME_RECRUITMENT.png') }}" />
       </a>
     </div>
     <div>
-      <a href="/recruit">
+      <a target="_blank"　href="/recruit">
         <img alt="recruit" class="l-recruit__banner__sp"
         src="{{ asset('images/SP_HOME_RECRUITMENT.png') }}" />
       </a>

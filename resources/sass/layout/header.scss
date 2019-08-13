@@ -65,7 +65,7 @@
                 }
             }
             &:hover {
-                background-color: rgba(255,255,255,0.7);
+                background-color: rgba(255,255,255,1);
                 // opacity:0.4;
                 & a {
                     color:#FF6A00;
@@ -275,5 +275,21 @@
             }
         }
 
+
     }
+
+    .sticky {
+
+      header {
+        // .l-header__logo{
+        //   display: none;
+        // }
+        .l-header__logo-black{
+          display:none;
+        }
+
+      }
+    }
+
+
 }

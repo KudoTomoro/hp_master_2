@@ -7,7 +7,7 @@
     <div class='c-company'>
         <section>
             <div class='c-body__title'>
-                <h2 class='c-body__heading'>COMPANY</h2>
+                <h1 class='c-body__heading'>COMPANY</h1>
                 <p class='c-body__subhead'>会社情報</p>
             </div>
             <div class='c-company__info'>
@@ -45,7 +45,7 @@
                             取引先
                             <span>(※一部抜粋、順不同)</span>
                         </td>
-                        <td class='c-company__content'>朝日インタラクティブ株式会社</br>株式会社リクルート</br>株式会社J-WAVE</td>
+                        <td class='c-company__content'>朝日インタラクティブ株式会社</br>株式会社カカクコム</br>株式会社講談社</br>株式会社J-WAVE</br>株式会社野村総合研究所</br>株式会社リクルート</td>
                     </tr>
                 </table>
                 <div class='c-office__info'>
@@ -81,13 +81,21 @@
             <h2 class='l-body__heading'>PARTNER</h2>
             <span class='l-body__subhead'>パートナー</span>
         </div>
+      
         <div class='i-partner__logo'>
-            <img alt="PRIMAS"
-                src="{{ asset('images/partner_brave.png') }}" />
-            <img alt="withB"
-                src="{{ asset('images/partner_maker.png') }}" />
-            <img alt="LIFULL HUB"
-                src="{{ asset('images/partner_primas.png') }}" />
+          <a href="https://primas.io/" target='_blank'>
+            <img alt="primas"
+            src="{{ asset('images/partner_primas.png') }}" />
+          </a>
+          <a href="https://brave.com/" target='_blank'>
+            <img alt="brave"
+            src="{{ asset('images/partner_brave.png') }}" />
+          </a>
+          <a href="https://makerdao.com/en/" target='_blank'>
+            <img alt="maker"
+            src="{{ asset('images/partner_maker.png') }}" />
+          </a>
+
         </div>
         <div class='i-partner__content'>
             <!-- <h3 class='i-partner__content__title'>メディアサポート事業 | プロジェクトPR事業 | 翻訳事業</h3> -->

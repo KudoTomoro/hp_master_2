@@ -31,10 +31,10 @@
       padding: 64px;
       background-color: #FFF;
       // border-radius: 8px;
-      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+      box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
       &__title {
-        font-size: 32px;
-        font-weight: 400;
+        font-size: 28px;
+        font-weight: 700;
         line-height: 1.5;
         letter-spacing: 1.6px;
         // color: #333;
@@ -62,7 +62,7 @@
         background-color: #FFFFFF;
         // width: 720px;
         // border-radius: 8px;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+        box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
         margin:auto;
         // margin:0px;
         // margin-left: auto;
@@ -138,6 +138,7 @@
             height: 80px;
             margin: 10px;
             border-radius: 50%;
+            // box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
             box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
           }
           &__name{
@@ -195,6 +196,7 @@
         height: 120px;
         margin: auto;
         border-radius: 50%;
+        // box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
         object-fit: cover;
         object-position: center;
@@ -239,7 +241,7 @@
         &_info {
           display: flex;
         }
-        &__thumb {
+        &_thumb {
           width: 120px;
           height: 120px;
           margin: 0 4px 0 0;
@@ -251,7 +253,7 @@
             object-position: center;
             background-color: #FFF;
             border-radius: 50%;
-            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+            box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
           }
         }
         &_text {
@@ -278,7 +280,7 @@
             margin: 0 12px 0 0;
           }
         }
-        &__content {
+        &_content {
           max-height: 112px;
           overflow-y: scroll;
           margin: 32px 80px 0;
@@ -308,9 +310,9 @@
       background-color: #FAFAFA;
       &__content {
         margin: 64px 80px 0;
-        padding: 48px;
+        padding: 48px 48px 60px;
         background-color: #FFF;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+        // box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
         // border-radius: 8px;
         &__text{
           width: 600px;
@@ -319,8 +321,8 @@
         &_img{
           // position: relative;
           // height: 100vh;
-          width: 300px;
-          height: 750px;
+          width: 360px;
+          // height: 750px;
           margin:0 24px 16px 0;
           float: left;
           &_picture{
@@ -390,7 +392,7 @@
         width: 100%;
         background-color: #FFF;
         // border-radius: 8px;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+        box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
         &__thumb{
 
         }
@@ -452,7 +454,8 @@
 
         padding: 32px;
         background-color: #FAFAFA;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+        // box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
         // border-radius: 8px;
         &__title {
           text-align: center;
@@ -506,7 +509,7 @@
       margin: 0 20px;
       padding:16px;
       background-color: #FFF;
-      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+      box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
       // border-radius: 8px;
       &__title {
         font-size: 20px;
@@ -602,6 +605,7 @@
             height: 40px;
             margin: 5px;
             border-radius: 50%;
+            // box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
             box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
           }
           &__name{
@@ -658,6 +662,7 @@
         width: 120px;
         height: 120px;
         margin: auto;
+        // box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
         border-radius: 50%;
         object-fit: cover;
@@ -711,7 +716,7 @@
             object-fit: cover;
             object-position: center;
             border-radius: 50%;
-            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+            box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
           }
         }
         &_text {
@@ -835,7 +840,7 @@
         // padding: 0 4px;
         background-color: #FFF;
         // border-radius: 8px;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+        box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
 
         &__img{
           width:100%;
@@ -887,6 +892,7 @@
         margin: 24px 0 0;
         padding: 24px;
         background-color: #FAFAFA;
+        // box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
         // border-radius: 8px;
         &__title {

@@ -8,7 +8,7 @@
     <div class='c-contact'>
         <section>
             <div class='c-body__title c-contact__title'>
-                <h2 class='c-body__heading'>CONTACT</h2>
+                <h1 class='c-body__heading'>CONTACT</h1>
                 <span class='c-body__subhead'>一緒にできること</span>
             </div>
             <p class='c-contact__text'>株式会社techtecに関するお問い合わせや採用、</br>その他パートナーシップや取材に関するご相談は以下よりお願いいたします。</p>

@@ -78,7 +78,7 @@
           <div class='i-recruit__technologystack__content'>
 
             <div class="i-recruit__technologystack__category development">
-              <p class="i-recruit__technologystack__category_title">開発</p>
+              <h3 class="i-recruit__technologystack__category_title">開発</h3>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="sass"
                 src="{{ asset('images/technologystack/sass.png') }}" />
@@ -97,7 +97,7 @@
             </div>
 
             <div class="i-recruit__technologystack__category support">
-              <p class="i-recruit__technologystack__category_title">開発支援</p>
+              <h3 class="i-recruit__technologystack__category_title">開発支援</h3>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="bulma"
                 src="{{ asset('images/technologystack/bulma.png') }}" />
@@ -122,7 +122,7 @@
 
             </div>
             <div class="i-recruit__technologystack__category infra">
-              <p class="i-recruit__technologystack__category_title">インフラ</p>
+              <h3 class="i-recruit__technologystack__category_title">インフラ</h3>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="redis"
                 src="{{ asset('images/technologystack/redis.png') }}" />
@@ -182,7 +182,7 @@
             </div>
 
             <div class="i-recruit__technologystack__category business_design">
-              <p class="i-recruit__technologystack__category_title">ビジネス・デザイン</p>
+              <h3 class="i-recruit__technologystack__category_title">ビジネス・デザイン</h3>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="google drive"
                 src="{{ asset('images/technologystack/google drive.png') }}" />
@@ -247,12 +247,12 @@
                     <h3 class='i-recruit__team__name'>Ayaka Ei</h3>
                     <p class='i-recruit__team__role'>Engineer</p>
                 </div>
-                <div class='i-recruit__team__list' data-id='4'>
+                <!-- <div class='i-recruit__team__list' data-id='4'>
                     <img class="i-recruit__team__thumb" alt="Ryo Suzuki | Engineer"
                         src="{{ asset('images/member_ryo_suzuki.png') }}" />
                     <h3 class='i-recruit__team__name'>Ryo Suzuki</h3>
                     <p class='i-recruit__team__role'>Engineer</p>
-                </div>
+                </div> -->
                 <div class='i-recruit__team__list' data-id='5'>
                     <img class="i-recruit__team__thumb" alt="Masa Cho | Global Alliance Director"
                         src="{{ asset('images/member_masa_cho.png') }}" />
@@ -277,23 +277,41 @@
                     <h3 class='i-recruit__team__name'>Yumi Fujisawa</h3>
                     <p class='i-recruit__team__role'>Global Alliance Manage</p>
                 </div>
-                <div class='i-recruit__team__list' data-id='8'>
-                    <img class="i-recruit__team__thumb" alt="Yumi Fujisawa | Global Alliance Manager"
+                <div class='i-recruit__team__list' data-id='9'>
+                    <img class="i-recruit__team__thumb" alt="Takuya Watahiki | Engineer"
                         src="{{ asset('images/04_RECRUIT/team_watahiki.jpg') }}" />
                     <h3 class='i-recruit__team__name'>Takuya Watahiki</h3>
                     <p class='i-recruit__team__role'>Engineer</p>
                 </div>
-                <div class='i-recruit__team__list' data-id='8'>
-                    <img class="i-recruit__team__thumb" alt="Yumi Fujisawa | Global Alliance Manager"
+                <div class='i-recruit__team__list' data-id='10'>
+                    <img class="i-recruit__team__thumb" alt="Leon Watanabe | Blockchain Researcher"
                         src="{{ asset('images/04_RECRUIT/team_watanabe.jpg') }}" />
                     <h3 class='i-recruit__team__name'>Leon Watanabe</h3>
                     <p class='i-recruit__team__role'>Blockchain Researcher</p>
                 </div>
-                <div class='i-recruit__team__list' data-id='8'>
-                    <img class="i-recruit__team__thumb" alt="Yumi Fujisawa | Global Alliance Manager"
+                <div class='i-recruit__team__list' data-id='11'>
+                    <img class="i-recruit__team__thumb" alt="Tomoro Kudo | Designer"
+                        src="{{ asset('images/04_RECRUIT/team_kudo.jpg') }}" />
+                    <h3 class='i-recruit__team__name'>Tomoro Kudo</h3>
+                    <p class='i-recruit__team__role'>Designer</p>
+                </div>
+                <div class='i-recruit__team__list' data-id='12'>
+                    <img class="i-recruit__team__thumb" alt="PoL Community | Ambassador"
+                        src="{{ asset('images/04_RECRUIT/team_pol-community.png') }}" />
+                    <h3 class='i-recruit__team__name'>PoL Community</h3>
+                    <p class='i-recruit__team__role'>Ambassador</p>
+                </div>
+                <div class='i-recruit__team__list' data-id='13'>
+                    <img class="i-recruit__team__thumb" alt="Elice"
                         src="{{ asset('images/04_RECRUIT/team_elice.png') }}" />
                     <h3 class='i-recruit__team__name'>Elice</h3>
-                    <p class='i-recruit__team__role'>Elice</p>
+                    <p class='i-recruit__team__role'>Brand Artist</p>
+                </div>
+                <div class='i-recruit__team__list' data-id='14'>
+                    <img class="i-recruit__team__thumb" alt="You"
+                        src="{{ asset('images/04_RECRUIT/team_you.png') }}" />
+                    <h3 class='i-recruit__team__name'>You</h3>
+                    <!-- <p class='i-recruit__team__role'>You</p> -->
                 </div>
                 <!-- <div class='i-recruit__team__list' data-id='9'>
                     <img class="i-recruit__team__thumb" alt="and you"
@@ -322,15 +340,13 @@
               </div>
 
               <div class='i-recruit__message__content__text'>
-                <h3 class='i-recruit__message__heading'>個人の時代はさらに加速する</h3>
+                <h3 class='i-recruit__message__heading'>価値の対価は労働だけではない</h3>
                 <div class='i-recruit__message__desc'>
-                  <p>「副業推奨」「フリーランス」「リモートワーク」...</p>
-                  <p>今後ますます、個人を中心とした社会は加速していきます。</p>
-                  <p>techtecには、「年功序列」「定時出勤、定時退社」...こういった従来の固定観念に囚われた働き方に違和感を感じたメンバーが集まり、次世代の社会に最適なプロダクトの開発を進めています。</p>
-                  <p>また、理想とする社会を実現すべく、ブロックチェーンを駆使した教育・人材事業に注力しています。</p>
-                  <p>ブロックチェーンには「非中央集権」というテーマが存在し、それは従来の型にはまったあらゆるものを刷新し、より個人を重視した社会を作り上げるためのテクノロジーです。</p>
-                  <p>人工知能やブロックチェーンなどのテクノロジーがリードする次世代社会においては、日本のような階層型組織や時間に縛られたワークスタイルは全く機能しなくなります。</p>
+                  <p>インターネット、とりわけブロックチェーンが普及した時代では、世界中のボーダレス化が益々加速します。</p>
+                  <p>そんな未来の社会では、価値の対価は必ずしも労働だけではなくなると考えています。</p>
                   <p>techtecでは、「個人の成長をサポートし、誰もが自由に生きていける世界を作る。」というミッションの元、あらゆる人材が個人として活躍できる社会の実現を目指します。</p>
+                  <p>動画配信するだけで、ゲームするだけで、そして学習するだけで報酬がもらえる...<br>そんな世界を創るために、あなたもtechtecチームに入りませんか？</p>
+
                 </div>
                 <!-- <p class='i-recruit__message__name'>代表取締役 田上智裕</p> -->
               </div>
@@ -368,7 +384,7 @@
                     src="{{ asset('images/04_RECRUIT/feature02.jpg') }}" />
                   </div>
                   <div class='i-recruit__feature__item__title'>
-                    <p>成長をサポート</p>
+                    <h3>成長をサポート</h3>
                   </div>
                   <div class='i-recruit__feature__item__desc'>
                     <p>techtecチームのミッションである「個人の成長」をサポートするために、まずはチームの成長を何よりも優先して考えます。</p>
@@ -384,7 +400,7 @@
                   <img class='i-recruit__feature__item__img environment_2' alt="environment_2"
                   src="{{ asset('images/04_RECRUIT/feature04.jpeg') }}" />
                   <div class='i-recruit__feature__item__title'>
-                    <p>働きやすさを重視</p>
+                    <h3>働きやすさを重視</h3>
                   </div>
                   <div class='i-recruit__feature__item__desc'>
                     <p>次世代のテクノロジーファーストな事業を展開しているため、働きやすさも”モダン”にアップデートが進んでいます。具体的には、フレックスタイム制の導入やお昼寝推奨の社風などがあげられます。</p><p>また、休日働く替わりに平日休む「振替休暇」の制度も実施しています。もちろん服装は自由です。</p>
@@ -399,7 +415,7 @@
                   <img class='i-recruit__feature__item__img office_2' alt="office_2"
                   src="{{ asset('images/04_RECRUIT/feature06.jpg') }}" />
                   <div class='i-recruit__feature__item__title'>
-                    <p>快適なオフィス環境</p>
+                    <h3>快適なオフィス環境</h3>
                   </div>
                   <div class='i-recruit__feature__item__desc'>
                     <p>毎日でも来たくなる会社を目指して、1日の大部分を過ごすオフィス環境も充実させています。1Fには健康食に定評のある社食が、作業スペースにはウォーターサーバーとオフィスコンビニがあります。</p><p>また、宅配物もオフィスに届けてOKです。50名以上が着席可能なイベントスペースもあるため、社内外でのイベント開催も自由に行うことができます。</p>
@@ -414,7 +430,7 @@
                   <img class='i-recruit__feature__item__img guest_2' alt="guest_2"
                   src="{{ asset('images/04_RECRUIT/feature08.png') }}" />
                   <div class='i-recruit__feature__item__title'>
-                    <p>業界の著名人に話が聞ける</p>
+                    <h3>業界の著名人に話が聞ける</h3>
                   </div>
                   <div class='i-recruit__feature__item__desc'>
                     <p>techtecチームの運営するオンライン学習サービス「PoL(ポル)」は、独自トークンを組み込んだ日本初の学習サービスです。</p><p>ブロックチェーン業界での認知度は非常に高く、techtecチームの横の繋がりが広いことが特徴的です。業界のキーパーソンを紹介する社内ブログでは、毎回豪華な方々に登場してもらっています。</p>
@@ -540,7 +556,7 @@
     <div class='i-recruit__team__modal_info'>
         <div class='i-recruit__team__modal_thumb'>
             <img class="i-recruit__team__modal_thumb_img" alt="Tomohiro Tagami | CEO / Product Manager"
-                src="{{ asset('images/tomohiro_tagami.jpg') }}" />
+                src="{{ asset('images/team_tagami.jpg') }}" />
         </div>
         <div class='i-recruit__team__modal_text'>
             <p class='i-recruit__team__modal_role'>CEO / Product Manager</p>
@@ -576,7 +592,7 @@
     <div class='i-recruit__team__modal_info'>
         <div class='i-recruit__team__modal_thumb'>
             <img class="i-recruit__team__modal_thumb_img" alt="Ryosuke Hashimoto | Engineer"
-                src="{{ asset('images/ryosuke_hashimoto.jpg') }}" />
+                src="{{ asset('images/member_ryosuke_hashimoto.png') }}" />
         </div>
         <div class='i-recruit__team__modal_text'>
             <p class='i-recruit__team__modal_role'>Engineer</p>
@@ -606,7 +622,7 @@
     <div class='i-recruit__team__modal_info'>
         <div class='i-recruit__team__modal_thumb'>
             <img class="i-recruit__team__modal_thumb_img" alt="Ayaka Ei | Engineer"
-                src="{{ asset('images/ayaka_ei.jpg') }}" />
+                src="{{ asset('images/member_ayaka_ei.png') }}" />
         </div>
         <div class='i-recruit__team__modal_text'>
             <p class='i-recruit__team__modal_role'>Engineer</p>
@@ -667,7 +683,7 @@
     <div class='i-recruit__team__modal_info'>
         <div class='i-recruit__team__modal_thumb'>
             <img class="i-recruit__team__modal_thumb_img" alt="Masa Cho | Global Alliance Director"
-                src="{{ asset('images/masa_cho.jpg') }}" />
+                src="{{ asset('images/member_masa_cho.png') }}" />
         </div>
         <div class='i-recruit__team__modal_text'>
             <p class='i-recruit__team__modal_role'>Global Alliance Director</p>
@@ -690,7 +706,7 @@
     <div class='i-recruit__team__modal_info'>
         <div class='i-recruit__team__modal_thumb'>
             <img class="i-recruit__team__modal_thumb_img" alt="Maya Sause | English Conversation Specialist"
-                src="{{ asset('images/maya_sause.jpg') }}" />
+                src="{{ asset('images/member_maya_sause.png') }}" />
         </div>
         <div class='i-recruit__team__modal_text'>
             <p class='i-recruit__team__modal_role'>English Conversation Specialist</p>
@@ -712,7 +728,7 @@
     <div class='i-recruit__team__modal_info'>
         <div class='i-recruit__team__modal_thumb'>
             <img class="i-recruit__team__modal_thumb_img" alt="Shinji Yamasaki | Engineer"
-                src="{{ asset('images/shinji_yamasaki.jpg') }}" />
+                src="{{ asset('images/member_shinji_yamasaki.png') }}" />
         </div>
         <div class='i-recruit__team__modal_text'>
             <p class='i-recruit__team__modal_role'>Engineer</p>
@@ -734,7 +750,7 @@
     <div class='i-recruit__team__modal_info'>
         <div class='i-recruit__team__modal_thumb'>
             <img class="i-recruit__team__modal_thumb_img" alt="Yumi Fujisawa | Global Alliance Manager"
-                src="{{ asset('images/yumi_fujisawa.jpg') }}" />
+                src="{{ asset('images/member_yumi_fujisawa.png') }}" />
         </div>
         <div class='i-recruit__team__modal_text'>
             <p class='i-recruit__team__modal_role'>Global Alliance Manager</p>
@@ -753,6 +769,161 @@
         <p>
             経営コンサルを手掛ける会社でベンチャー秘書を経験後、カンボジアに渡りマーケティングやコミュニティマネジメントに従事。グローバル志向とブロックチェーンの未来に惹かれ、
             ヨーロッパへ拠点を移すタイミングでtechtecへジョイン。techtecのグローバルアライアンスを強化すべく、ベルリンを拠点に稼働中。
+        </p>
+    </div>
+</div>
+<div class='i-recruit__team__modal' data-id='9'>
+    <div class='i-recruit__team__modal_close'>
+        <img class="i-recruit__team__modal_close_img"
+            src="{{ asset('images/ic_close_modal.png') }}"
+            alt="Ic close modal" />
+    </div>
+    <div class='i-recruit__team__modal_info'>
+        <div class='i-recruit__team__modal_thumb'>
+            <img class="i-recruit__team__modal_thumb_img" alt="Takuya Watahiki | Engineer"
+                src="{{ asset('images/04_RECRUIT/team_watahiki.jpg') }}" />
+        </div>
+        <div class='i-recruit__team__modal_text'>
+            <p class='i-recruit__team__modal_role'>Engineer</p>
+            <h3 class='i-recruit__team__modal_name'>Takuya Watahiki</h3>
+            <ul class='i-recruit__team__modal_sns'>
+                <!-- <li class='i-recruit__team__modal_sns_item'>
+                    <a href='https://www.linkedin.com/in/yumi-fujisawa/' target='_blank'>
+                        <img class="i-recruit__team__modal_sns_img" alt="Takuya Watahiki"
+                            src="{{ asset('images/ic_linkedin.svg') }}" />
+                    </a>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <div class='i-recruit__team__modal_content'>
+        <p>
+            マレーシアでAndoid/iOSアプリの開発を経験後、帰国してLaravelやVue.jsを使ったWeb開発に従事。
+            ブロックチェーンの台頭に興味を抱き、SolidityでのDapps開発を趣味で始めたことからより深く知見を溜めたいと思い始め、techtecにジョイン。サーバサイドからフロントエンドまで幅広くこなしている。
+        </p>
+    </div>
+</div>
+<div class='i-recruit__team__modal' data-id='10'>
+    <div class='i-recruit__team__modal_close'>
+        <img class="i-recruit__team__modal_close_img"
+            src="{{ asset('images/ic_close_modal.png') }}"
+            alt="Ic close modal" />
+    </div>
+    <div class='i-recruit__team__modal_info'>
+        <div class='i-recruit__team__modal_thumb'>
+            <img class="i-recruit__team__modal_thumb_img" alt="Leon Watanabe | Blockchain Researcher"
+                src="{{ asset('images/04_RECRUIT/team_watanabe.jpg') }}" />
+        </div>
+        <div class='i-recruit__team__modal_text'>
+            <p class='i-recruit__team__modal_role'>Blockchain Researcher</p>
+            <h3 class='i-recruit__team__modal_name'>Leon Watanabe</h3>
+            <ul class='i-recruit__team__modal_sns'>
+                <li class='i-recruit__team__modal_sns_item'>
+                    <a href='https://twitter.com/nabe_leo' target='_blank'>
+                        <img class="i-recruit__team__modal_sns_img" alt="Leon Watanabe | Twitter"
+                            src="{{ asset('images/ic_twitter.svg') }}" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class='i-recruit__team__modal_content'>
+        <p>
+            高校在学時よりブロックチェーンに興味を持ち始め、大学進学と同時に早稲田大学のブロックチェーンサークルBitBearsに身を置く。
+            本格的にブロックチェーンにコミットしていきたいという想いから、techtecでブロックチェーンリサーチャーとしてのインターンを開始した。
+        </p>
+    </div>
+</div>
+<div class='i-recruit__team__modal' data-id='11'>
+    <div class='i-recruit__team__modal_close'>
+        <img class="i-recruit__team__modal_close_img"
+            src="{{ asset('images/ic_close_modal.png') }}"
+            alt="Ic close modal" />
+    </div>
+    <div class='i-recruit__team__modal_info'>
+        <div class='i-recruit__team__modal_thumb'>
+            <img class="i-recruit__team__modal_thumb_img" alt="Tomoro Kudo | Designer"
+                src="{{ asset('images/04_RECRUIT/team_kudo.jpg') }}" />
+        </div>
+        <div class='i-recruit__team__modal_text'>
+            <p class='i-recruit__team__modal_role'>Designer</p>
+            <h3 class='i-recruit__team__modal_name'>Tomoro Kudo</h3>
+            <ul class='i-recruit__team__modal_sns'>
+                <li class='i-recruit__team__modal_sns_item'>
+                    <a href='https://twitter.com/tomoro_2' target='_blank'>
+                        <img class="i-recruit__team__modal_sns_img" alt="Tomoro Kudo | Twitter"
+                            src="{{ asset('images/ic_twitter.svg') }}" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class='i-recruit__team__modal_content'>
+        <p>
+            高校在学時よりブロックチェーンに興味を持ち始め、大学進学と同時に早稲田大学のブロックチェーンサークルBitBearsに身を置く。
+            本格的にブロックチェーンにコミットしていきたいという想いから、techtecでブロックチェーンリサーチャーとしてのインターンを開始した。
+        </p>
+    </div>
+</div>
+<div class='i-recruit__team__modal' data-id='12'>
+    <div class='i-recruit__team__modal_close'>
+        <img class="i-recruit__team__modal_close_img"
+            src="{{ asset('images/ic_close_modal.png') }}"
+            alt="Ic close modal" />
+    </div>
+    <div class='i-recruit__team__modal_info'>
+        <div class='i-recruit__team__modal_thumb'>
+            <img class="i-recruit__team__modal_thumb_img" alt="PoL Community | Ambassador"
+                src="{{ asset('images/04_RECRUIT/team_pol-community.png') }}" />
+        </div>
+        <div class='i-recruit__team__modal_text'>
+            <p class='i-recruit__team__modal_role'>Ambassador</p>
+            <h3 class='i-recruit__team__modal_name'>PoL Community</h3>
+            <ul class='i-recruit__team__modal_sns'>
+                <li class='i-recruit__team__modal_sns_item'>
+                    <a href='https://medium.com/techtec' target='_blank'>
+                        <img class="i-recruit__team__modal_sns_img" alt="PoL Community | LinkedIn"
+                            src="{{ asset('images/ic_medium.png') }}" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class='i-recruit__team__modal_content'>
+        <p>
+            コメント：Web3.0の世界では、Webサービスの運営とユーザーの垣根は完全に消滅し、共にサービスの成長にコミットするようになります。
+            PoLでは、次世代の運営スタイルに先駆けて挑戦していきます。PoLはユーザーを代表するアンバサダーの成長に全力でコミットします。
+        </p>
+    </div>
+</div>
+<div class='i-recruit__team__modal' data-id='13'>
+    <div class='i-recruit__team__modal_close'>
+        <img class="i-recruit__team__modal_close_img"
+            src="{{ asset('images/ic_close_modal.png') }}"
+            alt="Ic close modal" />
+    </div>
+    <div class='i-recruit__team__modal_info'>
+        <div class='i-recruit__team__modal_thumb'>
+            <img class="i-recruit__team__modal_thumb_img" alt="Elice"
+                src="{{ asset('images/04_RECRUIT/team_elice.png') }}" />
+        </div>
+        <div class='i-recruit__team__modal_text'>
+            <p class='i-recruit__team__modal_role'>Brand Artist</p>
+            <h3 class='i-recruit__team__modal_name'>Elice</h3>
+            <ul class='i-recruit__team__modal_sns'>
+                <li class='i-recruit__team__modal_sns_item'>
+                    <a href='https://twitter.com/PoL_techtec' target='_blank'>
+                        <img class="i-recruit__team__modal_sns_img" alt="Leon Watanabe | LinkedIn"
+                            src="{{ asset('images/ic_twitter.svg') }}" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class='i-recruit__team__modal_content'>
+        <p>
+            コメント：「学習するほどトークンがもらえる」全く新しいオンライン学習サービス「PoL(ポル)」のブランド担当。本名は「ジェームズ・エリス」。
+            性別はオス。得意なプログラミング言語はJavaScript。尻尾がブロックチェーンになっているのが特徴。先端の黒いブロック「Genesis Block」には50BTC入っているらしい。
         </p>
     </div>
 </div>

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', '翻訳・採用事業 - 株式会社techtec')
+@section('title', '翻訳・プロジェクトPR事業 - 株式会社techtec')
 @section('description',
 '仮想通貨・ブロックチェーンに限らず、近年はグローバル対応が当たり前の時代となりました。翻訳・採用事業ホームページの全面翻訳からイベントの通訳、社内のビジネス英会話研修、外国人採用まで、グローバル展開を幅広くサポートします。英語だけでなく中国語にも対応可能です。')
 
@@ -9,9 +9,9 @@
     <section class='inner'>
         <div class='s-top'>
             <div class='s-top__text'>
-                <h1 class='s-top__title'>翻訳・採用事業</h1>
+                <h1 class='s-top__title'>翻訳・プロジェクトPR事業</h1>
                 <p class='s-top__desc'>
-                    仮想通貨・ブロックチェーンに限らず、近年はグローバル対応が当たり前の時代となりました。ホームページの全面翻訳からイベントの通訳、社内のビジネス英会話研修、外国人採用まで、グローバル展開を幅広くサポートします。</br>英語だけでなく中国語にも対応可能です。
+                    仮想通貨・ブロックチェーンに限らず、近年はグローバル対応が当たり前の時代となりました。ホームページの全面翻訳からイベントの通訳、社内のビジネス英会話研修、外国人採用まで、グローバル展開を幅広くサポートします。</br>英語だけでなく中国語やインドネシア語にも対応可能です。
                 </p>
             </div>
             <div class='s-top__image'>
@@ -58,9 +58,9 @@
                     <img alt="外国人採用"
                         src="{{ asset('images/ic_service_trans_feat_05.png') }}" />
                 </div>
-                <h3 class='s-help__title'>外国人採用</h3>
+                <h3 class='s-help__title'>ローカライズ対応・各地でのマーケティング</h3>
                 <p class='s-help__desc'>
-                    日本人採用に限界が見え始め積極的な外国人採用が企業の未来を左右する時代となりました。</br>techtecでは、豊富な外国人採用の実績を活かして、採用からVISA対応、研修まで全面的にサポートします。
+                    国内を中心に展開する事業の海外展開をサポートします。各地へのローカライズ対応だけでなく、その後のマーケティング支援一気通貫で行なっています。
                 </p>
             </div>
         </div>
@@ -68,7 +68,7 @@
         <div class='voice'>
           <div class='l-body__title'>
               <h2 class='l-body__heading'>VOICE</h2>
-              <p class='l-body__subhead'>お客様インタビュー</p>
+              <p class='l-body__subhead'>お客様紹介</p>
           </div>
           <div class='voice__content'>
             <div class="voice__content__img voice_img_pc">
@@ -89,6 +89,10 @@
               <a class="c-line__button__text" target="_blank"
                   href="https://www.meti.go.jp/press/2019/04/20190423002/20190423001-1.pdf">「平成30年度産業技術調査事業（国内外の人材流動化促進や研究成果の信頼性確保等に向けた大学・研究機関へのブロックチェーン技術の適用及びその標準獲得に関する調査）報告書」</a>
 
+                  <img alt="recruit" class="voice__content__img_client"
+                  src="{{ asset('images/01_SERVICE/client_recruit.png') }}" />
+                  <p>− 株式会社リクルート <br>　　　キム様、田中様</p>
+
             </div>
           </div>
         </div>
@@ -97,10 +101,10 @@
             <section class='inner'>
                 <div class='l-body__title'>
                     <h2 class='l-body__heading'>CONTACT</h2>
-                    <p class='l-body__subhead'>一緒にできること</p>
+                    <p class='l-body__subhead'>まずはお気軽にお問い合わせください。</p>
                 </div>
                 <div class='l-contact__content'>
-                    まずはお気軽にお問い合わせください。
+
                     <div class='l-contact__button c-line__button'>
                         <a class="c-line__button__text" href="/contact">お問い合わせ</a>
                     </div>

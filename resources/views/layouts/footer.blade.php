@@ -20,10 +20,10 @@
                         <a class="l-footer__content" href="/products">プロダクト一覧</a>
                     </li>
                     <li class='l-footer__link'>
-                        <a class="l-footer__content" href="/company">会社情報</a>
+                      <a class="l-footer__content" target="_blank" href="https://hi-blockchain.world/techtec-news/">ニュース一覧</a>
                     </li>
                     <li class='l-footer__link'>
-                        <a class="l-footer__content" href="https://hi-blockchain.world/techtec-news/">ニュース</a>
+                        <a class="l-footer__content" href="/company">会社情報</a>
                     </li>
                     <li class='l-footer__link'>
                         <a class="l-footer__content" href="/recruit">採用情報</a>
@@ -40,10 +40,10 @@
                         <a class="l-footer__content" href="/service/media_consulting">メディアサポート事業</a>
                     </li>
                     <li class='l-footer__link'>
-                        <a class="l-footer__content" href="/service/human_resource_development">人材育成事業</a>
+                        <a class="l-footer__content" href="/service/human_resource_development">リサーチ事業</a>
                     </li>
                     <li class='l-footer__link'>
-                        <a class="l-footer__content" href="/service/translation">翻訳・採用事業</a>
+                        <a class="l-footer__content" href="/service/translation">翻訳・プロジェクトPR事業</a>
                     </li>
                 </ul>
                 <ul>
@@ -54,10 +54,13 @@
                         <a class="l-footer__content" target="_blank" href="https://pol.techtec.world">PoL(ポル)</a>
                     </li>
                     <li class='l-footer__link'>
-                        <a class="l-footer__content" target="_blank" href="https://pol.techtec.world/english">PoL 英語コース</a>
+                        <a class="l-footer__content" target="_blank" href="https://pol.techtec.world/english">英語コース</a>
                     </li>
                     <li class='l-footer__link'>
-                        <a class="l-footer__content" target="_blank" href="https://www.techtec.site/">PoL ライターコース</a>
+                        <a class="l-footer__content" target="_blank" href="https://www.techtec.site/">ライターコース</a>
+                    </li>
+                    <li class='l-footer__link'>
+                        <a class="l-footer__content" target="_blank" href="https://hi-blockchain.world/">Hi Blockchain</a>
                     </li>
                 </ul>
                 <ul>

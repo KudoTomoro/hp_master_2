@@ -25,7 +25,7 @@
                     <img alt="著名人の紹介"
                         src="{{ asset('/images/ic_service_media_feat_01.png') }}" />
                 </div>
-                <h3 class='s-help__title'>著名人の紹介</h3>
+                <h2 class='s-help__title'>著名人の紹介</h2>
                 <p class='s-help__desc'>まだまだ狭い業界のインサイダーとなるべく、業界の最前線で活躍する著名人を紹介します。<br />インタビュー記事などにご活用ください。</p>
             </div>
             <div class='s-help__cell'>
@@ -33,7 +33,7 @@
                     <img alt="社内ライターの研修"
                         src="{{ asset('/images/ic_service_media_feat_02.png') }}" />
                 </div>
-                <h3 class='s-help__title'>社内ライターの研修</h3>
+                <h2 class='s-help__title'>社内ライターの研修</h2>
                 <p class='s-help__desc'>社内のライターに対して、業界の知識だけでなくSEOやライティングの知識も身に付く研修プログラムを用意しています。</p>
             </div>
             <div class='s-help__cell'>
@@ -41,7 +41,7 @@
                     <img alt="記事広告の斡旋"
                         src="{{ asset('/images/ic_service_media_feat_03.png') }}" />
                 </div>
-                <h3 class='s-help__title'>記事広告の斡旋</h3>
+                <h2 class='s-help__title'>記事広告の斡旋</h2>
                 <p class='s-help__desc'>海外プロジェクトの紹介記事やイベントの告知記事など、良質なネタを提供します。</p>
             </div>
             <div class='s-help__cell'>
@@ -49,7 +49,7 @@
                     <img alt="業界分析レポートの作成"
                         src="{{ asset('/images/ic_service_media_feat_04.png') }}" />
                 </div>
-                <h3 class='s-help__title'>業界分析レポートの作成</h3>
+                <h2 class='s-help__title'>業界分析レポートの作成</h2>
                 <p class='s-help__desc'>techtecリサーチチームによる、全世界の出来事を網羅した業界分析レポートを定期的にお届けします。</p>
             </div>
             <div class='s-help__cell'>
@@ -57,7 +57,7 @@
                     <img alt="海外速報の配信"
                         src="{{ asset('/images/ic_service_media_feat_05.png') }}" />
                 </div>
-                <h3 class='s-help__title'>海外速報の配信</h3>
+                <h2 class='s-help__title'>海外速報の配信</h2>
                 <p class='s-help__desc'>仮想通貨・ブロックチェーン業界のニュースはスピードが命です。海外で起こった出来事を海外の生データで収集し、日本語に翻訳して速報配信します。</p>
             </div>
         </div>
@@ -65,7 +65,7 @@
         <div class='voice'>
           <div class='l-body__title'>
               <h2 class='l-body__heading'>VOICE</h2>
-              <p class='l-body__subhead'>お客様インタビュー</p>
+              <p class='l-body__subhead'>お客様紹介</p>
           </div>
           <div class='voice__content'>
             <div class="voice__content__img voice_img_pc">
@@ -88,6 +88,9 @@
               <a class="c-line__button__text" target="_blank"
                   href="https://hedge.guide/feature/alis-techtec.html">「仮想通貨はコミュニティのハブになる」<br>ALIS × PoL対談、代表2人が語るブロックチェーン業界の未来</a>
 
+                  <img alt="harch" class="voice__content__img_client"
+                  src="{{ asset('images/01_SERVICE/client_harch.png') }}" />
+                  <p>− ハーチ株式会社 加藤様</p>
             </div>
           </div>
         </div>
@@ -96,10 +99,10 @@
             <section class='inner'>
                 <div class='l-body__title'>
                     <h2 class='l-body__heading'>CONTACT</h2>
-                    <p class='l-body__subhead'>一緒にできること</p>
+                    <p class='l-body__subhead'>まずはお気軽にお問い合わせください。</p>
                 </div>
                 <div class='l-contact__content'>
-                    まずはお気軽にお問い合わせください。
+
                     <div class='l-contact__button c-line__button'>
                         <a class="c-line__button__text" href="/contact">お問い合わせ</a>
                     </div>
