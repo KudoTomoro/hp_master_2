@@ -14384,6 +14384,7 @@ body.fixed {
     display: inline-block;
     text-align: center;
     padding: 8px;
+    margin: 24px 0;
   }
   .i-service__client_logo_img {
     height: 32px;

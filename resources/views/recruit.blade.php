@@ -247,12 +247,7 @@
                     <h3 class='i-recruit__team__name'>Ayaka Ei</h3>
                     <p class='i-recruit__team__role'>Engineer</p>
                 </div>
-                <!-- <div class='i-recruit__team__list' data-id='4'>
-                    <img class="i-recruit__team__thumb" alt="Ryo Suzuki | Engineer"
-                        src="{{ asset('images/member_ryo_suzuki.png') }}" />
-                    <h3 class='i-recruit__team__name'>Ryo Suzuki</h3>
-                    <p class='i-recruit__team__role'>Engineer</p>
-                </div> -->
+
                 <div class='i-recruit__team__list' data-id='5'>
                     <img class="i-recruit__team__thumb" alt="Masa Cho | Global Alliance Director"
                         src="{{ asset('images/member_masa_cho.png') }}" />
@@ -265,12 +260,7 @@
                     <h3 class='i-recruit__team__name'>Maya Sause</h3>
                     <p class='i-recruit__team__role'>English Conversation <br/>Specialist</p>
                 </div>
-                <div class='i-recruit__team__list' data-id='7'>
-                    <img class="i-recruit__team__thumb" alt="Shinji Yamasaki | Engineer"
-                        src="{{ asset('images/member_shinji_yamasaki.png') }}" />
-                    <h3 class='i-recruit__team__name'>Shinji Yamasaki</h3>
-                    <p class='i-recruit__team__role'>Engineer</p>
-                </div>
+
                 <div class='i-recruit__team__list' data-id='8'>
                     <img class="i-recruit__team__thumb" alt="Yumi Fujisawa | Global Alliance Manager"
                         src="{{ asset('images/member_yumi_fujisawa.png') }}" />
@@ -879,7 +869,7 @@
     </div>
     <div class='i-recruit__team__modal_content'>
         <p>
-            コメント：Web3.0の世界では、Webサービスの運営とユーザーの垣根は完全に消滅し、共にサービスの成長にコミットするようになります。
+            Web3.0の世界では、Webサービスの運営とユーザーの垣根は完全に消滅し、共にサービスの成長にコミットするようになります。
             PoLでは、次世代の運営スタイルに先駆けて挑戦していきます。PoLはユーザーを代表するアンバサダーの成長に全力でコミットします。
         </p>
     </div>
@@ -910,7 +900,7 @@
     </div>
     <div class='i-recruit__team__modal_content'>
         <p>
-            コメント：「学習するほどトークンがもらえる」全く新しいオンライン学習サービス「PoL(ポル)」のブランド担当。本名は「ジェームズ・エリス」。
+            「学習するほどトークンがもらえる」全く新しいオンライン学習サービス「PoL(ポル)」のブランド担当。本名は「ジェームズ・エリス」。
             性別はオス。得意なプログラミング言語はJavaScript。尻尾がブロックチェーンになっているのが特徴。先端の黒いブロック「Genesis Block」には50BTC入っているらしい。
         </p>
     </div>

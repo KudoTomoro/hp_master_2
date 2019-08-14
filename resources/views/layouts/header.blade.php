@@ -38,7 +38,7 @@
                 <a class="@if(Request::url() === route('home') || Request::url() === route('recruit')) l-top-header__content @else l-header__content @endif" href="/recruit">RECRUIT</a>
             </li> -->
             <li class='l-header__link l-header__btn'>
-                <a class="@if(Request::url() === route('home') || Request::url() === route('recruit')) l-top-header__content @else l-header__content @endif btn_tex" href="/recruit">RECRUIT</a>
+                <a class="@if(Request::url() === route('home') || Request::url() === route('recruit')) l-top-header__content @else l-header__content @endif btn_tex" target="_blank" href="/recruit">RECRUIT</a>
             </li>
         </ul>
     </div>
@@ -71,7 +71,7 @@
                 <a class="l-header__content" href="/contact">CONTACT</a>
             </li>
             <li class='l-header__link l-header__btn'>
-              <a class="l-header__content" href="/recruit">RECRUIT</a>
+              <a class="l-header__content" target="_blank" href="/recruit">RECRUIT</a>
             </li>
         </ul>
     </nav>
