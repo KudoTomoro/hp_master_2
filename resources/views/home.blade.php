@@ -15,19 +15,19 @@
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
                     src="{{ asset('images/00_HOME/firstview03.jpg') }}" />
             </div>
-            <div class='l-main_eyecatch_slider_sp'>
+            <!-- <div class='l-main_eyecatch_slidersp'>
               <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
               src="{{ asset('images/00_HOME/img_top_eyecatch_03_sp.jpg') }}" />
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
                     src="{{ asset('images/00_HOME/firstview02_sp.jpg') }}" />
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
                     src="{{ asset('images/00_HOME/firstview03_sp.jpg') }}" />
-            </div>
+            </div> -->
         </div>
     </section>
 </div>
 <div class='l-mission'>
-    <section>
+    <!-- <section> -->
         <div class='l-body__title'>
             <h2 class='l-body__heading l-body__heading_arrange'>
                 MISSION
@@ -41,7 +41,7 @@
         <div class='l-mission__button c-line__button'>
             <a class="c-line__button__text" href="/recruit">私たちについて</a>
         </div>
-    </section>
+    <!-- </section> -->
 </div>
 <div class='l-service'>
     <section>
@@ -96,13 +96,13 @@
             <div class='l-product__content__cell l-product__content__pol__cell'>
                 <a href='https://pol.techtec.world' target='_blank'>
                     <div class='l-product__content__pol__logo'>
-                        <img alt="PoL(ポル) “学習するほどトークンがもらえる”全く新しい形の総合学習プラットフォーム"
+                        <img alt="PoL(ポル) “学習するほど資産が貯まる”全く新しい形の総合学習プラットフォーム"
                             src="{{ asset('images/logo_pol.png') }}" />
                     </div>
                     <div class='l-product__content__text l-product__content__pol__text'>
                         <h3 class='l-product__content__title'>PoL</h3>
                         <p class='l-product__content__subtitle'>(ポル)</p>
-                        <p class='l-product__content__desc'>“学習するほどトークンがもらえる”<br />全く新しい形の総合学習プラットフォーム</p>
+                        <p class='l-product__content__desc'>“学習するほど資産が貯まる”<br />全く新しい形の総合学習プラットフォーム</p>
                         <div class='l-product__content__button p-product__content__link'>
                             <a class="c-line__button__text" target="_blank"
                                 href="https://pol.techtec.world">サービスサイトへ</a>
@@ -269,11 +269,11 @@
             <li><div class='l-partner__icon__box'><a href="https://makerdao.com/en/" target='_blank'><img alt="maker" class="l-partner__icon_middle_img"
             src="{{ asset('images/partner_maker.png') }}" /></a></div></li>
 
-            <li><div class='l-partner__icon__box'><p class='l-partner__content__desc_text'>techtecは常に新しいパートナーをお待ちしております。</p>
+            <!-- <li><div class='l-partner__icon__box'><p class='l-partner__content__desc_text'>techtecは常に新しいパートナーをお待ちしております。</p>
               <div class='l-partner__button c-line__button'>
                   <a class="l-partner__button_text c-line__button__text" href="/contact">お問い合わせ</a>
               </div>
-            </div></li>
+            </div></li> -->
           </ul>
 
 
@@ -306,18 +306,21 @@
                 src="{{ asset('images/media_mynavi.png') }}" />
             <img alt="edtechzine" class="l-exposure__content_img"
                 src="{{ asset('images/media_edtechzine.png') }}" />
+            <img alt="gendai" class="l-exposure__content_img"
+                    src="{{ asset('images/media_gendai.png') }}" />
+            <img alt="jwave" class="l-exposure__content_img"
+                    src="{{ asset('images/media_j-wave.png') }}" />
+            <img alt="edtechmedia" class="l-exposure__content_img"
+                    src="{{ asset('images/media_edtechmedia.png') }}" />
             <img alt="money-gendai" class="l-exposure__content_img"
                 src="{{ asset('images/media_money-gendai.png') }}" />
-            <img alt="edtechmedia" class="l-exposure__content_img"
-                src="{{ asset('images/media_edtechmedia.png') }}" />
-            <img alt="gendai" class="l-exposure__content_img"
-                src="{{ asset('images/media_gendai.png') }}" />
+
             <img alt="coinchoice" class="l-exposure__content_img"
                 src="{{ asset('images/media_coinchoice.png') }}" />
             <img alt="bitdays" class="l-exposure__content_img"
                 src="{{ asset('images/media_bitdays.png') }}" />
-            <img alt="jwave" class="l-exposure__content_img"
-                src="{{ asset('images/media_j-wave.png') }}" />
+            <!-- <img alt="jwave" class="l-exposure__content_img"
+                src="{{ asset('images/media_j-wave.png') }}" /> -->
         </div>
     </section>
 </div>

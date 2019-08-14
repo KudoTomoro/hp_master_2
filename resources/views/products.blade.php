@@ -23,7 +23,7 @@ Blockchain」を運営しています。')
                         <h3 class='p-product__content__subtitle'>"学習するほど資産が貯まる"<br />全く新しい形の総合学習プラットフォーム</h3>
 
                         <div class='l-contact__button c-line__button'>
-                            <a class="c-line__button__text" href="https://pol.techtec.world/">サービスサイトへ</a>
+                            <a class="c-line__button__text" target="_blank" href="https://pol.techtec.world/">サービスサイトへ</a>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ Blockchain」を運営しています。')
                         <h3 class='p-product__content__subtitle'>ブロックチェーン業界特化の英語コーチングサービス</h3>
 
                         <div class='l-contact__button c-line__button'>
-                            <a class="c-line__button__text" href="https://pol.techtec.world/english">サービスサイトへ</a>
+                            <a class="c-line__button__text" target="_blank" href="https://pol.techtec.world/english">サービスサイトへ</a>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ Blockchain」を運営しています。')
                         <h3 class='p-product__content__subtitle'>暗号資産・ブロックチェーン業界でライターになるための学習プラットフォーム</h3>
 
                         <div class='l-contact__button c-line__button'>
-                            <a class="c-line__button__text" href="https://www.techtec.site/">サービスサイトへ</a>
+                            <a class="c-line__button__text" target="_blank" href="https://www.techtec.site/">サービスサイトへ</a>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ Blockchain」を運営しています。')
                             <a class="c-line__button__text" target="_blank" href="https://hi-blockchain.world/">サービスサイトへ</a>
                         </div> -->
                         <div class='l-contact__button c-line__button'>
-                            <a class="c-line__button__text" href="https://hi-blockchain.world/">サービスサイトへ</a>
+                            <a class="c-line__button__text" target="_blank" href="https://hi-blockchain.world/">サービスサイトへ</a>
                         </div>
                     </div>
                 </div>

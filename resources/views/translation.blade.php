@@ -91,7 +91,7 @@
 
                   <img alt="recruit" class="voice__content__img_client"
                   src="{{ asset('images/01_SERVICE/client_recruit.png') }}" />
-                  <p>− 株式会社リクルート <br>　　　キム様、田中様</p>
+                  <p class="voice__content__img_client_name">− 株式会社リクルート　キム様　田中様</p>
 
             </div>
           </div>

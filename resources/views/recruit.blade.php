@@ -36,7 +36,7 @@
             </div>
             <!-- ここまで -->
 
-            <section>
+            <!-- <section> -->
               <div class='i-recruit__value__composes'>
                 <div class='i-recruit__value__composes_list'>
                   <h3 class='i-recruit__value__composes_list_title'>"Challenge Growth"</h3>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="blank"></div>
               </div>
-            </section>
+            <!-- </section> -->
 
         </div>
 
@@ -310,15 +310,9 @@
                 <div class='i-recruit__team__list' data-id='14'>
                     <img class="i-recruit__team__thumb" alt="You"
                         src="{{ asset('images/04_RECRUIT/team_you.png') }}" />
-                    <h3 class='i-recruit__team__name'>You</h3>
+                    <h3 class='i-recruit__team__name'>and You...</h3>
                     <!-- <p class='i-recruit__team__role'>You</p> -->
                 </div>
-                <!-- <div class='i-recruit__team__list' data-id='9'>
-                    <img class="i-recruit__team__thumb" alt="and you"
-                        src="{{ asset('images/andyou.png') }}" />
-
-                    <p class='i-recruit__team__role'>And YOU...</p>
-                </div> -->
             </div>
         </div>
         <div class='i-recruit__message'>
@@ -334,9 +328,6 @@
                 <p class='i-recruit__message__ceo'>代表取締役 CEO</p>
                 <p class='i-recruit__message__tagami'>田上智裕</p>
                 <p class='i-recruit__message__name'>TAGAMI TOMOHIRO</p>
-                <!-- <div class='i-recruit__message__introduce'>
-                  <p>株式会社techtec CEO。チームラボでのアプリ開発やリクルートホールディングスでのブロックチェーン全社R&Dを経て、2018年1月に株式会社techtecを創業しました。ブロックチェーンの学習サービス「PoL(ポル)」を運営。</p>
-                </div> -->
               </div>
 
               <div class='i-recruit__message__content__text'>
@@ -359,9 +350,6 @@
                 <p class='i-recruit__message__ceo'>代表取締役 CEO</p>
                 <p class='i-recruit__message__tagami'>田上智裕</p>
                 <p class='i-recruit__message__name'>TAGAMI TOMOHIRO</p>
-                <div class='i-recruit__message__desc'>
-                  <p>株式会社techtec CEO。チームラボでのアプリ開発やリクルートホールディングスでのブロックチェーン全社R&Dを経て、2018年1月に株式会社techtecを創業。ブロックチェーンの学習サービス「PoL(ポル)」を運営。</p>
-                </div>
               </div>
 
             </div>

@@ -81,7 +81,7 @@
             <h2 class='l-body__heading'>PARTNER</h2>
             <span class='l-body__subhead'>パートナー</span>
         </div>
-      
+
         <div class='i-partner__logo'>
           <a href="https://primas.io/" target='_blank'>
             <img alt="primas"
@@ -95,8 +95,21 @@
             <img alt="maker"
             src="{{ asset('images/partner_maker.png') }}" />
           </a>
-
         </div>
+
+
+        <ul class='i-partner__logo_middle l-body__content'>
+          <li><div class='i-partner__logo__box'><a href="https://primas.io/" target='_blank'><img alt="primas" class="l-partner__icon_middle_img"
+          src="{{ asset('images/partner_primas.png') }}" /></a></div></li>
+
+          <li><div class='i-partner__logo__box'><a href="https://brave.com/" target='_blank'><img alt="brave" class="l-partner__icon_middle_img"
+          src="{{ asset('images/partner_brave.png') }}" /></a></div></li>
+
+          <li><div class='i-partner__logo__box'><a href="https://makerdao.com/en/" target='_blank'><img alt="maker" class="l-partner__icon_middle_img"
+          src="{{ asset('images/partner_maker.png') }}" /></a></div></li>
+
+        </ul>
+
         <div class='i-partner__content'>
             <!-- <h3 class='i-partner__content__title'>メディアサポート事業 | プロジェクトPR事業 | 翻訳事業</h3> -->
             <p class='i-partner__content__desc'>

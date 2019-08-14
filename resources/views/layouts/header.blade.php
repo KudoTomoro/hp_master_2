@@ -30,10 +30,7 @@
                 <a class="@if(Request::url() === route('home') || Request::url() === route('recruit')) l-top-header__content @else l-header__content @endif l-header__content_blank" target="_blank"
                     href="https://hi-blockchain.world/techtec-news/">NEWS</a>
             </li>
-            <!-- <li class='l-header__link'>
-                <a class="@if(Request::url() === route('home') || Request::url() === route('recruit')) l-top-header__content @else l-header__content @endif l-header__content_blank" target="_blank"
-                    href="https://techtec.connpass.com/">COMMUNITY</a>
-            </li> -->
+
             <li class='l-header__link'>
                 <a class="@if(Request::url() === route('home') || Request::url() === route('recruit')) l-top-header__content @else l-header__content @endif" href="/contact">CONTACT</a>
             </li>
@@ -66,15 +63,15 @@
                 <a class="l-header__content l-header__content_blank" target="_blank"
                     href="https://hi-blockchain.world/techtec-news/">NEWS</a>
             </li>
-            <li class='l-header__link'>
+            <!-- <li class='l-header__link'>
                 <a class="l-header__content l-header__content_blank" target="_blank"
                     href="https://techtec.connpass.com/">COMMUNITY</a>
-            </li>
-            <li class='l-header__link'>
-                <a class="l-header__content" href="/recruit">RECRUIT</a>
-            </li>
+            </li> -->
             <li class='l-header__link'>
                 <a class="l-header__content" href="/contact">CONTACT</a>
+            </li>
+            <li class='l-header__link l-header__btn'>
+              <a class="l-header__content" href="/recruit">RECRUIT</a>
             </li>
         </ul>
     </nav>

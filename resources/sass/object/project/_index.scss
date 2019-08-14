@@ -18,10 +18,11 @@
             }
 
             &__image {
-                width: 180px;
-                height: 180px;
+                width: 100px;
+                height: 100px;
+                text-align: center;
                 margin: auto;
-                padding: 40px;
+                // padding: 40px;
                 border-radius: 50%;
                 border: 1px solid #ECF0F4;
                 & img {

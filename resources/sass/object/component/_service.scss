@@ -94,8 +94,7 @@
     }
 
     .voice{
-      // background-color: #fcfcfc;
-      // border-radius: 8px;
+
       box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
       margin: 0 48px;
       padding-top: 36px;
@@ -108,10 +107,12 @@
         padding:36px 0;
 
         &__title{
-          text-align: center;
-          margin-bottom:24px;
-          font-size: 20px;
-          font-weight: 700;
+          text-align: left;
+          & h3{
+            margin-bottom:24px;
+            font-size: 20px;
+            font-weight: 600;
+          }
         }
         &__interview{
           width:50%;
@@ -126,19 +127,28 @@
           & a{
             font-size: 14px;
             line-height: 1.9;
+            text-decoration:underline;
           }
         }
         &__img{
           width: 48%;
-          margin-top: 54px;
+          margin-top: 0;
           margin-bottom: auto;
           margin-right: auto;
           margin-left:0;
+          & img{
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+          }
           &_client{
             float: left;
-            margin: 0 24px;
-
+            margin: 12px 24px 0;
+            height: 24px;
+            width: auto;
+            &_name{
+              float: right;
+            }
           }
+
         }
 
       }
@@ -255,11 +265,6 @@
       margin: 0 20px;
       padding-top: 36px;
       &__content{
-        // display: flex;
-        // flex-wrap: wrap;
-        // justify-content: flex-start;
-        // align-items: stretch;
-        // margin: 0 36px;
         padding:36px 0 12px;
 
         &__title{
@@ -283,9 +288,14 @@
         }
         &__img{
           margin:24px 0 12px;
+          &_client{
+            margin: 0 12px 12px;
+            height: 24px;
+            width: auto;
+          }
         }
         & img{
-          width: 291px;
+          // width: 291px;
           text-align: center;
           // border-radius: 8px;
         }

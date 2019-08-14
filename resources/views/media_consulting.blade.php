@@ -90,7 +90,7 @@
 
                   <img alt="harch" class="voice__content__img_client"
                   src="{{ asset('images/01_SERVICE/client_harch.png') }}" />
-                  <p>− ハーチ株式会社 加藤様</p>
+                  <p class="voice__content__img_client_name">− ハーチ株式会社 加藤様</p>
             </div>
           </div>
         </div>

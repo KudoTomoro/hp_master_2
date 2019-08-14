@@ -89,6 +89,14 @@
                 width: auto;
                 height: 60px;
                 margin: 0 24px;
+                transition: 0.4s;
+                -webkit-transition: 0.4s;
+                &:hover{
+                  opacity: 0.7;
+                }
+            }
+            &_middle{
+              display: none;
             }
         }
 
@@ -127,7 +135,7 @@
 @media screen and (max-width: 768px) {
     .c-company {
         &__info {
-            padding: 0 0 64px;
+            // padding: 0 0 ;
         }
 
         &__table {
@@ -214,16 +222,30 @@
         text-align: center;
 
         &__logo {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            margin: 16px auto 0;
+            display: none;
+            &_middle{
+              margin: 20px;
+              display:grid;
+              grid-template-columns: repeat(2, 1fr);
+              grid-gap: 10px;
 
-            & img {
-                width: auto;
-                height: 22px;
-                margin: 16px 12px 0;
+              & li{
+                width: 140px;
+                height: 140px;
+                // display: inline-block;
+                display: table;
+                vertical-align: middle;
+                text-align: center;
+                box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
+              }
+
+              &_img{
+                height: 32px;
+              }
+            }
+            &__box{
+              display: table-cell;
+              vertical-align: middle;
             }
         }
 

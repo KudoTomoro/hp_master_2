@@ -86,7 +86,7 @@
               </div>
               <a class="c-line__button__text" target="_blank"
                   href="https://www.meti.go.jp/press/2019/04/20190423002/20190423001-1.pdf">「平成30年度産業技術調査事業（国内外の人材流動化促進や研究成果の信頼性確保等に向けた大学・研究機関へのブロックチェーン技術の適用及びその標準獲得に関する調査）報告書」</a>
-
+            <p class="voice__content__img_client_name">− 経済産業省調査事業</p>
             </div>
           </div>
         </div>
