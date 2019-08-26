@@ -31,7 +31,7 @@ Blockchain」を運営しています。')
                 <div class='p-product__content__cell'>
                     <div class='p-product__content__image'>
                         <img alt="PoL(ポル)"
-                            src="{{ asset('images/02_PRODUCT/product_english.png') }}" />
+                            src="{{ asset('images/02_PRODUCT/english-course-banner.png') }}" />
                     </div>
                     <div class='p-product__content__text'>
                         <h2 class='p-product__content__title'>英語コース</h2>
@@ -47,7 +47,7 @@ Blockchain」を運営しています。')
                 <div class='p-product__content__cell'>
                     <div class='p-product__content__image'>
                         <img alt="PoL(ポル)"
-                            src="{{ asset('images/02_PRODUCT/product_writer.png') }}" />
+                            src="{{ asset('images/02_PRODUCT/writer-course-banner.png') }}" />
                     </div>
                     <div class='p-product__content__text'>
                         <h2 class='p-product__content__title'>ライターコース</h2>
