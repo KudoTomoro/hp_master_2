@@ -123,8 +123,8 @@
             <div class='l-product__content__cell l-product__content__parts__cell'>
                 <a href='https://pol.techtec.world/english' target='_blank'>
                     <div class='l-product__content__parts__image'>
-                        <img alt="Hi-Blockchain(ハイブロックチェーン)のデバイス"
-                            src="{{ asset('images/02_PRODUCT/product_english.png') }}" />
+                        <img alt="PoL英語コースのデバイス"
+                            src="{{ asset('images/02_PRODUCT/english-course-banner.png') }}" />
                     </div>
                     <div class='l-product__content__text l-product__content__parts__text'>
                         <h3 class='l-product__content__title'>PoL 英語コース</h3>
@@ -141,8 +141,8 @@
             <div class='l-product__content__cell l-product__content__parts__cell'>
                 <a href='https://www.techtec.site/' target='_blank'>
                     <div class='l-product__content__parts__image'>
-                        <img alt="Hi-Blockchain(ハイブロックチェーン)のデバイス"
-                            src="{{ asset('images/02_PRODUCT/product_writer.png') }}" />
+                        <img alt="PoLライターコースのデバイス"
+                            src="{{ asset('images/02_PRODUCT/writer-course-banner.png') }}" />
                     </div>
                     <div class='l-product__content__text l-product__content__parts__text'>
                         <h3 class='l-product__content__title'>PoL ライターコース</h3>
