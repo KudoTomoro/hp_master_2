@@ -15,14 +15,7 @@
                 <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
                     src="{{ asset('images/00_HOME/firstview03.jpg') }}" />
             </div>
-            <!-- <div class='l-main_eyecatch_slidersp'>
-              <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
-              src="{{ asset('images/00_HOME/img_top_eyecatch_03_sp.jpg') }}" />
-                <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
-                    src="{{ asset('images/00_HOME/firstview02_sp.jpg') }}" />
-                <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ オフィス画像"
-                    src="{{ asset('images/00_HOME/firstview03_sp.jpg') }}" />
-            </div> -->
+
         </div>
     </section>
 </div>
