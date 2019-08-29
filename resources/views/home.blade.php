@@ -77,7 +77,7 @@
                     <img alt="翻訳・採用事業"
                         src="{{ asset('images/ic_service_trans_sm.png') }}" />
                 </div>
-                <h3 class='l-service__content__title'>翻訳・プロジェクト事業</h3>
+                <h3 class='l-service__content__title'>翻訳・プロジェクトPR事業</h3>
                 <p class='l-service__content__explain'>仮想通貨・ブロックチェーンに限らず事業のグローバル対応をサポートします。</p>
                 <div class='l-service__content__body__button c-line__button'>
                     <a class="c-line__button__text" href="/service/translation">詳しく見る</a>

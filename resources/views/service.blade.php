@@ -30,7 +30,7 @@
                 </div>
                 <h2 class='i-service__content__title'>リサーチ事業</h2>
                 <p class='i-service__content__explain'>様々な業界における国内外のブロックチェーン活用事例や動向の調査をサポートします。</p>
-                <p class='i-service__content__item'>- ブロックチェーン活用事例の調査<br />- 英語・中国語研修<br />- 海外リサーチツアー<br />- 規制についてレクチャー
+                <p class='i-service__content__item'>- ブロックチェーン活用事例の調査<br />- 調査レポートの作成<br />- 世界各国へのリサーチツアー<br />- 国内外の規制についてレクチャー<br />- techtecグローバルパートナーへの紹介
                 </p>
                 <div class='i-service__content__button c-line__button'>
                     <a class="c-line__button__text" href="/service/human_resource_development">詳しく見る</a>
@@ -44,7 +44,7 @@
                 <h2 class='i-service__content__title'>翻訳・プロジェクトPR事業</h2>
                 <p class='i-service__content__explain'>仮想通貨・ブロックチェーンに限らず</br>事業のグローバル対応をサポートします。</p>
                 <p class='i-service__content__item'>- ホームページの多言語対応<br />- オウンドメディアの多言語対応<br />- イベントなどへの通訳派遣<br />-
-                    ビジネス英会話研修<br />- 外国人採用</p>
+                    ビジネス英会話研修<br />- ローカライズ対応、各地でのマーケティング</p>
                 <div class='i-service__content__button c-line__button'>
                     <a class="c-line__button__text" href="/service/translation">詳しく見る</a>
                 </div>

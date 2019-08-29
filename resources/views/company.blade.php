@@ -113,7 +113,7 @@
         <div class='i-partner__content'>
             <!-- <h3 class='i-partner__content__title'>メディアサポート事業 | プロジェクトPR事業 | 翻訳事業</h3> -->
             <p class='i-partner__content__desc'>
-                techtecでは、パートナー・協業先を常時募集しています。<br />ミートアップの共催や共同研究など、パートナーシップの形は様々です。<br />まずはお気軽にお問い合わせください。
+                techtecでは、パートナー・協業先を常時募集しています。<br />ミートアップの共催や共同研究など、パートナーシップの形は様々です。<br />まずは下記よりお気軽にお問い合わせください。
             </p>
             <div class='i-partner__content__button c-line__button'>
                 <a class="c-line__button__text" href="/contact">お問い合わせ</a>
