@@ -223,7 +223,7 @@
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="mysql"
                 src="{{ asset('images/technologystack/mysql.png') }}" />
-                <p class="i-recruit__technologystack__item__name">My SQL</p>
+                <p class="i-recruit__technologystack__item__name">MySQL</p>
               </div>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="nginx"
@@ -234,7 +234,7 @@
             </div>
 
             <div class="i-recruit__technologystack__category business_design">
-              <h3 class="i-recruit__technologystack__category_title">ビジネス・デザイン</h3>
+              <h3 class="i-recruit__technologystack__category_title business_design_title">ビジネス・デザイン</h3>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="google drive"
                 src="{{ asset('images/technologystack/google drive.png') }}" />

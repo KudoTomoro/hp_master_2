@@ -14239,7 +14239,7 @@ body.fixed {
   }
   .l-recruit__banner__sp {
     margin: 36px auto;
-    width: 200px;
+    width: 100%;
     height: auto;
   }
 
@@ -15155,7 +15155,11 @@ body.fixed {
     margin-right: 36px;
   }
   .i-recruit .support_title {
+    width: 400px;
     margin-left: 540px;
+  }
+  .i-recruit .business_design_title {
+    width: 600px;
   }
   .i-recruit .cloudwatch_sp {
     display: none;
