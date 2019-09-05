@@ -13655,11 +13655,25 @@ body.fixed {
     width: calc((100% - 64px) / 3);
     height: 320px;
     margin-bottom: 32px;
-    padding: 30px 4% 20px;
     background-color: #FFF;
     box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.08);
     text-align: center;
     position: relative;
+  }
+  .l-news__content__body__thum {
+    width: 352px;
+    height: 200px;
+  }
+  .l-news__content__body__title {
+    margin: 12px;
+    font-size: 14px;
+    text-align: left;
+  }
+  .l-news__content__body__date {
+    font-size: 12px;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
   }
   .l-news__content__button {
     width: 320px;
@@ -14201,7 +14215,12 @@ body.fixed {
     width: 335px;
     height: 240px;
     margin: 24px auto 24px;
+    padding: 0;
     box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.08);
+  }
+  .l-news__sp_content__body__thum {
+    width: 100%;
+    height: auto;
   }
   .l-news__sp_content__button {
     width: 335px;

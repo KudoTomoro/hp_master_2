@@ -360,12 +360,79 @@
   </div>
 
   <div class='l-news__content'>
-    <div class='l-news__content__body'></div>
-    <div class='l-news__content__body'></div>
-    <div class='l-news__content__body'></div>
-    <div class='l-news__content__body'></div>
-    <div class='l-news__content__body'></div>
-    <div class='l-news__content__body'></div>
+    <div class='l-news__content__body'>
+      <div class='l-news__content__body__thum'>
+        <img alt="PoLライターコースのデバイス"
+            src="{{ asset('images/lili-join.jpg') }}" />
+      </div>
+      <div class='l-news__content__body__title'>
+        <p>Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</p>
+      </div>
+      <div class='l-news__content__body__date'>
+        <p>2019年8月30日</p>
+      </div>
+    </div>
+    <div class='l-news__content__body'>
+      <div class='l-news__content__body__thum'>
+        <img alt="PoLライターコースのデバイス"
+            src="{{ asset('images/lili-join.jpg') }}" />
+      </div>
+      <div class='l-news__content__body__title'>
+        <p>Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</p>
+      </div>
+      <div class='l-news__content__body__date'>
+        <p>2019年8月30日</p>
+      </div>
+    </div>
+    <div class='l-news__content__body'>
+      <div class='l-news__content__body__thum'>
+        <img alt="PoLライターコースのデバイス"
+            src="{{ asset('images/lili-join.jpg') }}" />
+      </div>
+      <div class='l-news__content__body__title'>
+        <p>Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</p>
+      </div>
+      <div class='l-news__content__body__date'>
+        <p>2019年8月30日</p>
+      </div>
+    </div>
+    <div class='l-news__content__body'>
+      <div class='l-news__content__body__thum'>
+        <img alt="PoLライターコースのデバイス"
+            src="{{ asset('images/lili-join.jpg') }}" />
+      </div>
+      <div class='l-news__content__body__title'>
+        <p>Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</p>
+      </div>
+      <div class='l-news__content__body__date'>
+        <p>2019年8月30日</p>
+      </div>
+    </div>
+    <div class='l-news__content__body'>
+      <div class='l-news__content__body__thum'>
+        <img alt="PoLライターコースのデバイス"
+            src="{{ asset('images/lili-join.jpg') }}" />
+      </div>
+      <div class='l-news__content__body__title'>
+        <p>Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</p>
+      </div>
+      <div class='l-news__content__body__date'>
+        <p>2019年8月30日</p>
+      </div>
+    </div>
+    <div class='l-news__content__body'>
+      <div class='l-news__content__body__thum'>
+        <img alt="PoLライターコースのデバイス"
+            src="{{ asset('images/lili-join.jpg') }}" />
+      </div>
+      <div class='l-news__content__body__title'>
+        <p>Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</p>
+      </div>
+      <div class='l-news__content__body__date'>
+        <p>2019年8月30日</p>
+      </div>
+    </div>
+  
 
     <div class='l-news__content__button c-line__button c-line__button_blank'>
       <a class="c-line__button__text" target="_blank" href="https://hi-blockchain.world/techtec-news/">ニュース一覧を見る</a>

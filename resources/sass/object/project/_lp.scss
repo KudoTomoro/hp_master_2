@@ -469,11 +469,27 @@
             width: calc((100% - 64px) / 3);
             height: 320px;
             margin-bottom: 32px;
-            padding: 30px 4% 20px;
+            // padding: 30px 4% 20px;
             background-color: #FFF;
             box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
             text-align: center;
             position:relative;
+            &__thum{
+              width: 352px;
+              height: 200px;
+
+            }
+            &__title{
+              margin: 12px;
+              font-size: 14px;
+              text-align: left;
+            }
+            &__date{
+              font-size: 12px;
+              position: absolute;
+              bottom: 12px;
+              right: 12px;
+            }
         }
         &__button {
             width: 320px;
@@ -1112,7 +1128,18 @@
             width: 335px;
             height: 240px;
             margin: 24px auto 24px;
+            padding: 0;
             box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
+            &__thum{
+              width: 100%;
+              height: auto;
+            }
+            &__title{
+
+            }
+            &__date{
+
+            }
           }
           &__button {
             width: 335px;
