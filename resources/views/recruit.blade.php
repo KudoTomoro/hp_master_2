@@ -60,14 +60,26 @@
                 </div>
                 <div class='i-recruit__value__composes_list'>
                   <h3 class='i-recruit__value__composes_list_title'> "Go Global"</h3>
-                  <p class='i-recruit__value__composes_list_text'>世界に目を向けよう。世界を意識しよう。テクノロジーは国境を超えていく。</p>
+                  <p class='i-recruit__value__composes_list_text'>世界に目を向けよう。世界を意識しよう。テクノロジーは国境を越えていく。</p>
                   <!-- <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span> -->
                 </div>
                 <div class="blank"></div>
               </div>
-            <!-- </section> -->
-
         </div>
+
+        <div class='i-recruit__introduction'>
+          <div class='l-body__title i-recruit_title'>
+              <h2 class='l-body__heading i-recruit__heading'>INTRODUCTION</h2>
+              <p class='l-body__subhead i-recruit__subhead'>会社説明資料</p>
+          </div>
+          <div class='i-recruit__introduction__content'>
+            <div style="max-width: 800px">
+              <script async class="speakerdeck-embed" data-id="1236a727e29e44b29e9610140cba64fd" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+            </div>
+          </div>
+        </div>
+
+
 
         <div class='i-recruit__technologystack'>
           <div class='l-body__title i-recruit_title'>
@@ -90,6 +102,16 @@
                 <p class="i-recruit__technologystack__item__name">Vue.js</p>
               </div>
               <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="node.js"
+                src="{{ asset('images/technologystack/nodejs.png') }}" />
+                <p class="i-recruit__technologystack__item__name">Node.js</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="serverless"
+                src="{{ asset('images/technologystack/serverless.png') }}" />
+                <p class="i-recruit__technologystack__item__name">Serverless</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="laravel"
                 src="{{ asset('images/technologystack/laravel.png') }}" />
                 <p class="i-recruit__technologystack__item__name">Laravel</p>
@@ -97,7 +119,7 @@
             </div>
 
             <div class="i-recruit__technologystack__category support">
-              <h3 class="i-recruit__technologystack__category_title">開発支援</h3>
+              <h3 class="i-recruit__technologystack__category_title support_title">開発支援</h3>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="bulma"
                 src="{{ asset('images/technologystack/bulma.png') }}" />
@@ -121,8 +143,78 @@
               </div>
 
             </div>
-            <div class="i-recruit__technologystack__category infra">
+            <div class="i-recruit__technologystack__category_infra">
               <h3 class="i-recruit__technologystack__category_title">インフラ</h3>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="ec2"
+                src="{{ asset('images/technologystack/amazon-ec2.png') }}" />
+                <p class="i-recruit__technologystack__item__name">EC2</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="rds"
+                src="{{ asset('images/technologystack/amazon-rds.png') }}" />
+                <p class="i-recruit__technologystack__item__name">RDS</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="DynamoDB"
+                src="{{ asset('images/technologystack/dynamoDB.png') }}" />
+                <p class="i-recruit__technologystack__item__name DynamoDB_pc">DynamoDB</p>
+                <p class="i-recruit__technologystack__item__name DynamoDB_sp">Dynamo<br>DB</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="s3"
+                src="{{ asset('images/technologystack/amazon-s3.png') }}" />
+                <p class="i-recruit__technologystack__item__name">S3</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="lambda"
+                src="{{ asset('images/technologystack/amazon-lambda.png') }}" />
+                <p class="i-recruit__technologystack__item__name">Lambda</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="Gateway"
+                src="{{ asset('images/technologystack/Gateway.png') }}" />
+                <p class="i-recruit__technologystack__item__name Gateway_pc">API Gateway</p>
+                <p class="i-recruit__technologystack__item__name Gateway_sp">API<br>Gateway</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="cloudwatch"
+                src="{{ asset('images/technologystack/amazon-cloudwatch.png') }}" />
+                <p class="i-recruit__technologystack__item__name cloudwatch_pc">Cloud Watch</p>
+                <p class="i-recruit__technologystack__item__name cloudwatch_sp">Cloud<br>Watch</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="elb"
+                src="{{ asset('images/technologystack/amazon-elb.png') }}" />
+                <p class="i-recruit__technologystack__item__name">ELB</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="CloudFront"
+                src="{{ asset('images/technologystack/CloudFront.png') }}" />
+                <p class="i-recruit__technologystack__item__name cloudfront_pc">CloudFront</p>
+                <p class="i-recruit__technologystack__item__name cloudfront_sp">Cloud<br>Front</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="Cognito"
+                src="{{ asset('images/technologystack/Cognito.png') }}" />
+                <p class="i-recruit__technologystack__item__name">Cognito</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="route53"
+                src="{{ asset('images/technologystack/amazon-route53.png') }}" />
+                <p class="i-recruit__technologystack__item__name">Route53</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="ses"
+                src="{{ asset('images/technologystack/amazon-ses.png') }}" />
+                <p class="i-recruit__technologystack__item__name">SES</p>
+              </div>
+              <div class="i-recruit__technologystack__item">
+                <img class="i-recruit__technologystack__item__logo" alt="Elasticsearch"
+                src="{{ asset('images/technologystack/Elasticsearch.png') }}" />
+                <p class="i-recruit__technologystack__item__name Elasticsearch_pc">Elasticsearch</p>
+                <p class="i-recruit__technologystack__item__name Elasticsearch_sp">Elastic<br>search</p>
+              </div>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="redis"
                 src="{{ asset('images/technologystack/redis.png') }}" />
@@ -138,47 +230,7 @@
                 src="{{ asset('images/technologystack/nginx.png') }}" />
                 <p class="i-recruit__technologystack__item__name">Nginx</p>
               </div>
-              <div class="i-recruit__technologystack__item">
-                <img class="i-recruit__technologystack__item__logo" alt="route53"
-                src="{{ asset('images/technologystack/amazon-route53.png') }}" />
-                <p class="i-recruit__technologystack__item__name">Route53</p>
-              </div>
-              <div class="i-recruit__technologystack__item">
-                <img class="i-recruit__technologystack__item__logo" alt="ec2"
-                src="{{ asset('images/technologystack/amazon-ec2.png') }}" />
-                <p class="i-recruit__technologystack__item__name">EC2</p>
-              </div>
-              <div class="i-recruit__technologystack__item">
-                <img class="i-recruit__technologystack__item__logo" alt="rds"
-                src="{{ asset('images/technologystack/amazon-rds.png') }}" />
-                <p class="i-recruit__technologystack__item__name">RDS</p>
-              </div>
-              <div class="i-recruit__technologystack__item">
-                <img class="i-recruit__technologystack__item__logo" alt="ses"
-                src="{{ asset('images/technologystack/amazon-ses.png') }}" />
-                <p class="i-recruit__technologystack__item__name">SES</p>
-              </div>
-              <div class="i-recruit__technologystack__item">
-                <img class="i-recruit__technologystack__item__logo" alt="s3"
-                src="{{ asset('images/technologystack/amazon-s3.png') }}" />
-                <p class="i-recruit__technologystack__item__name">S3</p>
-              </div>
-              <div class="i-recruit__technologystack__item">
-                <img class="i-recruit__technologystack__item__logo" alt="cloudwatch"
-                src="{{ asset('images/technologystack/amazon-cloudwatch.png') }}" />
-                <p class="i-recruit__technologystack__item__name cloudwatch_pc">Cloud Watch</p>
-                <p class="i-recruit__technologystack__item__name cloudwatch_sp">Cloud<br>Watch</p>
-              </div>
-              <div class="i-recruit__technologystack__item">
-                <img class="i-recruit__technologystack__item__logo" alt="lambda"
-                src="{{ asset('images/technologystack/amazon-lambda.png') }}" />
-                <p class="i-recruit__technologystack__item__name">Lambda</p>
-              </div>
-              <div class="i-recruit__technologystack__item">
-                <img class="i-recruit__technologystack__item__logo" alt="elb"
-                src="{{ asset('images/technologystack/amazon-elb.png') }}" />
-                <p class="i-recruit__technologystack__item__name">ELB</p>
-              </div>
+
             </div>
 
             <div class="i-recruit__technologystack__category business_design">
@@ -262,10 +314,10 @@
                 </div>
 
                 <div class='i-recruit__team__list' data-id='8'>
-                    <img class="i-recruit__team__thumb" alt="Yumi Fujisawa | Global Alliance Manager"
-                        src="{{ asset('images/member_yumi_fujisawa.png') }}" />
-                    <h3 class='i-recruit__team__name'>Yumi Fujisawa</h3>
-                    <p class='i-recruit__team__role'>Global Alliance Manage</p>
+                    <img class="i-recruit__team__thumb" alt="Li Li | Tech Adviser"
+                        src="{{ asset('images/04_RECRUIT/team_lili.jpg') }}" />
+                    <h3 class='i-recruit__team__name'>Li Li</h3>
+                    <p class='i-recruit__team__role'>Tech Adviser</p>
                 </div>
                 <div class='i-recruit__team__list' data-id='9'>
                     <img class="i-recruit__team__thumb" alt="Takuya Watahiki | Engineer"
@@ -467,23 +519,14 @@
                             <a class="i-recruit__position__list__link" target="_blank"
                                 href="https://open.talentio.com/1/c/techtec/requisitions/detail/10362">コミュニティマネージャー</a>
                         </li>
-                        <li class='i-recruit__position__list__item'>
-                            <a class="i-recruit__position__list__link" target="_blank"
-                                href="https://open.talentio.com/1/c/techtec/requisitions/detail/10363">イベントスタッフ</a>
-                        </li>
+
                     </ul>
                 </div>
                 <div class='i-recruit__position__list'>
                     <h3 class='i-recruit__position__list__title'>経営企画</h3>
                     <ul>
-                        <li class='i-recruit__position__list__item'>
-                            <a class="i-recruit__position__list__link" target="_blank"
-                                href="https://open.talentio.com/1/c/techtec/requisitions/detail/10368">プロダクト広報</a>
-                        </li>
-                        <li class='i-recruit__position__list__item'>
-                            <a class="i-recruit__position__list__link" target="_blank"
-                                href="https://open.talentio.com/1/c/techtec/requisitions/detail/10369">バックオフィス</a>
-                        </li>
+
+
                         <li class='i-recruit__position__list__item'>
                             <a class="i-recruit__position__list__link" target="_blank"
                                 href="https://open.talentio.com/1/c/techtec/requisitions/detail/10384">セールスマネージャー</a>
@@ -495,16 +538,13 @@
                     <ul>
                         <li class='i-recruit__position__list__item'>
                             <a class="i-recruit__position__list__link" target="_blank"
-                                href="https://open.talentio.com/1/c/techtec/requisitions/detail/10385">グローバル（英語）</a>
+                                href="https://open.talentio.com/1/c/techtec/requisitions/detail/10385">グローバル（欧米）</a>
                         </li>
                         <li class='i-recruit__position__list__item'>
                             <a class="i-recruit__position__list__link" target="_blank"
-                                href="https://open.talentio.com/1/c/techtec/requisitions/detail/10386">グローバル（中国）</a>
+                                href="https://open.talentio.com/1/c/techtec/requisitions/detail/10386">グローバル（アジア）</a>
                         </li>
-                        <li class='i-recruit__position__list__item'>
-                            <a class="i-recruit__position__list__link" target="_blank"
-                                href="https://open.talentio.com/1/c/techtec/requisitions/detail/10372">語学学習コンサルタント</a>
-                        </li>
+
                     </ul>
                 </div>
                 <div class='i-recruit__position__list'>
@@ -514,10 +554,7 @@
                             <a class="i-recruit__position__list__link" target="_blank"
                                 href="https://open.talentio.com/1/c/techtec/requisitions/detail/12715">ブロックチェーンリサーチャー</a>
                         </li>
-                        <li class='i-recruit__position__list__item'>
-                            <a class="i-recruit__position__list__link" target="_blank"
-                                href="https://open.talentio.com/1/c/techtec/requisitions/detail/12716">ブロックチェーンライター</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -727,26 +764,25 @@
     </div>
     <div class='i-recruit__team__modal_info'>
         <div class='i-recruit__team__modal_thumb'>
-            <img class="i-recruit__team__modal_thumb_img" alt="Yumi Fujisawa | Global Alliance Manager"
-                src="{{ asset('images/member_yumi_fujisawa.png') }}" />
+            <img class="i-recruit__team__modal_thumb_img" alt="Li Li | Tech Adviser"
+                src="{{ asset('images/04_RECRUIT/team_lili.jpg') }}" />
         </div>
         <div class='i-recruit__team__modal_text'>
-            <p class='i-recruit__team__modal_role'>Global Alliance Manager</p>
-            <h3 class='i-recruit__team__modal_name'>Yumi Fujisawa</h3>
+            <p class='i-recruit__team__modal_role'>Tech Adviser</p>
+            <h3 class='i-recruit__team__modal_name'>Li Li</h3>
             <ul class='i-recruit__team__modal_sns'>
-                <li class='i-recruit__team__modal_sns_item'>
+                <!-- <li class='i-recruit__team__modal_sns_item'>
                     <a href='https://www.linkedin.com/in/yumi-fujisawa/' target='_blank'>
                         <img class="i-recruit__team__modal_sns_img" alt="Yumi Fujisawa | LinkedIn"
                             src="{{ asset('images/ic_linkedin.svg') }}" />
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>
     <div class='i-recruit__team__modal_content'>
         <p>
-            経営コンサルを手掛ける会社でベンチャー秘書を経験後、カンボジアに渡りマーケティングやコミュニティマネジメントに従事。グローバル志向とブロックチェーンの未来に惹かれ、
-            ヨーロッパへ拠点を移すタイミングでtechtecへジョイン。techtecのグローバルアライアンスを強化すべく、ベルリンを拠点に稼働中。
+            2015年に中国より来日。OSSの普及に貢献すべく、Vue.jsのコミッターを務めた後、現在はReact Native Communityのメンバーとして活動している。
         </p>
     </div>
 </div>
@@ -838,8 +874,8 @@
     </div>
     <div class='i-recruit__team__modal_content'>
         <p>
-            高校在学時よりブロックチェーンに興味を持ち始め、大学進学と同時に早稲田大学のブロックチェーンサークルBitBearsに身を置く。
-            本格的にブロックチェーンにコミットしていきたいという想いから、techtecでブロックチェーンリサーチャーとしてのインターンを開始した。
+            中国への留学中にブロックチェーンに興味を持つ。
+            デザイナーとしてブロックチェーンに関わるサービスを作りたいという想いから、techtecでデザイナーとしてのインターンを開始した。
         </p>
     </div>
 </div>

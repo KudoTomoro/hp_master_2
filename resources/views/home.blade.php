@@ -239,34 +239,29 @@
             <img alt="primas" class="l-partner__icon_img"
             src="{{ asset('images/partner_primas.png') }}" />
           </a>
-          <a href="https://brave.com/" target='_blank'>
+          <!-- <a href="https://brave.com/" target='_blank'>
             <img alt="brave" class="l-partner__icon_img"
             src="{{ asset('images/partner_brave.png') }}" />
           </a>
           <a href="https://makerdao.com/en/" target='_blank'>
             <img alt="maker" class="l-partner__icon_img"
             src="{{ asset('images/partner_maker.png') }}" />
-          </a>
+          </a> -->
 
         </div>
 
-        <!-- @media screen and (max-width: 768px) -->
-        <!-- <div class='l-partner__icon_middle l-body__content'> -->
+
           <ul class='l-partner__icon_middle l-body__content'>
             <li><div class='l-partner__icon__box'><a href="https://primas.io/" target='_blank'><img alt="primas" class="l-partner__icon_middle_img"
             src="{{ asset('images/partner_primas.png') }}" /></a></div></li>
 
-            <li><div class='l-partner__icon__box'><a href="https://brave.com/" target='_blank'><img alt="brave" class="l-partner__icon_middle_img"
+            <!-- <li><div class='l-partner__icon__box'><a href="https://brave.com/" target='_blank'><img alt="brave" class="l-partner__icon_middle_img"
             src="{{ asset('images/partner_brave.png') }}" /></a></div></li>
 
             <li><div class='l-partner__icon__box'><a href="https://makerdao.com/en/" target='_blank'><img alt="maker" class="l-partner__icon_middle_img"
-            src="{{ asset('images/partner_maker.png') }}" /></a></div></li>
+            src="{{ asset('images/partner_maker.png') }}" /></a></div></li> -->
 
-            <!-- <li><div class='l-partner__icon__box'><p class='l-partner__content__desc_text'>techtecは常に新しいパートナーをお待ちしております。</p>
-              <div class='l-partner__button c-line__button'>
-                  <a class="l-partner__button_text c-line__button__text" href="/contact">お問い合わせ</a>
-              </div>
-            </div></li> -->
+
           </ul>
 
 
@@ -363,6 +358,32 @@
     <h2 class='l-body__heading'>NEWS</h2>
     <p class='l-body__subhead'>ニュース</p>
   </div>
+
+  <div class='l-news__content'>
+    <div class='l-news__content__body'></div>
+    <div class='l-news__content__body'></div>
+    <div class='l-news__content__body'></div>
+    <div class='l-news__content__body'></div>
+    <div class='l-news__content__body'></div>
+    <div class='l-news__content__body'></div>
+
+    <div class='l-news__content__button c-line__button c-line__button_blank'>
+      <a class="c-line__button__text" target="_blank" href="https://hi-blockchain.world/techtec-news/">ニュース一覧を見る</a>
+    </div>
+  </div>
+
+<!-- @media screen and (max-width: 768px) -->
+  <div class='l-news__sp_content'>
+    <div class='l-news__sp_content__body'></div>
+    <div class='l-news__sp_content__body'></div>
+    <div class='l-news__sp_content__body'></div>
+
+    <div class='l-news__sp_content__button c-line__button c-line__button_blank'>
+      <a class="c-line__button__text" target="_blank" href="https://hi-blockchain.world/techtec-news/">ニュース一覧を見る</a>
+    </div>
+  </div>
+<!--  -->
+
 </div>
 
 
@@ -372,9 +393,7 @@
         <!-- techtecは常に新しい仲間を募集しています。<br />「メンバーの圧倒的な成長」「プロダクトドリブン」「フラットな組織」<br />上記に少しでも共感してもらえる人は、<br />ぜひ一度オフィスに遊びに来てください！<br /><br />共に、"Decentralizedな未来"を創りませんか？ -->
         techtecは常に新しい仲間を募集しています。</br>「チームの圧倒的な成長」「ユーザーファースト」「グローバル」</br>上記に少しでも共感してもらえる人は、</br>ぜひ一度オフィスに遊びに来てください！</br>共に、"Decentralizedな未来"を創りませんか？
     </p>
-    <!-- <div class='l-recruit__button c-line__button c-line__button_white'>
-        <a class="c-line__button__text c-line__button_white__text" href="/recruit">採用情報</a>
-    </div> -->
+
     <div>
       <a target="_blank"　href="/recruit">
         <img alt="recruit" class="l-recruit__banner__pc"

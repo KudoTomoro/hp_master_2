@@ -87,14 +87,14 @@
             <img alt="primas"
             src="{{ asset('images/partner_primas.png') }}" />
           </a>
-          <a href="https://brave.com/" target='_blank'>
+          <!-- <a href="https://brave.com/" target='_blank'>
             <img alt="brave"
             src="{{ asset('images/partner_brave.png') }}" />
           </a>
           <a href="https://makerdao.com/en/" target='_blank'>
             <img alt="maker"
             src="{{ asset('images/partner_maker.png') }}" />
-          </a>
+          </a> -->
         </div>
 
 
@@ -102,11 +102,11 @@
           <li><div class='i-partner__logo__box'><a href="https://primas.io/" target='_blank'><img alt="primas" class="l-partner__icon_middle_img"
           src="{{ asset('images/partner_primas.png') }}" /></a></div></li>
 
-          <li><div class='i-partner__logo__box'><a href="https://brave.com/" target='_blank'><img alt="brave" class="l-partner__icon_middle_img"
+          <!-- <li><div class='i-partner__logo__box'><a href="https://brave.com/" target='_blank'><img alt="brave" class="l-partner__icon_middle_img"
           src="{{ asset('images/partner_brave.png') }}" /></a></div></li>
 
           <li><div class='i-partner__logo__box'><a href="https://makerdao.com/en/" target='_blank'><img alt="maker" class="l-partner__icon_middle_img"
-          src="{{ asset('images/partner_maker.png') }}" /></a></div></li>
+          src="{{ asset('images/partner_maker.png') }}" /></a></div></li> -->
 
         </ul>
 

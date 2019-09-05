@@ -115,6 +115,13 @@
       height: 56px;
     }
 
+    &__introduction{
+      margin: 64px 0;
+      &__content{
+        margin: 60px 240px 24px;
+      }
+    }
+
     &__technologystack{
       display: block;
         &__content{
@@ -123,15 +130,21 @@
         &__category{
           width: auto;
           height: 200px;
+          // margin: 24px 0;
           &_title{
             font-weight: 600;
+            border-bottom: solid #FF6A00;
+          }
+          &_infra{
+            width: auto;
+            height: 360px;
           }
         }
         &__item{
           height: 150px;
           width: 100px;
           padding-top:10px;
-          border-top: solid #FF6A00;
+          // border-top: solid #FF6A00;
           float: left;
           &__logo{
             width: 80px;
@@ -152,14 +165,33 @@
       display: block;
       width: 100%;
       clear: both;
+      // margin-top:48px;
     }
     .development{
       float: left;
       margin-right: 36px;
     }
+
+    .support_title{
+      margin-left:540px;
+    }
+
     .cloudwatch_sp{
       display: none;
     }
+    .cloudfront_sp{
+      display: none;
+    }
+    .Elasticsearch_sp{
+      display: none;
+    }
+    .Gateway_sp{
+      display: none;
+    }
+    .DynamoDB_sp{
+      display: none;
+    }
+
     .lf_sp{
       display: none;
     }
@@ -351,7 +383,7 @@
 
       &__heading {
         font-size: 24px;
-        font-weight: 400;
+        font-weight: 700;
         letter-spacing: 1.6px;
         // color: #333;
       }
@@ -455,8 +487,7 @@
 
         padding: 32px;
         background-color: #FAFAFA;
-        // box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
-        // box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
         // border-radius: 8px;
         &__title {
@@ -587,21 +618,32 @@
       display: none;
     }
 
+
+    &__introduction{
+      margin: 64px 0;
+      &__content{
+        margin: 60px 20px 24px;
+      }
+    }
+
+
     &__technologystack{
       margin:0 auto;
         &__content{
           margin: 20px 0;
-          // width: 200px;
-          // height: auto;
         }
         &__category{
-          // width: 220;
-          // height: auto;
-          // margin: 10px 0;
+
           margin:0 auto;
           &_title{
             font-weight: 600;
             border-bottom: solid #FF6A00;
+            margin-top: 20px;
+          }
+          &_infra{
+            width: 320px;
+            height: 280px;
+            margin:0 auto;
           }
         }
         &__item{
@@ -640,6 +682,18 @@
       height: 200px;
     }
     .cloudwatch_pc{
+      display: none;
+    }
+    .cloudfront_pc{
+      display: none;
+    }
+    .Elasticsearch_pc{
+      display: none;
+    }
+    .Gateway_pc{
+      display: none;
+    }
+    .DynamoDB_pc{
       display: none;
     }
     .lf_pc{
