@@ -12807,6 +12807,9 @@ body.fixed {
   .l-footer__body {
     display: flex;
   }
+  .l-footer__body__center {
+    margin: auto;
+  }
   .l-footer__body__logo img {
     width: auto;
     height: 32px;
@@ -13004,6 +13007,7 @@ body.fixed {
 }
 @media screen and (min-width: 769px) {
   .s-top {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13014,6 +13018,8 @@ body.fixed {
     width: calc(100% - 440px);
   }
   .s-top__title {
+    position: absolute;
+    top: 136px;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 1.6px;
@@ -13653,7 +13659,7 @@ body.fixed {
   }
   .l-news__content__body {
     width: calc((100% - 64px) / 3);
-    height: 320px;
+    height: auto;
     margin-bottom: 32px;
     background-color: #FFF;
     box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.08);
@@ -13661,11 +13667,11 @@ body.fixed {
     position: relative;
   }
   .l-news__content__body__thum {
-    width: 352px;
-    height: 200px;
+    width: 100%;
+    height: auto;
   }
   .l-news__content__body__title {
-    margin: 24px 12px 12px;
+    margin: 36px 12px 36px;
     font-size: 14px;
     text-align: left;
     color: #333;
@@ -14394,8 +14400,9 @@ body.fixed {
     vertical-align: middle;
     text-align: center;
   }
-  .i-service__client_logo_img_nri {
+  .i-service__client_logo_nri {
     height: 80px;
+    padding: 0;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -15158,9 +15165,11 @@ body.fixed {
   }
   .i-recruit__introduction {
     margin: 64px 0;
+    text-align: center;
   }
   .i-recruit__introduction__content {
-    margin: 60px 240px 24px;
+    display: inline-block;
+    margin: 48px auto;
   }
   .i-recruit__technologystack {
     display: block;
@@ -15178,7 +15187,6 @@ body.fixed {
   }
   .i-recruit__technologystack__category_infra {
     width: auto;
-    height: 360px;
   }
   .i-recruit__technologystack__item {
     height: 150px;
@@ -15212,6 +15220,7 @@ body.fixed {
   }
   .i-recruit .business_design_title {
     width: 600px;
+    margin-top: 48px;
   }
   .i-recruit .cloudwatch_sp {
     display: none;
@@ -15240,9 +15249,11 @@ body.fixed {
     padding: 0 0 48px;
   }
   .i-recruit__team__content {
-    width: 960px;
-    margin: 0 60px;
     padding-top: 24px;
+  }
+  .i-recruit__team__content__members {
+    padding-left: 60px;
+    max-width: 960px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -15372,19 +15383,23 @@ body.fixed {
     background-color: #FAFAFA;
   }
   .i-recruit__message__content {
+    height: 640px;
     margin: 48px 80px 0;
     padding: 48px 48px 60px;
     background-color: #FFF;
     box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.08);
   }
   .i-recruit__message__content__text {
-    width: 600px;
+    width: calc(60% - 30px);
     margin-left: auto;
   }
   .i-recruit__message__content_img {
-    width: 360px;
+    width: calc(40% - 30px);
     margin: 0 24px 48px 0;
     float: left;
+  }
+  .i-recruit__message__content_img_picture {
+    width: calc(100% - 30px);
   }
   .i-recruit__message__ceo {
     color: #FF6A00;
@@ -15441,7 +15456,7 @@ body.fixed {
   .i-recruit__feature__item__img {
     width: 50%;
     min-height: 200px;
-    margin: 0px 0 8px;
+    margin: 0px 0 24px;
     padding: 4px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -15458,6 +15473,7 @@ body.fixed {
   }
   .i-recruit__feature__item__title h3 {
     font-weight: 600;
+    margin: 0px 0 24px;
   }
   .i-recruit__feature__item__desc p {
     height: 40%;

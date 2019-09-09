@@ -92,12 +92,13 @@
               display: inline-block;
               vertical-align: middle;
               text-align: center;
-              &_nri{
-                height: 80px;
-                display: inline-block;
-                vertical-align: middle;
-                text-align: center;
-              }
+            }
+            &_nri{
+              height: 80px;
+              padding: 0;
+              display: inline-block;
+              vertical-align: middle;
+              text-align: center;
             }
           }
         }

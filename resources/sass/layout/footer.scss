@@ -7,7 +7,9 @@
     .l-footer{
         &__body{
             display: flex;
-
+            &__center{
+              margin: auto;
+            }
 
             &__logo {
                 & img {

@@ -16,7 +16,7 @@
                         src="{{ asset('images/ic_service_media_sm.png') }}" />
                 </div>
                 <h2 class='i-service__content__title'>メディアサポート事業</h2>
-                <p class='i-service__content__explain'>メディアの立ち上げからグロースまで</br>幅広くサポートします。</p>
+                <p class='i-service__content__explain'>メディアの立ち上げからグロースまで幅広くサポートします。</p>
                 <p class='i-service__content__item'>- 仮想通貨・ブロックチェーン業界の著名人の紹介<br />- 社内ライターの研修<br />- 業界分析レポートの作成<br />-
                     海外速報の共有<br />- 記事広告の斡旋</p>
                 <div class='i-service__content__button c-line__button'>
@@ -42,7 +42,7 @@
                         src="{{ asset('images/ic_service_trans_sm.png') }}" />
                 </div>
                 <h2 class='i-service__content__title'>翻訳・プロジェクトPR事業</h2>
-                <p class='i-service__content__explain'>仮想通貨・ブロックチェーンに限らず</br>事業のグローバル対応をサポートします。</p>
+                <p class='i-service__content__explain'>仮想通貨・ブロックチェーンに限らず事業のグローバル対応をサポートします。</p>
                 <p class='i-service__content__item'>- ホームページの多言語対応<br />- オウンドメディアの多言語対応<br />- イベントなどへの通訳派遣<br />-
                     ビジネス英会話研修<br />- ローカライズ対応、各地でのマーケティング</p>
                 <div class='i-service__content__button c-line__button'>
@@ -93,9 +93,9 @@
             <img alt="kodansha" class="i-service__client_logo_img"
             src="{{ asset('images/01_SERVICE/client_kodansha.jpg') }}" />
           </li>
-          <li>
-            <img alt="nri" class="i-service__client_logo_img_nri"
-            src="{{ asset('images/01_SERVICE/client_nri.png') }}" />
+          <li class="i-service__client_logo_nri">
+            <img alt="nri" class="i-service__client_logo_nri"
+            src="{{ asset('images/01_SERVICE/nri.png') }}" />
           </li>
         </ul>
       </div>

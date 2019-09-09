@@ -1,5 +1,6 @@
 @media screen and (min-width: 769px){
     .s-top{
+        position: relative;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -11,6 +12,8 @@
         }
 
         &__title {
+            position: absolute;
+            top:136px;
             font-size: 40px;
             font-weight: 700;
             letter-spacing: 1.6px;

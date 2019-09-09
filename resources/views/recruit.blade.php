@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', '人材育成事業 - 株式会社techtec')
+@section('title', 'RECRUIT - 株式会社techtec')
 
 @section('content')
 <div class='i-recruit'>
@@ -70,10 +70,10 @@
         <div class='i-recruit__introduction'>
           <div class='l-body__title i-recruit_title'>
               <h2 class='l-body__heading i-recruit__heading'>INTRODUCTION</h2>
-              <p class='l-body__subhead i-recruit__subhead'>会社説明資料</p>
+              <p class='l-body__subhead i-recruit__subhead'>会社紹介資料</p>
           </div>
           <div class='i-recruit__introduction__content'>
-            <div style="max-width: 800px">
+            <div style="width: 800px">
               <script async class="speakerdeck-embed" data-id="1236a727e29e44b29e9610140cba64fd" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
             </div>
           </div>
@@ -281,80 +281,82 @@
                 <p class='l-body__subhead i-recruit__subhead'>チームメンバー</p>
             </div>
             <div class='i-recruit__team__content'>
+              <div class='i-recruit__team__content__members'>
                 <div class='i-recruit__team__list' data-id='1'>
-                    <img class="i-recruit__team__thumb" alt="Tomohiro Tagami | CEO / Product Manager"
-                        src="{{ asset('images/04_RECRUIT/team_tagami.jpg') }}" />
-                    <h3 class='i-recruit__team__name'>Tomohiro Tagami</h3>
-                    <p class='i-recruit__team__role'>CEO / Product Manager</p>
+                  <img class="i-recruit__team__thumb" alt="Tomohiro Tagami | CEO / Product Manager"
+                  src="{{ asset('images/04_RECRUIT/team_tagami.jpg') }}" />
+                  <h3 class='i-recruit__team__name'>Tomohiro Tagami</h3>
+                  <p class='i-recruit__team__role'>CEO / Product Manager</p>
                 </div>
                 <div class='i-recruit__team__list' data-id='2'>
-                    <img class="i-recruit__team__thumb" alt="Ryosuke Hashimoto | Engineer"
-                        src="{{ asset('images/member_ryosuke_hashimoto.png') }}" />
-                    <h3 class='i-recruit__team__name'>Ryosuke Hashimoto</h3>
-                    <p class='i-recruit__team__role'>Engineer</p>
+                  <img class="i-recruit__team__thumb" alt="Ryosuke Hashimoto | Engineer"
+                  src="{{ asset('images/member_ryosuke_hashimoto.png') }}" />
+                  <h3 class='i-recruit__team__name'>Ryosuke Hashimoto</h3>
+                  <p class='i-recruit__team__role'>Engineer</p>
                 </div>
                 <div class='i-recruit__team__list' data-id='3'>
-                    <img class="i-recruit__team__thumb" alt="Ayaka Ei | Engineer"
-                        src="{{ asset('images/member_ayaka_ei.png') }}" />
-                    <h3 class='i-recruit__team__name'>Ayaka Ei</h3>
-                    <p class='i-recruit__team__role'>Engineer</p>
+                  <img class="i-recruit__team__thumb" alt="Ayaka Ei | Engineer"
+                  src="{{ asset('images/member_ayaka_ei.png') }}" />
+                  <h3 class='i-recruit__team__name'>Ayaka Ei</h3>
+                  <p class='i-recruit__team__role'>Engineer</p>
                 </div>
 
                 <div class='i-recruit__team__list' data-id='5'>
-                    <img class="i-recruit__team__thumb" alt="Masa Cho | Global Alliance Director"
-                        src="{{ asset('images/member_masa_cho.png') }}" />
-                    <h3 class='i-recruit__team__name'>Masa Cho</h3>
-                    <p class='i-recruit__team__role'>Global Alliance Director</p>
+                  <img class="i-recruit__team__thumb" alt="Masa Cho | Global Alliance Director"
+                  src="{{ asset('images/member_masa_cho.png') }}" />
+                  <h3 class='i-recruit__team__name'>Masa Cho</h3>
+                  <p class='i-recruit__team__role'>Global Alliance Director</p>
                 </div>
                 <div class='i-recruit__team__list' data-id='6'>
-                    <img class="i-recruit__team__thumb" alt="Maya Sause | English Conversation Specialist"
-                        src="{{ asset('images/member_maya_sause.png') }}" />
-                    <h3 class='i-recruit__team__name'>Maya Sause</h3>
-                    <p class='i-recruit__team__role'>English Conversation <br/>Specialist</p>
+                  <img class="i-recruit__team__thumb" alt="Maya Sause | English Conversation Specialist"
+                  src="{{ asset('images/member_maya_sause.png') }}" />
+                  <h3 class='i-recruit__team__name'>Maya Sause</h3>
+                  <p class='i-recruit__team__role'>English Conversation <br/>Specialist</p>
                 </div>
 
                 <div class='i-recruit__team__list' data-id='8'>
-                    <img class="i-recruit__team__thumb" alt="Li Li | Tech Adviser"
-                        src="{{ asset('images/04_RECRUIT/team_lili.jpg') }}" />
-                    <h3 class='i-recruit__team__name'>Li Li</h3>
-                    <p class='i-recruit__team__role'>Tech Adviser</p>
+                  <img class="i-recruit__team__thumb" alt="Li Li | Tech Adviser"
+                  src="{{ asset('images/04_RECRUIT/team_lili.jpg') }}" />
+                  <h3 class='i-recruit__team__name'>Li Li</h3>
+                  <p class='i-recruit__team__role'>Tech Adviser</p>
                 </div>
                 <div class='i-recruit__team__list' data-id='9'>
-                    <img class="i-recruit__team__thumb" alt="Takuya Watahiki | Engineer"
-                        src="{{ asset('images/04_RECRUIT/team_watahiki.jpg') }}" />
-                    <h3 class='i-recruit__team__name'>Takuya Watahiki</h3>
-                    <p class='i-recruit__team__role'>Engineer</p>
+                  <img class="i-recruit__team__thumb" alt="Takuya Watahiki | Engineer"
+                  src="{{ asset('images/04_RECRUIT/team_watahiki.jpg') }}" />
+                  <h3 class='i-recruit__team__name'>Takuya Watahiki</h3>
+                  <p class='i-recruit__team__role'>Engineer</p>
                 </div>
                 <div class='i-recruit__team__list' data-id='10'>
-                    <img class="i-recruit__team__thumb" alt="Leon Watanabe | Blockchain Researcher"
-                        src="{{ asset('images/04_RECRUIT/team_watanabe.jpg') }}" />
-                    <h3 class='i-recruit__team__name'>Leon Watanabe</h3>
-                    <p class='i-recruit__team__role'>Blockchain Researcher</p>
+                  <img class="i-recruit__team__thumb" alt="Leon Watanabe | Blockchain Researcher"
+                  src="{{ asset('images/04_RECRUIT/team_watanabe.jpg') }}" />
+                  <h3 class='i-recruit__team__name'>Leon Watanabe</h3>
+                  <p class='i-recruit__team__role'>Blockchain Researcher</p>
                 </div>
                 <div class='i-recruit__team__list' data-id='11'>
-                    <img class="i-recruit__team__thumb" alt="Tomoro Kudo | Designer"
-                        src="{{ asset('images/04_RECRUIT/team_kudo.jpg') }}" />
-                    <h3 class='i-recruit__team__name'>Tomoro Kudo</h3>
-                    <p class='i-recruit__team__role'>Designer</p>
+                  <img class="i-recruit__team__thumb" alt="Tomoro Kudo | Designer"
+                  src="{{ asset('images/04_RECRUIT/team_kudo.jpg') }}" />
+                  <h3 class='i-recruit__team__name'>Tomoro Kudo</h3>
+                  <p class='i-recruit__team__role'>Designer</p>
                 </div>
                 <div class='i-recruit__team__list' data-id='12'>
-                    <img class="i-recruit__team__thumb" alt="PoL Community | Ambassador"
-                        src="{{ asset('images/04_RECRUIT/team_pol-community.png') }}" />
-                    <h3 class='i-recruit__team__name'>PoL Community</h3>
-                    <p class='i-recruit__team__role'>Ambassador</p>
+                  <img class="i-recruit__team__thumb" alt="PoL Community | Ambassador"
+                  src="{{ asset('images/04_RECRUIT/team_pol-community.png') }}" />
+                  <h3 class='i-recruit__team__name'>PoL Community</h3>
+                  <p class='i-recruit__team__role'>Ambassador</p>
                 </div>
                 <div class='i-recruit__team__list' data-id='13'>
-                    <img class="i-recruit__team__thumb" alt="Elice"
-                        src="{{ asset('images/04_RECRUIT/team_elice.png') }}" />
-                    <h3 class='i-recruit__team__name'>Elice</h3>
-                    <p class='i-recruit__team__role'>Brand Artist</p>
+                  <img class="i-recruit__team__thumb" alt="Elice"
+                  src="{{ asset('images/04_RECRUIT/team_elice.png') }}" />
+                  <h3 class='i-recruit__team__name'>Elice</h3>
+                  <p class='i-recruit__team__role'>Brand Artist</p>
                 </div>
                 <div class='i-recruit__team__list' data-id='14'>
-                    <img class="i-recruit__team__thumb" alt="You"
-                        src="{{ asset('images/04_RECRUIT/team_you.png') }}" />
-                    <h3 class='i-recruit__team__name'>and You...</h3>
-                    <!-- <p class='i-recruit__team__role'>You</p> -->
+                  <img class="i-recruit__team__thumb" alt="You"
+                  src="{{ asset('images/04_RECRUIT/team_you.png') }}" />
+                  <h3 class='i-recruit__team__name'>and You...</h3>
+                  <!-- <p class='i-recruit__team__role'>You</p> -->
                 </div>
+              </div>
             </div>
         </div>
         <div class='i-recruit__message'>
@@ -375,10 +377,9 @@
               <div class='i-recruit__message__content__text'>
                 <h3 class='i-recruit__message__heading'>価値の対価は労働だけではない</h3>
                 <div class='i-recruit__message__desc'>
-                  <p>インターネット、とりわけブロックチェーンが普及した時代では、世界中のボーダレス化が益々加速します。</p>
-                  <p>そんな未来の社会では、価値の対価は必ずしも労働だけではなくなると考えています。</p>
-                  <p>techtecでは、「個人の成長をサポートし、誰もが自由に生きていける世界を作る。」というミッションの元、あらゆる人材が個人として活躍できる社会の実現を目指します。</p>
-                  <p>動画配信するだけで、ゲームするだけで、そして学習するだけで報酬がもらえる...<br>そんな世界を創るために、あなたもtechtecチームに入りませんか？</p>
+                  <p>インターネット、とりわけブロックチェーンが普及した時代では、ボーダレスが益々加速します。国境だけでなくあらゆるものの境目が消滅する中で、求められるのは個人のアイデンティティです。</p>
+                  <p>techtecでは、「個人の成長をサポートし、誰もが自由に生きていける世界を作る。」というミッションの元、あらゆる人材が個人として活躍できる社会の実現を目指します。そんな理想の社会では、誰もが自分の好きなこと・得意なことだけで生きていけるようになるはずです。</p>
+                  <p>動画配信するだけで、ゲームするだけで、そして学習するだけで報酬がもらえる...<br>そんな世界を創るために、我々は全力でコミットしていきます。</p>
 
                 </div>
                 <!-- <p class='i-recruit__message__name'>代表取締役 田上智裕</p> -->
@@ -401,7 +402,7 @@
           <section>
             <div class='l-body__title i-recruit_title feature_title'>
                 <h2 class='l-body__heading i-recruit__heading'>FEATURE</h2>
-                <p class='l-body__subhead i-recruit__subhead'>techteらしさ</p>
+                <p class='l-body__subhead i-recruit__subhead'>techtecらしさ</p>
             </div>
             <ul class='i-recruit__feature__content'>
 
