@@ -85,9 +85,22 @@
             align-items: flex-start;
             margin: 64px auto 0;
 
+            &_box{
+              position: relative;
+              width: 200px;
+              height: 60px;
+            }
+
+            & a {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translateY(-50%) translateX(-50%);
+            }
+
             & img {
-                width: auto;
-                height: 60px;
+                max-width:160px ;
+                height: auto;
                 margin: 0 24px;
                 transition: 0.4s;
                 -webkit-transition: 0.4s;

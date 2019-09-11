@@ -143,8 +143,8 @@
               </div>
 
             </div>
-            <div class="i-recruit__technologystack__category_infra">
-              <h3 class="i-recruit__technologystack__category_title">インフラ</h3>
+            <div class="i-recruit__technologystack__category infra">
+              <h3 class="i-recruit__technologystack__category_title infra_title">インフラ</h3>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="ec2"
                 src="{{ asset('images/technologystack/amazon-ec2.png') }}" />

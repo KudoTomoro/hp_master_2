@@ -235,18 +235,24 @@
 
         </div>
         <div class='l-partner__icon l-body__content'>
-          <a href="https://primas.io/" target='_blank'>
-            <img alt="primas" class="l-partner__icon_img"
-            src="{{ asset('images/partner_primas.png') }}" />
-          </a>
-          <!-- <a href="https://brave.com/" target='_blank'>
+          <div class='l-partner__icon_box'>
+            <a href="https://primas.io/" target='_blank'>
+              <img alt="primas" class="l-partner__icon_img"
+              src="{{ asset('images/partner_primas.png') }}" />
+            </a>
+          </div>
+          <!-- <div class='l-partner__icon_box'>
+          <a href="https://brave.com/" target='_blank'>
             <img alt="brave" class="l-partner__icon_img"
             src="{{ asset('images/partner_brave.png') }}" />
           </a>
+        </div> -->
+          <div class='l-partner__icon_box'>
           <a href="https://makerdao.com/en/" target='_blank'>
             <img alt="maker" class="l-partner__icon_img"
-            src="{{ asset('images/partner_maker.png') }}" />
-          </a> -->
+            src="{{ asset('images/MakerDAO_green.png') }}" />
+          </a>
+        </div>
 
         </div>
 
@@ -256,10 +262,10 @@
             src="{{ asset('images/partner_primas.png') }}" /></a></div></li>
 
             <!-- <li><div class='l-partner__icon__box'><a href="https://brave.com/" target='_blank'><img alt="brave" class="l-partner__icon_middle_img"
-            src="{{ asset('images/partner_brave.png') }}" /></a></div></li>
+            src="{{ asset('images/partner_brave.png') }}" /></a></div></li> -->
 
             <li><div class='l-partner__icon__box'><a href="https://makerdao.com/en/" target='_blank'><img alt="maker" class="l-partner__icon_middle_img"
-            src="{{ asset('images/partner_maker.png') }}" /></a></div></li> -->
+            src="{{ asset('images/MakerDAO_green.png') }}" /></a></div></li>
 
 
           </ul>
@@ -494,7 +500,7 @@
 <div class='l-recruit'>
     <h2 class='l-recruit__title'>私たちと一緒に働きませんか？</h2>
     <p class='l-recruit__desc'>
-        <!-- techtecは常に新しい仲間を募集しています。<br />「メンバーの圧倒的な成長」「プロダクトドリブン」「フラットな組織」<br />上記に少しでも共感してもらえる人は、<br />ぜひ一度オフィスに遊びに来てください！<br /><br />共に、"Decentralizedな未来"を創りませんか？ -->
+
         techtecは常に新しい仲間を募集しています。</br>「チームの圧倒的な成長」「ユーザーファースト」「グローバル」</br>上記に少しでも共感してもらえる人は、</br>ぜひ一度オフィスに遊びに来てください！</br>共に、"Decentralizedな未来"を創りませんか？
     </p>
 

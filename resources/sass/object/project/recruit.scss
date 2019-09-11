@@ -136,20 +136,17 @@
 
           &_title{
             font-weight: 600;
-            border-bottom: solid #FF6A00;
+            // border-bottom: solid #FF6A00;
           }
           &_infra{
-            width: auto;
-
-            // height: 200px;
-            // margin-bottom:24px;
+            // height: 400px;
           }
         }
         &__item{
           height: 150px;
           width: 100px;
           padding-top:10px;
-          // border-top: solid #FF6A00;
+          border-top: solid #FF6A00;
           float: left;
           &__logo{
             width: 80px;
@@ -182,9 +179,14 @@
       margin-left:540px;
     }
 
+    .infra_title{
+      max-width:96%;
+
+    }
+
     .business_design_title{
       width: 600px;
-      margin-top:48px;
+      // margin-top:48px;
 
     }
 

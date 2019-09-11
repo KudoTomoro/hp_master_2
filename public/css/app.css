@@ -12809,6 +12809,7 @@ body.fixed {
   }
   .l-footer__body__center {
     margin: auto;
+    display: flex;
   }
   .l-footer__body__logo img {
     width: auto;
@@ -13611,10 +13612,18 @@ body.fixed {
     margin: 30px 0;
     background-color: #FFF;
   }
-  .l-partner__icon_img {
-    width: auto;
+  .l-partner__icon_box {
+    position: relative;
+    width: 200px;
     height: 60px;
-    margin: 32px;
+  }
+  .l-partner__icon_img {
+    max-width: 160px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
     transition: 0.4s;
     -webkit-transition: 0.4s;
   }
@@ -14164,8 +14173,8 @@ body.fixed {
     box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.08);
   }
   .l-partner__icon_middle_img {
-    height: 32px;
-    width: auto;
+    max-width: 120px;
+    height: auto;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -14745,9 +14754,20 @@ body.fixed {
     align-items: flex-start;
     margin: 64px auto 0;
   }
-  .i-partner__logo img {
-    width: auto;
+  .i-partner__logo_box {
+    position: relative;
+    width: 200px;
     height: 60px;
+  }
+  .i-partner__logo a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+  .i-partner__logo img {
+    max-width: 160px;
+    height: auto;
     margin: 0 24px;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -15183,15 +15203,12 @@ body.fixed {
   }
   .i-recruit__technologystack__category_title {
     font-weight: 600;
-    border-bottom: solid #FF6A00;
-  }
-  .i-recruit__technologystack__category_infra {
-    width: auto;
   }
   .i-recruit__technologystack__item {
     height: 150px;
     width: 100px;
     padding-top: 10px;
+    border-top: solid #FF6A00;
     float: left;
   }
   .i-recruit__technologystack__item__logo {
@@ -15218,9 +15235,11 @@ body.fixed {
     width: 400px;
     margin-left: 540px;
   }
+  .i-recruit .infra_title {
+    max-width: 96%;
+  }
   .i-recruit .business_design_title {
     width: 600px;
-    margin-top: 48px;
   }
   .i-recruit .cloudwatch_sp {
     display: none;
