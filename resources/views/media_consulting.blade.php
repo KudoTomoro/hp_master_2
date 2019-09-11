@@ -8,12 +8,12 @@
 <div class='c-body'>
     <section class='inner'>
         <div class='s-top'>
-            <div class='s-top__text'>
+            <!-- <div class='s-top__text'> -->
                 <h1 class='s-top__title'>メディアサポート事業</h1>
                 <p class='s-top__desc'>
                     仮想通貨メディアの立ち上げからグロースまで幅広くサポートします。まだまだ黎明期である仮想通貨・ブロックチェーン業界は、正しい情報を入手する難しさや入手した情報を発信できる人材不足が長年の課題となっています。
                 </p>
-            </div>
+            <!-- </div> -->
             <div class='s-top__image'>
                 <img alt="メディアサポート事業"
                     src="{{ asset('/images/ic_service_media_lg.png') }}" />

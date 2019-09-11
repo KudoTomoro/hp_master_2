@@ -13015,19 +13015,18 @@ body.fixed {
     margin: 0 48px;
     padding: 120px 0 0;
   }
-  .s-top__text {
-    width: calc(100% - 440px);
-  }
   .s-top__title {
     position: absolute;
     top: 136px;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 1.6px;
+    height: 60px;
     color: #3c3a3a;
   }
   .s-top__desc {
-    margin: 32px 0 0;
+    width: calc(100% - 440px);
+    padding: 12px 0 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 2;
@@ -13037,6 +13036,10 @@ body.fixed {
   .s-top__image img {
     width: 240px;
     height: 240px;
+  }
+
+  .translate_text {
+    padding: 48px 0 0;
   }
 
   .s-help {
@@ -13055,9 +13058,8 @@ body.fixed {
     margin-right: 0;
   }
   .s-help__image {
-    width: 96px;
-    height: 96px;
-    margin: auto;
+    width: 50px;
+    height: 50px;
   }
   .s-help__image img {
     width: 100%;
@@ -13065,8 +13067,8 @@ body.fixed {
   }
   .s-help__title {
     position: relative;
-    margin: 24px auto;
-    text-align: center;
+    margin: 16px 0;
+    text-align: left;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.8px;
@@ -14410,11 +14412,20 @@ body.fixed {
     text-align: center;
   }
   .i-service__client_logo_nri {
+    position: relative;
     height: 80px;
     padding: 0;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+  }
+  .i-service__client_logo_nri img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
   }
 }
 @media screen and (max-width: 768px) {
@@ -15199,28 +15210,30 @@ body.fixed {
   }
   .i-recruit__technologystack__category {
     width: auto;
-    height: 200px;
+    height: 160px;
   }
   .i-recruit__technologystack__category_title {
     font-weight: 600;
   }
+  .i-recruit__technologystack__category_infra {
+    width: auto;
+    height: 360px;
+  }
   .i-recruit__technologystack__item {
-    height: 150px;
-    width: 100px;
-    padding-top: 10px;
     border-top: solid #FF6A00;
     float: left;
   }
   .i-recruit__technologystack__item__logo {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   }
   .i-recruit__technologystack__item__name {
     text-align: center;
-    font-size: 12px;
+    width: 70px;
+    font-size: 10px;
   }
   .i-recruit .business_design {
     display: block;
@@ -15233,10 +15246,7 @@ body.fixed {
   }
   .i-recruit .support_title {
     width: 400px;
-    margin-left: 540px;
-  }
-  .i-recruit .infra_title {
-    max-width: 96%;
+    margin-left: 300px;
   }
   .i-recruit .business_design_title {
     width: 600px;

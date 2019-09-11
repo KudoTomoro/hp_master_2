@@ -131,26 +131,26 @@
         }
         &__category{
           width: auto;
-          height: 200px;
-          // margin:24px 0;
-
+          height: 160px;
+          // margin: 24px 0;
           &_title{
             font-weight: 600;
             // border-bottom: solid #FF6A00;
           }
           &_infra{
-            // height: 400px;
+            width: auto;
+            height: 360px;
           }
         }
         &__item{
-          height: 150px;
-          width: 100px;
-          padding-top:10px;
+          // height: 150px;
+          // width: 80px;
+          // padding-top:10px;
           border-top: solid #FF6A00;
           float: left;
           &__logo{
-            width: 80px;
-            height: 80px;
+            width: 50px;
+            height: 50px;
             margin: 10px;
             border-radius: 50%;
             // box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
@@ -158,37 +158,31 @@
           }
           &__name{
             text-align: center;
-            font-size: 12px;
+            width: 70px;
+            font-size: 10px;
           }
         }
     }
 
     .business_design{
-      display: block;
-      width: 100%;
-      clear: both;
-      // margin-top:48px;
-    }
-    .development{
-      float: left;
-      margin-right: 36px;
-    }
+        display: block;
+        width: 100%;
+        clear: both;
+        // margin-top:48px;
+      }
+      .development{
+        float: left;
+        margin-right: 36px;
+      }
 
-    .support_title{
-      width: 400px;
-      margin-left:540px;
-    }
+      .support_title{
+        width: 400px;
+        margin-left:300px;
+      }
 
-    .infra_title{
-      max-width:96%;
-
-    }
-
-    .business_design_title{
-      width: 600px;
-      // margin-top:48px;
-
-    }
+      .business_design_title{
+        width: 600px;
+      }
 
     .cloudwatch_sp{
       display: none;

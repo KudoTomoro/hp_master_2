@@ -94,11 +94,20 @@
               text-align: center;
             }
             &_nri{
+              position: relative;
               height: 80px;
               padding: 0;
               display: inline-block;
               vertical-align: middle;
               text-align: center;
+              & img {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+              }
             }
           }
         }

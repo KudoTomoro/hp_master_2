@@ -8,12 +8,12 @@
 <div class='c-body'>
     <section class='inner'>
         <div class='s-top'>
-            <div class='s-top__text'>
+            <!-- <div class='s-top__text'> -->
                 <h1 class='s-top__title'>リサーチ事業</h1>
                 <p class='s-top__desc'>
                     様々な業界における国内外のブロックチェーン活用事例や動向の調査をします。調査結果はレポートとしてまとめ、社内全体でご共有いただけます。世界中のtechtecグローバルパートナーへのヒアリングを行うこともできます。
                 </p>
-            </div>
+            <!-- </div> -->
             <div class='s-top__image'>
                 <img alt="人材育成事業"
                     src="{{ asset('images/ic_service_pr_lg.png') }}" />
