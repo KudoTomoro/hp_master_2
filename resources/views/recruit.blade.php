@@ -9,63 +9,73 @@
             <h2 class='c-body__heading c-body__heading_bg'>VISION</h2>
             <p class='c-body__subhead c-body__subhead_bg'>目指す世界</p>
         </div>
+        <div class='i-recruit__eyecatch'>
+              <img class="i-recruit__eyecatch_img" alt="recruitのアイキャッチ"
+              src="{{ asset('images/bg_vision.png') }}" />
+        </div>
+        
+        <div class='i-top'>
         <div class='i-recruit__vision'>
             <h3 class='i-recruit__vision__title'>好きな事を、好きな時に、好きな場所で、好きな人と、好きなやり方で。</h3>
             <p class='i-recruit__vision__text'>
                 全てを自分の意思のままに、自由に決めることができる世界を作れたら、どれ程の笑顔を見ることができるだろうか、どんなに幸せだろうか。そんな理想の世界を作りたい、きっと作れる、我々はそう信じています。
             </p>
         </div>
-        <div class='i-recruit__value'>
+      </div>
+
+
+          <div class='i-recruit__value'>
             <div class='l-body__title i-recruit__value_title recruit__title_large'>
-                <h2 class='l-body__heading l-body__heading_bg i-recruit__heading'>
-                    VALUE
-                    <span class='l-body__subhead l-body__subhead_bg i-recruit__subhead'>
-                        価値観・行動指針
-                    </span>
-                </h2>
+              <h2 class='l-body__heading l-body__heading_bg i-recruit__heading'>
+                VALUE
+                <span class='l-body__subhead l-body__subhead_bg i-recruit__subhead'>
+                  価値観・行動指針
+                </span>
+              </h2>
             </div>
 
             <!-- max-width:768px -->
             <div class='l-body__title i-recruit__value_title recruit_title_middle'>
-                <h2 class='l-body__heading l-body__heading i-recruit__heading'>
-                    VALUE
-                </h2>
-                <span class='l-body__subhead l-body__subhead i-recruit__subhead'>
-                  価値観・行動指針
-                </span>
+              <h2 class='l-body__heading l-body__heading i-recruit__heading'>
+                VALUE
+              </h2>
+              <span class='l-body__subhead l-body__subhead i-recruit__subhead'>
+                価値観・行動指針
+              </span>
             </div>
             <!-- ここまで -->
 
             <!-- <section> -->
-              <div class='i-recruit__value__composes'>
-                <div class='i-recruit__value__composes_list'>
-                  <h3 class='i-recruit__value__composes_list_title'>"Challenge Growth"</h3>
-                  <p class='i-recruit__value__composes_list_text'>どんなときも限界に挑み続けよう。貪欲に、大胆に、成長を第一に。</p>
-                  <!-- <span class='i-recruit__value__composes_list_bg'>"CHALLENGE GROWTH”</span> -->
-                </div>
-                <div class='i-recruit__value__composes_list'>
-                  <h3 class='i-recruit__value__composes_list_title'>"Think Simple"</h3>
-                  <p class='i-recruit__value__composes_list_text'>何事もシンプルに考えよう。重要なことはただ一つ、選択と集中。</p>
-                  <!-- <span class='i-recruit__value__composes_list_bg'>"THINK SIMPLE”</span> -->
-                </div>
-                <div class='i-recruit__value__composes_list'>
-                  <h3 class='i-recruit__value__composes_list_title'>"Be Yourself"</h3>
-                  <p class='i-recruit__value__composes_list_text'>自分自身を、まわりを、そして世界を明るくしよう。笑顔と素直がキーワード。</p>
-                  <!-- <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span> -->
-                </div>
-                <div class='i-recruit__value__composes_list'>
-                  <h3 class='i-recruit__value__composes_list_title'>"One for all, all for one"</h3>
-                  <p class='i-recruit__value__composes_list_text'>1人はみんなのために、みんなでユーザーのために。</p>
-                  <!-- <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span> -->
-                </div>
-                <div class='i-recruit__value__composes_list'>
-                  <h3 class='i-recruit__value__composes_list_title'> "Go Global"</h3>
-                  <p class='i-recruit__value__composes_list_text'>世界に目を向けよう。世界を意識しよう。テクノロジーは国境を越えていく。</p>
-                  <!-- <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span> -->
-                </div>
-                <div class="blank"></div>
+            <div class='i-recruit__value__composes'>
+              <div class='i-recruit__value__composes_list'>
+                <h3 class='i-recruit__value__composes_list_title'>"Challenge Growth"</h3>
+                <p class='i-recruit__value__composes_list_text'>どんなときも限界に挑み続けよう。貪欲に、大胆に、成長を第一に。</p>
+                <!-- <span class='i-recruit__value__composes_list_bg'>"CHALLENGE GROWTH”</span> -->
               </div>
-        </div>
+              <div class='i-recruit__value__composes_list'>
+                <h3 class='i-recruit__value__composes_list_title'>"Think Simple"</h3>
+                <p class='i-recruit__value__composes_list_text'>何事もシンプルに考えよう。重要なことはただ一つ、選択と集中。</p>
+                <!-- <span class='i-recruit__value__composes_list_bg'>"THINK SIMPLE”</span> -->
+              </div>
+              <div class='i-recruit__value__composes_list'>
+                <h3 class='i-recruit__value__composes_list_title'>"Be Yourself"</h3>
+                <p class='i-recruit__value__composes_list_text'>自分自身を、まわりを、そして世界を明るくしよう。笑顔と素直がキーワード。</p>
+                <!-- <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span> -->
+              </div>
+              <div class='i-recruit__value__composes_list'>
+                <h3 class='i-recruit__value__composes_list_title'>"One for all, all for one"</h3>
+                <p class='i-recruit__value__composes_list_text'>1人はみんなのために、みんなでユーザーのために。</p>
+                <!-- <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span> -->
+              </div>
+              <div class='i-recruit__value__composes_list'>
+                <h3 class='i-recruit__value__composes_list_title'> "Go Global"</h3>
+                <p class='i-recruit__value__composes_list_text'>世界に目を向けよう。世界を意識しよう。テクノロジーは国境を越えていく。</p>
+                <!-- <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span> -->
+              </div>
+              <div class="blank"></div>
+            </div>
+          </div>
+
 
         <div class='i-recruit__introduction'>
           <div class='l-body__title i-recruit_title'>
@@ -73,7 +83,7 @@
               <p class='l-body__subhead i-recruit__subhead'>会社紹介資料</p>
           </div>
           <div class='i-recruit__introduction__content'>
-            <div style="width: 800px">
+            <div style="max-width: 800px">
               <script async class="speakerdeck-embed" data-id="1236a727e29e44b29e9610140cba64fd" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
             </div>
           </div>
@@ -90,7 +100,7 @@
           <div class='i-recruit__technologystack__content'>
 
             <div class="i-recruit__technologystack__category development">
-              <h3 class="i-recruit__technologystack__category_title">開発</h3>
+              <h3 class="i-recruit__technologystack__category_title development_title">開発</h3>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="sass"
                 src="{{ asset('images/technologystack/sass.png') }}" />
@@ -133,7 +143,7 @@
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="laravel forge"
                 src="{{ asset('images/technologystack/laravel forge.png') }}" />
-                <p class="i-recruit__technologystack__item__name lf_pc">Laravel Forge</p>
+                <!-- <p class="i-recruit__technologystack__item__name lf_pc">Laravel Forge</p> -->
                 <p class="i-recruit__technologystack__item__name lf_sp">Laravel<br>Forge</p>
               </div>
               <div class="i-recruit__technologystack__item">
@@ -158,7 +168,7 @@
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="DynamoDB"
                 src="{{ asset('images/technologystack/dynamoDB.png') }}" />
-                <p class="i-recruit__technologystack__item__name DynamoDB_pc">DynamoDB</p>
+                <!-- <p class="i-recruit__technologystack__item__name DynamoDB_pc">DynamoDB</p> -->
                 <p class="i-recruit__technologystack__item__name DynamoDB_sp">Dynamo<br>DB</p>
               </div>
               <div class="i-recruit__technologystack__item">
@@ -174,13 +184,13 @@
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="Gateway"
                 src="{{ asset('images/technologystack/Gateway.png') }}" />
-                <p class="i-recruit__technologystack__item__name Gateway_pc">API Gateway</p>
+                <!-- <p class="i-recruit__technologystack__item__name Gateway_pc">API Gateway</p> -->
                 <p class="i-recruit__technologystack__item__name Gateway_sp">API<br>Gateway</p>
               </div>
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="cloudwatch"
                 src="{{ asset('images/technologystack/amazon-cloudwatch.png') }}" />
-                <p class="i-recruit__technologystack__item__name cloudwatch_pc">Cloud Watch</p>
+                <!-- <p class="i-recruit__technologystack__item__name cloudwatch_pc">Cloud Watch</p> -->
                 <p class="i-recruit__technologystack__item__name cloudwatch_sp">Cloud<br>Watch</p>
               </div>
               <div class="i-recruit__technologystack__item">
@@ -191,7 +201,7 @@
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="CloudFront"
                 src="{{ asset('images/technologystack/CloudFront.png') }}" />
-                <p class="i-recruit__technologystack__item__name cloudfront_pc">CloudFront</p>
+                <!-- <p class="i-recruit__technologystack__item__name cloudfront_pc">CloudFront</p> -->
                 <p class="i-recruit__technologystack__item__name cloudfront_sp">Cloud<br>Front</p>
               </div>
               <div class="i-recruit__technologystack__item">
@@ -212,7 +222,7 @@
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="Elasticsearch"
                 src="{{ asset('images/technologystack/Elasticsearch.png') }}" />
-                <p class="i-recruit__technologystack__item__name Elasticsearch_pc">Elasticsearch</p>
+                <!-- <p class="i-recruit__technologystack__item__name Elasticsearch_pc">Elasticsearch</p> -->
                 <p class="i-recruit__technologystack__item__name Elasticsearch_sp">Elastic<br>search</p>
               </div>
               <div class="i-recruit__technologystack__item">
@@ -238,7 +248,7 @@
               <div class="i-recruit__technologystack__item">
                 <img class="i-recruit__technologystack__item__logo" alt="google drive"
                 src="{{ asset('images/technologystack/google drive.png') }}" />
-                <p class="i-recruit__technologystack__item__name gd_pc">Google Drive</p>
+                <!-- <p class="i-recruit__technologystack__item__name gd_pc">Google Drive</p> -->
                 <p class="i-recruit__technologystack__item__name gd_sp">Google<br>Drive</p>
               </div>
               <div class="i-recruit__technologystack__item">
@@ -281,7 +291,7 @@
                 <p class='l-body__subhead i-recruit__subhead'>チームメンバー</p>
             </div>
             <div class='i-recruit__team__content'>
-              <div class='i-recruit__team__content__members'>
+              <!-- <div class='i-recruit__team__content__members'> -->
                 <div class='i-recruit__team__list' data-id='1'>
                   <img class="i-recruit__team__thumb" alt="Tomohiro Tagami | CEO / Product Manager"
                   src="{{ asset('images/04_RECRUIT/team_tagami.jpg') }}" />
@@ -356,7 +366,7 @@
                   <h3 class='i-recruit__team__name'>and You...</h3>
                   <!-- <p class='i-recruit__team__role'>You</p> -->
                 </div>
-              </div>
+              <!-- </div> -->
             </div>
         </div>
         <div class='i-recruit__message'>
@@ -375,7 +385,7 @@
               </div>
 
               <div class='i-recruit__message__content__text'>
-                <h3 class='i-recruit__message__heading'>価値の対価は労働だけではない</h3>
+                <h3 class='i-recruit__message__heading'>個人の時代はさらに加速する</h3>
                 <div class='i-recruit__message__desc'>
                   <p>インターネット、とりわけブロックチェーンが普及した時代では、ボーダレスが益々加速します。国境だけでなくあらゆるものの境目が消滅する中で、求められるのは個人のアイデンティティです。</p>
                   <p>techtecでは、「個人の成長をサポートし、誰もが自由に生きていける世界を作る。」というミッションの元、あらゆる人材が個人として活躍できる社会の実現を目指します。そんな理想の社会では、誰もが自分の好きなこと・得意なことだけで生きていけるようになるはずです。</p>

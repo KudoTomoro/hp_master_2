@@ -5,7 +5,7 @@
 @section('content')
 <div class='l-main'>
     <section>
-        <h1 class='l-main__title'>We are the</br>Decentralized </br>Future.</h1>
+        <h1 class='l-main__title'>We are the<br>Decentralized <br>Future.</h1>
         <div class='l-main__eyecatch'>
             <div class='l-main_eyecatch_slider'>
               <img class="l-main__eyecatch_img" alt="techtecのアイキャッチ"
@@ -19,22 +19,25 @@
         </div>
     </section>
 </div>
-<div class='l-mission'>
+
+<div class='l-top'>
+  <div class='l-mission'>
     <!-- <section> -->
-        <div class='l-body__title'>
-            <h2 class='l-body__heading l-body__heading_arrange'>
-                MISSION
-                <span class='l-body__subhead l-body__subhead_arrange'>
-                    企業理念
-                </span>
-            </h2>
-        </div>
-        <h3 class='l-mission__title'>個人の成長をサポートし、誰もが自由に生きていける世界を作る。</h3>
-        <p class='l-mission__desc'>我々は、誰もが自由に生きていける世界を作るべく、あらゆる選択肢を生み出し、提供し続けていきます。</p>
-        <div class='l-mission__button c-line__button'>
-            <a class="c-line__button__text" href="/recruit">私たちについて</a>
-        </div>
+    <div class='l-body__title'>
+      <h2 class='l-body__heading l-body__heading_arrange'>
+        MISSION
+        <span class='l-body__subhead l-body__subhead_arrange'>
+          企業理念
+        </span>
+      </h2>
+    </div>
+    <h3 class='l-mission__title'>個人の成長をサポートし、誰もが自由に生きていける世界を作る。</h3>
+    <p class='l-mission__desc'>我々は、誰もが自由に生きていける世界を作るべく、あらゆる選択肢を生み出し、提供し続けていきます。</p>
+    <div class='l-mission__button c-line__button'>
+      <a class="c-line__button__text" href="/recruit">私たちについて</a>
+    </div>
     <!-- </section> -->
+  </div>
 </div>
 <div class='l-service'>
     <section>
@@ -366,142 +369,53 @@
   </div>
 
   <div class='l-news__content'>
-    <div class='l-news__content__body'>
-      <div class='l-news__content__body__thum'>
-        <img alt="PoLライターコースのデバイス"
-            src="{{ asset('images/lili-join.jpg') }}" />
+    @foreach($articles as $article)
+      <div class='l-news__content__body'>
+        <div class='l-news__content__body__thum'>
+          <img src="{{ $article['image'] }}" alt="{{ $article['title'] }}" />
+        </div>
+        <div class='l-news__content__body__title'>
+          <a class='l-news__content__body__title__link' target="_blank" href="{{ $article['url'] }}">{{ $article['title'] }}</a>
+        </div>
+        <div class='l-news__content__body__date'>
+          <p>{{ $article['date'] }}</p>
+        </div>
       </div>
-      <div class='l-news__content__body__title'>
-        <a class='l-news__content__body__title__link' target="_blank" href="https://">Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</a>
-      </div>
-      <div class='l-news__content__body__date'>
-        <p>2019年8月30日</p>
-      </div>
-    </div>
-    <div class='l-news__content__body'>
-      <div class='l-news__content__body__thum'>
-        <img alt="PoLライターコースのデバイス"
-            src="{{ asset('images/lili-join.jpg') }}" />
-      </div>
-      <div class='l-news__content__body__title'>
-        <a class='l-news__content__body__title__link' target="_blank" href="https://">Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</a>
-      </div>
-      <div class='l-news__content__body__date'>
-        <p>2019年8月30日</p>
-      </div>
-    </div>
-    <div class='l-news__content__body'>
-      <div class='l-news__content__body__thum'>
-        <img alt="PoLライターコースのデバイス"
-            src="{{ asset('images/lili-join.jpg') }}" />
-      </div>
-      <div class='l-news__content__body__title'>
-        <a class='l-news__content__body__title__link' target="_blank" href="https://">Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</a>
-      </div>
-      <div class='l-news__content__body__date'>
-        <p>2019年8月30日</p>
-      </div>
-    </div>
-    <div class='l-news__content__body'>
-      <div class='l-news__content__body__thum'>
-        <img alt="PoLライターコースのデバイス"
-            src="{{ asset('images/lili-join.jpg') }}" />
-      </div>
-      <div class='l-news__content__body__title'>
-        <a class='l-news__content__body__title__link' target="_blank" href="https://">Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</a>
-      </div>
-      <div class='l-news__content__body__date'>
-        <p>2019年8月30日</p>
-      </div>
-    </div>
-    <div class='l-news__content__body'>
-      <div class='l-news__content__body__thum'>
-        <img alt="PoLライターコースのデバイス"
-            src="{{ asset('images/lili-join.jpg') }}" />
-      </div>
-      <div class='l-news__content__body__title'>
-        <a class='l-news__content__body__title__link' target="_blank" href="https://">Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</a>
-      </div>
-      <div class='l-news__content__body__date'>
-        <p>2019年8月30日</p>
-      </div>
-    </div>
-    <div class='l-news__content__body'>
-      <div class='l-news__content__body__thum'>
-        <img alt="PoLライターコースのデバイス"
-            src="{{ asset('images/lili-join.jpg') }}" />
-      </div>
-      <div class='l-news__content__body__title'>
-        <a class='l-news__content__body__title__link' target="_blank" href="https://">Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</a>
-      </div>
-      <div class='l-news__content__body__date'>
-        <p>2019年8月30日</p>
-      </div>
-    </div>
-
-
-
-
+    @endforeach
 
     <div class='l-news__content__button c-line__button c-line__button_blank'>
       <a class="c-line__button__text" target="_blank" href="https://hi-blockchain.world/techtec-news/">ニュース一覧を見る</a>
     </div>
   </div>
 
-<!-- @media screen and (max-width: 768px) -->
+  {{-- @media screen and (max-width: 768px) --}}
   <div class='l-news__sp_content'>
-    <div class='l-news__sp_content__body'>
-      <div class='l-news__sp_content__body__thum'>
-        <img alt="PoLライターコースのデバイス"
-            src="{{ asset('images/lili-join.jpg') }}" />
+    @foreach($articles as $article)
+      <div class='l-news__sp_content__body'>
+        <div class='l-news__sp_content__body__thum'>
+          <img src="{{ $article['image'] }}" alt="{{ $article['title'] }}" />
+        </div>
+        <div class='l-news__sp_content__body__title'>
+          <a class='l-news__sp_content__body__title__link' target="_blank" href="{{ $article['url'] }}">{{ $article['title'] }}</a>
+        </div>
+        <div class='l-news__sp_content__body__date'>
+          <p>{{ $article['date'] }}</p>
+        </div>
       </div>
-      <div class='l-news__sp_content__body__title'>
-        <a class='l-news__sp_content__body__title__link' target="_blank" href="https://">Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</a>
-      </div>
-      <div class='l-news__sp_content__body__date'>
-        <p>2019年8月30日</p>
-      </div>
-    </div>
-    <div class='l-news__sp_content__body'>
-      <div class='l-news__sp_content__body__thum'>
-        <img alt="PoLライターコースのデバイス"
-            src="{{ asset('images/lili-join.jpg') }}" />
-      </div>
-      <div class='l-news__sp_content__body__title'>
-        <a class='l-news__sp_content__body__title__link' target="_blank" href="https://">Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</a>
-      </div>
-      <div class='l-news__sp_content__body__date'>
-        <p>2019年8月30日</p>
-      </div>
-    </div>
-    <div class='l-news__sp_content__body'>
-      <div class='l-news__sp_content__body__thum'>
-        <img alt="PoLライターコースのデバイス"
-            src="{{ asset('images/lili-join.jpg') }}" />
-      </div>
-      <div class='l-news__sp_content__body__title'>
-        <a class='l-news__sp_content__body__title__link' target="_blank" href="https://">Vue.jsのコミッターやReact Native Communityのメンバーを歴任したLiLi氏がテックアドバイザーに就任しました。</a>
-      </div>
-      <div class='l-news__sp_content__body__date'>
-        <p>2019年8月30日</p>
-      </div>
-    </div>
-
+    @endforeach
 
     <div class='l-news__sp_content__button c-line__button c-line__button_blank'>
       <a class="c-line__button__text" target="_blank" href="https://hi-blockchain.world/techtec-news/">ニュース一覧を見る</a>
     </div>
   </div>
-<!--  -->
 
 </div>
-
 
 <div class='l-recruit'>
     <h2 class='l-recruit__title'>私たちと一緒に働きませんか？</h2>
     <p class='l-recruit__desc'>
 
-        techtecは常に新しい仲間を募集しています。</br>「チームの圧倒的な成長」「ユーザーファースト」「グローバル」</br>上記に少しでも共感してもらえる人は、</br>ぜひ一度オフィスに遊びに来てください！</br>共に、"Decentralizedな未来"を創りませんか？
+        techtecは常に新しい仲間を募集しています。<br>「チームの圧倒的な成長」「ユーザーファースト」「グローバル」<br>上記に少しでも共感してもらえる人は、<br>ぜひ一度オフィスに遊びに来てください！<br>共に、"Decentralizedな未来"を創りませんか？
     </p>
 
     <div>
@@ -517,6 +431,7 @@
       </a>
     </div>
 </div>
+
 <div class='l-contact'>
     <section class='inner'>
         <div class='l-body__title'>
@@ -524,7 +439,7 @@
             <p class='l-body__subhead'>一緒にできること</p>
         </div>
         <div class='l-contact__content'>
-            株式会社techtecに関するお問い合わせや採用、</br>その他パートナーシップや取材に関するご相談は以下よりお願いいたします。
+            株式会社techtecに関するお問い合わせや採用、<br>その他パートナーシップや取材に関するご相談は以下よりお願いいたします。
             <div class='l-contact__button c-line__button'>
                 <a class="c-line__button__text" href="/contact">お問い合わせ</a>
             </div>

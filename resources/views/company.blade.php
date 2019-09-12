@@ -45,7 +45,7 @@
                             取引先
                             <span>(※一部抜粋、順不同)</span>
                         </td>
-                        <td class='c-company__content'>朝日インタラクティブ株式会社</br>株式会社カカクコム</br>株式会社講談社</br>株式会社J-WAVE</br>株式会社野村総合研究所</br>株式会社リクルート</td>
+                        <td class='c-company__content'>朝日インタラクティブ株式会社<br>株式会社カカクコム<br>株式会社講談社<br>株式会社J-WAVE<br>株式会社野村総合研究所<br>株式会社リクルート</td>
                     </tr>
                 </table>
                 <div class='c-office__info'>
@@ -58,9 +58,9 @@
                         </h2>
                     </div>
                     <div class='c-office__text'>
-                        〒102-0083</br>東京都千代田区麹町1-4-4 ZENITAKA ANNEX 2F LIFULL HUB内
+                        〒102-0083<br>東京都千代田区麹町1-4-4 ZENITAKA ANNEX 2F LIFULL HUB内
                         <a href='https://goo.gl/maps/b5pfjfLidko' target='[:_blank]'>Google mapで見る</a>
-                        </br>半蔵門線「半蔵門駅」徒歩3分 | 有楽町線「麹町駅」徒歩10分
+                        <br>半蔵門線「半蔵門駅」徒歩3分 | 有楽町線「麹町駅」徒歩10分
                     </div>
                     <div class='c-office__image'>
                         <img alt="techtecオフィス画像1"

@@ -1,16 +1,20 @@
 @media screen and (min-width: 769px){
     .p-product{
-        padding: 0 0 160px;
+        padding: 0 0px 160px;
         &__content{
-            width: 1024px;
-            margin: auto;
+            // max-width: 1120px;
+            // margin-left: auto;
+            // margin-right: auto;
+            padding: 0 80px;
+
             &__cell {
                 display: flex;
                 justify-content: space-between;
                 // align-items: center;
                 padding: 0 0 120px;
-                width: 960px;
-                margin: auto;
+                max-width: 1120px;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             &__image {
@@ -148,7 +152,7 @@
 
             &__title {
                 // display: inline-block;
-                text-align: center;
+                text-align: left;
                 font-size: 24px;
                 font-weight: 700;
                 line-height: 1.5;
@@ -159,7 +163,7 @@
             &__smtitle {
                 // display: inline-block;
                 // margin:auto;
-                text-align: center;
+                text-align: left;
                 vertical-align: text-bottom;
                 font-size: 14px;
                 font-weight: 700;

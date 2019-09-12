@@ -8,9 +8,9 @@
         }
 
         &__title {
-          width:100%;
-            // text-align: center;
-            // margin:0 80px;
+            max-width: 1120px;
+            margin-left: auto;
+            margin-right: auto;
             padding: 0 80px;
             font-size: 64px;
             font-style: italic;
@@ -59,14 +59,21 @@
         }
     }
 
+    .l-top{
+      padding: 0 80px;
+    }
     .l-mission {
         position: relative;
         z-index: 5;
         top: -150px;
         // left: 80px;
         // right: 80px;
-        width: calc(100% - 160px);
-        margin: 0 80px -16px;
+        // width: calc(100% - 160px);
+        max-width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+
+        // margin: 0 80px -16px;
         padding: 64px;
         background-color: #FFF;
         // border-radius: 8px;
@@ -99,7 +106,7 @@
     }
 
     .l-service {
-        padding: 48px 0;
+        padding: 48px 80px;
 
         background: linear-gradient(0deg,#fff,#fff 40%,#FF6A00 0,#FF6A00);
         &__content {
@@ -107,7 +114,10 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin: 48px 80px 0;
+            max-width: 1120px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:48px;
 
             &__body {
                 width: calc((100% - 64px) / 3);
@@ -168,14 +178,17 @@
     }
 
     .l-product {
-        padding: 48px 0;
+        padding: 48px 80px;
         background-color: #FFF;
 
         &__content {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            margin: 80px 80px 0;
+            max-width: 1120px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:48px;
 
 
             &__cell {
@@ -320,14 +333,21 @@
     }
 
     .l-community{
-      padding: 48px 0;
-      margin: 0 80px;
+      padding: 48px 80px;
+      // margin: 0 80px;
 
         & .l-body__title {
             text-align: left;
+            max-width: 1120px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         &__content {
+          max-width: 1120px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top:48px;
 
             &__desc {
                 margin: 32px 0 0;
@@ -383,15 +403,20 @@
     }
 
     .l-partner {
-        padding: 48px 0;
-        margin: 0 80px;
+        padding: 48px 80px;
+
 
         & .l-body__title {
             text-align: left;
+            max-width: 1120px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         &__content {
-
+          max-width: 1120px;
+          margin-left: auto;
+          margin-right: auto;
             &__desc {
                 margin: 32px 0 0;
                 font-size: 16px;
@@ -436,16 +461,19 @@
     }
 
     .l-exposure {
-        padding: 48px 0;
+        padding: 48px 80px;
         background: linear-gradient(0deg,#FFF 0%,#FFF 48%,#FF6A00 48%,#FF6A00 100%);
-
+        // margin: 48px 80px 0;
 
         &__content {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            width: calc(100% - 160px);
-            margin: 48px 80px 0;
+            // width: calc(100% - 160px);
+            max-width:1120px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:48px;
             padding: 48px 48px;
             background-color: #FFF;
             // border-radius: 8px;
@@ -464,26 +492,36 @@
 
 
     .l-news{
+      margin: 48px 80px;
       &__content{
         position:relative;
         display: flex;
         flex-wrap:wrap;
         justify-content: space-between;
         align-items: flex-start;
-        margin: 48px 80px;
+        max-width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:48px;
         &__body {
             width: calc((100% - 64px) / 3);
-            height: auto;
+            min-height: 360px;
             margin-bottom: 32px;
-            // padding: 30px 4% 20px;
+
             background-color: #FFF;
             box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
             text-align: center;
             position:relative;
             &__thum{
-              width: 100%;
-              height: auto;
+              overflow: hidden;
+    　　　　　　width: 100%;
+    　　　　　　height: 200px;
 
+
+            & img{
+              width: 100%;
+              height: 200px;
+            }
             }
             &__title{
               margin: 36px 12px 36px;
@@ -1149,8 +1187,15 @@
             padding: 0;
             box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
             &__thum{
-              width: 335px;
-              height: auto;
+              overflow: hidden;
+    　　　　　　width: 100%;
+    　　　　　　height: 200px;
+
+
+            & img{
+              width: 100%;
+              height: 200px;
+            }
             }
             &__title{
               margin: 24px 12px 12px;

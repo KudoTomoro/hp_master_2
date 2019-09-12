@@ -1,8 +1,11 @@
 @media screen and (min-width: 769px){
 // @media screen and (min-width: 1025px){
     .i-service {
+      padding: 0px 80px 80px;
         &__content {
-            padding: 0px 80px 80px;
+            max-width: 1120px;
+            margin-left: auto;
+            margin-right: auto;
             // background: #FAFAFA;
             display: flex;
             justify-content: space-between;
@@ -70,7 +73,10 @@
             }
         }
         &__client{
-          padding: 0px 80px 80px;
+          // padding: 0px 80px 80px;
+          max-width: 1120px;
+          margin-left: auto;
+          margin-right: auto;
           &_sub{
             text-align: center;
             margin:24px;
@@ -110,6 +116,9 @@
               }
             }
           }
+        }
+        .client_middle{
+          margin:64px 0;
         }
     }
 
@@ -158,9 +167,13 @@
                 font-weight: 700;
                 letter-spacing: 1.6px;
                 color: #333;
+                text-align: left;
+                padding: 0 16px;
             }
 
             &__explain {
+                text-align: left;
+                padding: 0 16px;
                 font-size: 12px;
                 letter-spacing: 0.8px;
                 color: #333;
@@ -211,6 +224,22 @@
               display: inline-block;
               vertical-align: middle;
               text-align: center;
+            }
+            &_nri{
+              position: relative;
+              height: 48px;
+              padding: 0;
+              display: inline-block;
+              vertical-align: middle;
+              text-align: center;
+              & img {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+              }
             }
           }
         }

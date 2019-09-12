@@ -4,17 +4,20 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 48px;
+        max-width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+        // margin: 0 48px;
         padding: 120px 0 0;
 
-        // &__text {
-        //     width: calc(100% - 440px);
-        // }
+        &__text {
+            width: calc(100% - 440px);
+        }
 
         &__title {
-            position: absolute;
-            top:136px;
-            // padding-top: 136px;
+            // position: absolute;
+            // top:136px;
+            // padding-top: 24px;
             font-size: 40px;
             font-weight: 700;
             letter-spacing: 1.6px;
@@ -23,17 +26,15 @@
         }
 
         &__desc {
-          width: calc(100% - 440px);
-          // 　position: absolute;
-          // 　top:180px;
-            // margin: 32px 0 0;
-            padding: 12px 0 0;
+            margin: 32px 0 0;
+            // padding: 48px 0 0;
             font-size: 16px;
             font-weight: 400;
             line-height: 2;
             letter-spacing: 1.6px;
             color: #3c3a3a;
-            // height:
+            width: auto;
+            height: 96px;
         }
 
         &__image {
@@ -46,7 +47,7 @@
     }
 
     .translate_text{
-      padding: 48px 0 0;
+      // padding: 48px 0 0;
     }
 
     .s-help{
@@ -54,8 +55,11 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: stretch;
-        margin:0 48px;
-        padding: 0 0 128px;
+        max-width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 128px;
+        // padding: 0 0 128px;
 
         &__cell {
             width: calc((100% - 96px) / 3);
@@ -108,9 +112,11 @@
     }
 
     .voice{
-
+      max-width: 1120px;
+      margin-left: auto;
+      margin-right: auto;
       box-shadow: 0 4px 48px 0 rgba(0,0,0,.08);
-      margin: 0 48px;
+      // margin: 0 auto;
       padding-top: 36px;
       &__content{
         display: flex;

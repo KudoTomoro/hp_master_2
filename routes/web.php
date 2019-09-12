@@ -13,7 +13,7 @@
 
 Auth::routes();
 
-Route::view('/', 'home')->name('home');
+Route::get('/', 'HomeController')->name('home');
 Route::view('service', 'service')->name('service');
 Route::view('service/media_consulting', 'media_consulting')->name('service.media_consulting');
 Route::view('service/human_resource_development', 'human_resource_development')->name('service.human_resource_development');

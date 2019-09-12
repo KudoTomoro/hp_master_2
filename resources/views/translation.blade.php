@@ -8,11 +8,12 @@
 <div class='c-body'>
     <section class='inner'>
         <div class='s-top'>
-
-                <h1 class='s-top__title'>翻訳・プロジェクトPR事業</h1>
-                <p class='s-top__desc translate_text'>
-                    仮想通貨・ブロックチェーンに限らず、近年はグローバル対応が当たり前の時代となりました。ホームページの全面翻訳からイベントの通訳、社内のビジネス英会話研修、外国人採用まで、グローバル展開を幅広くサポートします。英語だけでなく中国語やインドネシア語にも対応可能です。
-                </p>
+          <div class='s-top__text'>
+            <h1 class='s-top__title'>翻訳・プロジェクトPR事業</h1>
+            <p class='s-top__desc translate_text'>
+              仮想通貨・ブロックチェーンに限らず、近年はグローバル対応が当たり前の時代となりました。ホームページの全面翻訳からイベントの通訳、社内のビジネス英会話研修、外国人採用まで、グローバル展開を幅広くサポートします。英語だけでなく中国語やインドネシア語にも対応可能です。
+            </p>
+          </div>
 
             <div class='s-top__image'>
                 <img alt="翻訳・採用事業"
@@ -27,7 +28,7 @@
                 </div>
                 <h3 class='s-help__title'>ホームページの多言語対応</h3>
                 <p class='s-help__desc'>
-                    マーケティングだけでなく海外人材の採用のためにも、ホームページの多言語対応は必須です。</br>単なるテキストの翻訳だけでなく、翻訳サイトの開発についてもサポートします。</p>
+                    マーケティングだけでなく海外人材の採用のためにも、ホームページの多言語対応は必須です。<br>単なるテキストの翻訳だけでなく、翻訳サイトの開発についてもサポートします。</p>
             </div>
             <div class='s-help__cell'>
                 <div class='s-help__image'>
@@ -43,7 +44,7 @@
                         src="{{ asset('images/ic_service_trans_feat_03.png') }}" />
                 </div>
                 <h3 class='s-help__title'>イベントへの通訳派遣</h3>
-                <p class='s-help__desc'>社内イベントなどで海外からスピーカーを招待する場合の通訳をサポートします。</br>日本語を外国語へ通訳する場合もお任せください。</p>
+                <p class='s-help__desc'>社内イベントなどで海外からスピーカーを招待する場合の通訳をサポートします。<br>日本語を外国語へ通訳する場合もお任せください。</p>
             </div>
             <div class='s-help__cell'>
                 <div class='s-help__image'>
